@@ -1,6 +1,6 @@
 Configuration	CubeMX-UFBGA176+25
 STM32CubeMX 	6.16.1
-Date	02/07/2026
+Date	02/13/2026
 MCU	STM32H725IGKx
 
 
