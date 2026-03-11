@@ -1,0 +1,8 @@
+build
+--eda=diptrace
+--placements=Export/MakerPnPControl-Core-PCB/MakerPnPControl-core-PnP.csv
+--parts=parts.csv
+--part-mappings=part-mappings.csv
+--substitutions=substitutions.csv
+--ref-des-exclude-list=J5
+--output=Export/MakerPnPControl-Core-PCB/MakerPnPControl-core-PnP_variant1.csv

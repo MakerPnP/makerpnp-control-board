@@ -15,6 +15,12 @@
 
 This is a work-in-progress of an expandable control board for pick-and-place machines.
 
+## Building BOM variants
+
+```
+$ variantbuilder_cli @MakerPnPControl-core-PnP_variant1.args
+```
+
 ## Links
 
 Please subscribe to be notified of live-stream events so you can follow the development process.

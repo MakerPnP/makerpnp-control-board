@@ -1,0 +1,51 @@
+Eda,NamePattern,ValuePattern,Name,Value,Comment
+DipTrace,CAP_0402,1uF 6.3V 0402,CAP_0402,1uF 6.3V 0402 X5R 10%,Use X5R 10% by default
+DipTrace,CAP_0402,1uF 6.3V 0402 X5R 10%,CAP_0402,1uF 25V 0402 X5R 10%,
+DipTrace,CAP_0805_N,/22uF 25V X5R.*/,CAP_0805_N,22uF 25V X5R 20%,Use 20% by default
+DipTrace,CAP_0402,100nF 6.3V 0402,CAP_0402,100nF 6.3V 0402 X7R 10%,Use X7R 10% by default
+DipTrace,CAP_0402,100nF 6.3V 0402 X7R 10%,CAP_0402,100nF 16V 0402 X7R 10%,Derate from 6.3V to 16V
+DipTrace,CAP_0402,4.7uF 6.3V 0402 10%,CAP_0402,4.7uF 6.3V 0402 X5R 10%,Use X5R by default
+DipTrace,CAP_0402,4.7uF 6.3V 0402 X5R 10%,CAP_0402,4.7uF 10V 0402 X5R 10%,Derate from 6.3V to 10V
+DipTrace,CAP_0603,10uF 6.3V 0603 X5R 10%,CAP_0603,10uF 25V 0603 X5R 10%,Derate from 6.3V to 25V
+DipTrace,CAP_0402,200pF 16V 0402 X5R,CAP_0402,200pF 50V 0402 X5R 10%,Derate from 16V to 50V; use 10% by default
+DipTrace,CAP_0402,2.2uF 6.3V 0402,CAP_0402,2.2uF 6.3V 0402 X5R 10%,Use X5R 10% by default
+DipTrace,CAP_0603,4.7uF 6.3V 0603 X5R 10%,CAP_0603,4.7uF 16V 0603 X5R 10%,Derate from 6.3V to 16V
+DipTrace,CAP_0603,10uF 6.3V 0603 X5R 20mOhm ESR 10%,CAP_0603,10uF 25V 0603 X5R 10%,H7 PSU Caps - Ignore ESR requirements; De-rate to 25V
+DipTrace,W25Q16JVUXIQ/W25Q16JVUXIM,,W25Q16JVUXIQ,,
+DipTrace,STM32H725IxK_SPLIT,,STM32H725IxK,,Use non-split-component for lookups
+DipTrace,STM32H725IxK,,STM32H725IxK,STM32H725IGK6,"Use 'G' version, 1MB ram"
+DipTrace,LED 0603 GREEN,/.*/,LED_0603,GREEN,
+DipTrace,LED 0603 BLUE,/.*/,LED_0603,BLUE,
+DipTrace,LED 0603 ORANGE,/.*/,LED_0603,ORANGE,
+DipTrace,LED 0603 RED,/.*/,LED_0603,RED,
+DipTrace,LED 0603 YELLOW,/.*/,LED_0603,YELLOW,
+DipTrace,LED 0603 WHITE,/.*/,LED_0603,WHITE,
+DipTrace,10164228-1001A1RLF,/.*/,GT-B0403MSV11-100B1101,,Use g-switch brand instead
+DipTrace,10164227-1004A1RLF,/.*/,GT-B0403FSV39-100B1101,,Use g-switch brand instead
+DipTrace,PK-47309-375,/.*/,LCK-TF-027H37508-WLG,,Use LCKELEC brand instead
+DipTrace,LPPB112NFSS-RC,/.*/,F343-1211A0CMUB1,,Use Yxcon brand instead
+DipTrace,FTS-102-01-L-DV,/.*/,FTS-102-01-L-DV,,Use HCTL brand instead
+DipTrace,FTSH-105-01-X-DV-P-K-X,/.*/,FTSH-105-01-L-DV-K-P-TR,,Use different variant
+DipTrace,RES_0402,10K 0402 1%,RES_0402,10K 0402 1% 50V,Use 50V by default
+DipTrace,RES_0402,33R 0402 1%,RES_0402,33R 0402 1% 50V,Use 50V by default
+DipTrace,RES_0402,4K7 0402 1%,RES_0402,4K7 0402 1% 50V,Use 50V by default
+DipTrace,RES_0402,5K1 0402 1%,RES_0402,5K1 0402 1% 50V,Use 50V by default
+DipTrace,RES_0402,47R,RES_0402,47R 0402 1%,Use 1% by default
+DipTrace,RES_0402,47R 0402 1%,RES_0402,47R 0402 1% 50V,Use 50V by default
+DipTrace,RES_0402,0R,RES_0402,0R 0402 50V,Use 50V by default
+DipTrace,RES_0402,330R 0402 1%,RES_0402,330R 0402 1% 50V,Use 50V by default
+DipTrace,RES_0402,100K,RES_0402,100K 0402 1%,Use 1% by default
+DipTrace,RES_0402,100K 0402 1%,RES_0402,100K 0402 1% 50V,Use 50V by default
+DipTrace,RES_0402,453K,RES_0402,453K 0402 1%,Use 1% by default
+DipTrace,RES_0402,453K 0402 1%,RES_0402,453K 0402 1% 50V,Use 50V by default
+DipTrace,RES_0402,100R,RES_0402,100R 0402 1%,Use 1% by default
+DipTrace,RES_0402,100R 0402 1%,RES_0402,100R 0402 1% 50V,Use 50V by default
+DipTrace,RES_0603_N,100R,RES_0603_N,100R 0603 1%,Use 1% by default
+DipTrace,RES_0603_N,100R 0603 1%,RES_0603_N,100R 0603 1% 75V,Use 75V by default
+DipTrace,RES_0402,220R 0402 1%,RES_0402,220R 0402 1% 50V,Use 50V by default
+DipTrace,RES_0603_N,1R 0603,RES_0603_N,1R 0603 1%,Use 1% by default
+DipTrace,RES_0603_N,1R 0603 1%,RES_0603_N,1R 0603 1% 75V,Use 75V by default
+DipTrace,RES_1206_N,0R 1206,RES_1206_N,0R 1206 500mW 200V,Use 500mW by default;Use 200V by default
+DipTrace,TL1015,/.*/,GT-TC031A-H020-L1N,,Use g-switch brand instead
+DipTrace,ESP32-C6-MINI-1-H4_SPLIT,,ESP32-C6-MINI-1-H4,,Use non-split-component for lookups
+DipTrace,B2B-XH-A(LF)(SN),/.*/,GT-A2501WVD-102SBT01,,Use g-switch brand instead
