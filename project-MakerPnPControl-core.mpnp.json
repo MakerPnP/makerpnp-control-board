@@ -1,0 +1,5825 @@
+{
+    "name": "MakerPnPControl-core",
+    "library_config": {
+        "package_source": null,
+        "package_mappings_source": null
+    },
+    "processes": [
+        {
+            "reference": "pnp",
+            "operations": [
+                {
+                    "reference": "load_pcbs",
+                    "tasks": [
+                        "core::load_pcbs"
+                    ]
+                },
+                {
+                    "reference": "automated_pnp",
+                    "tasks": [
+                        "core::place_components"
+                    ]
+                },
+                {
+                    "reference": "reflow_oven_soldering",
+                    "tasks": [
+                        "core::automated_soldering"
+                    ]
+                }
+            ],
+            "rules": [
+                "core::unique_feeder_references"
+            ]
+        },
+        {
+            "reference": "manual",
+            "operations": [
+                {
+                    "reference": "load_pcbs",
+                    "tasks": [
+                        "core::load_pcbs"
+                    ]
+                },
+                {
+                    "reference": "manually_solder_components",
+                    "tasks": [
+                        "core::place_components",
+                        "core::manual_soldering"
+                    ]
+                }
+            ],
+            "rules": []
+        }
+    ],
+    "pcbs": [
+        {
+            "pcb_file": {
+                "Absolute": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\MakerPnPControl-core.pcb.json"
+            },
+            "unit_assignments": [
+                [
+                    0,
+                    {
+                        "design_name": "MakerPnPControl-core",
+                        "variant_name": "variant1"
+                    }
+                ]
+            ]
+        }
+    ],
+    "part_states": [
+        [
+            {
+                "manufacturer": "Amphenol",
+                "mpn": "10164228-1001A1RLF"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Espressif Systems",
+                "mpn": "ESP32-C3-MINI-1-H4"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Foshan NationStar Optoelectronics",
+                "mpn": "NCD0603B1"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Foshan NationStar Optoelectronics",
+                "mpn": "NCD0603G1"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Foshan NationStar Optoelectronics",
+                "mpn": "NCD0603O1"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Foshan NationStar Optoelectronics",
+                "mpn": "NCD0603R5"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Foshan NationStar Optoelectronics",
+                "mpn": "NCD0603Y1"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "G-Switch",
+                "mpn": "GT-A2501WVD-102SBT01"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "G-Switch",
+                "mpn": "GT-TC031A-H020-L1N"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "HCI",
+                "mpn": "8132H-50.000ML33DTL"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "HCTL",
+                "mpn": "PM127-2-11-S-4.3"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "HCTL",
+                "mpn": "PZ127-2-02-S"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "LCKELEC",
+                "mpn": "LCK-TF-027H37508-WLG"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Lattice",
+                "mpn": "ICE40HX8K-CT256"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "MDD(Microdiode Semiconductor)",
+                "mpn": "BAV21W"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Murata Electronics",
+                "mpn": "GRM155R61A475KEAAD"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Murata Electronics",
+                "mpn": "GRM155R71H221KA01D"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "SHOU HAN",
+                "mpn": "TYPE-C 16PLT-H10.0"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "ST",
+                "mpn": "STM32H725IGK6"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Samsung Electro-Mechanics",
+                "mpn": "CL05A105KA5NQNC"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Samsung Electro-Mechanics",
+                "mpn": "CL05A225KP5NSNC"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Samsung Electro-Mechanics",
+                "mpn": "CL05B104KO5NNNC"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Samsung Electro-Mechanics",
+                "mpn": "CL10A106MA8NRNC"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Samsung Electro-Mechanics",
+                "mpn": "CL10A475KO8NNNC"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Samsung Electro-Mechanics",
+                "mpn": "CL21A226MAQNNNE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Samtec",
+                "mpn": "FTSH-105-01-L-DV-K-P-TR"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Taiyo Yuden",
+                "mpn": "MCHK1608T2R2MKN"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Texas Instruments",
+                "mpn": "SN3257QDYYRQ1"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Texas Instruments",
+                "mpn": "TMUXHS221NKGR"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Texas Instruments",
+                "mpn": "TPS3820-50DBVR"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "Texas Instruments",
+                "mpn": "TPS62A02PDDCR"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF0000TCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF1002TCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF1003TCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF2200TCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF3300TCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF330JTCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF4533TCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF4701TCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF470JTCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0402WGF5101TCE"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0603WAF1000T5E"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "0603WAF100KT5E"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                "mpn": "HP06W2J0000T5E"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "WINBOND",
+                "mpn": "W25Q16JVUXIQ"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "YAGEO",
+                "mpn": "YC164-FR-072KL"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ],
+        [
+            {
+                "manufacturer": "muRata",
+                "mpn": "DFE252012F-1R0M=P2"
+            },
+            {
+                "applicable_processes": [
+                    "pnp"
+                ]
+            }
+        ]
+    ],
+    "phases": [
+        [
+            "Bottom",
+            {
+                "reference": "Bottom",
+                "process": "pnp",
+                "load_out_source": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\MakerPnPControl-core-loadout-bottom.csv",
+                "pcb_side": "bottom"
+            }
+        ],
+        [
+            "Top",
+            {
+                "reference": "Top",
+                "process": "pnp",
+                "load_out_source": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\MakerPnPControl-core-loadout-top.csv",
+                "pcb_side": "top"
+            }
+        ]
+    ],
+    "phase_orderings": [
+        "Top",
+        "Bottom"
+    ],
+    "phase_states": [
+        [
+            "Bottom",
+            {
+                "operation_states": [
+                    {
+                        "reference": "load_pcbs",
+                        "task_states": {
+                            "core::load_pcbs": {
+                                "type": "core::load_pcbs_task_state",
+                                "status": "Pending"
+                            }
+                        }
+                    },
+                    {
+                        "reference": "automated_pnp",
+                        "task_states": {
+                            "core::place_components": {
+                                "type": "core::placement_task_state",
+                                "placed": 0,
+                                "skipped": 0,
+                                "total": 0,
+                                "status": "Pending"
+                            }
+                        }
+                    },
+                    {
+                        "reference": "reflow_oven_soldering",
+                        "task_states": {
+                            "core::automated_soldering": {
+                                "type": "core::automated_soldering_task_state",
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        [
+            "Top",
+            {
+                "operation_states": [
+                    {
+                        "reference": "load_pcbs",
+                        "task_states": {
+                            "core::load_pcbs": {
+                                "type": "core::load_pcbs_task_state",
+                                "status": "Pending"
+                            }
+                        }
+                    },
+                    {
+                        "reference": "automated_pnp",
+                        "task_states": {
+                            "core::place_components": {
+                                "type": "core::placement_task_state",
+                                "placed": 0,
+                                "skipped": 0,
+                                "total": 34,
+                                "status": "Pending"
+                            }
+                        }
+                    },
+                    {
+                        "reference": "reflow_oven_soldering",
+                        "task_states": {
+                            "core::automated_soldering": {
+                                "type": "core::automated_soldering_task_state",
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    ],
+    "placements": [
+        [
+            "pcb=1::unit=1::ref_des=C1",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C1",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "15.8",
+                    "y": "37.7",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "15.8",
+                    "y": "37.7",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C2",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C2",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A475KO8NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "11.6",
+                    "y": "29.7",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "11.6",
+                    "y": "29.7",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C3",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C3",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R71H221KA01D"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "34.425",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "34.425",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C4",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C4",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL21A226MAQNNNE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.3",
+                    "y": "34.4",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "17.3",
+                    "y": "34.4",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C5",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C5",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL21A226MAQNNNE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.3",
+                    "y": "32.525",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "17.3",
+                    "y": "32.525",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C6",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C6",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A475KO8NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "11.6",
+                    "y": "21.4",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "11.6",
+                    "y": "21.4",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C7",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C7",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R71H221KA01D"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "26.15",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "26.15",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C8",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C8",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL21A226MAQNNNE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.3",
+                    "y": "24.225",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "17.3",
+                    "y": "24.225",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C9",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C9",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL21A226MAQNNNE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.3",
+                    "y": "26.1",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "17.3",
+                    "y": "26.1",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C10",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C10",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A475KO8NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "11.6",
+                    "y": "13.1",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "11.6",
+                    "y": "13.1",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C11",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C11",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R71H221KA01D"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "17.825",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "17.825",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C12",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C12",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL21A226MAQNNNE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.3",
+                    "y": "17.8",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "17.3",
+                    "y": "17.8",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C13",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C13",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL21A226MAQNNNE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.3",
+                    "y": "15.925",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "17.3",
+                    "y": "15.925",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C101",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C101",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R61A475KEAAD"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "49.6",
+                    "y": "48.55",
+                    "rotation": "90.01"
+                },
+                "unit_position": {
+                    "x": "49.6",
+                    "y": "48.55",
+                    "rotation": "90.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C102",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C102",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A106MA8NRNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.35",
+                    "y": "45.15",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "50.35",
+                    "y": "6.85",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C103",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C103",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A106MA8NRNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.35",
+                    "y": "46.6",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "50.35",
+                    "y": "5.4",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C104",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C104",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.35",
+                    "y": "52.175",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "50.35",
+                    "y": "-0.1749999999999972",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C105",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C105",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "55.725",
+                    "y": "52.925",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "55.725",
+                    "y": "-0.924999999999997",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C106",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C106",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "55.05",
+                    "y": "50.975",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "55.05",
+                    "y": "1.024999999999999",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C107",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C107",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "59.975",
+                    "y": "47.725",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "59.975",
+                    "y": "4.274999999999999",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C108",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C108",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "61.575",
+                    "y": "50.975",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "61.575",
+                    "y": "1.024999999999999",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C109",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C109",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "55.875",
+                    "y": "47.575",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "55.875",
+                    "y": "4.424999999999997",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C110",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C110",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "58.475",
+                    "y": "47.575",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "58.475",
+                    "y": "4.424999999999997",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C111",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C111",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A106MA8NRNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.35",
+                    "y": "48.05",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "50.35",
+                    "y": "3.950000000000003",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C112",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C112",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "53.925",
+                    "y": "54.25",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "53.925",
+                    "y": "-2.25",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C113",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C113",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A475KO8NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.35",
+                    "y": "49.5",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "50.35",
+                    "y": "2.5",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C114",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C114",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "55.725",
+                    "y": "51.925",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "55.725",
+                    "y": "0.0750000000000028",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C115",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C115",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "59.75",
+                    "y": "50.875",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "59.75",
+                    "y": "1.125",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C116",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C116",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R71H221KA01D"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "49.6",
+                    "y": "51.2",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "49.6",
+                    "y": "51.2",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C117",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C117",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "59.25",
+                    "y": "52.2",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "59.25",
+                    "y": "-0.2000000000000028",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C118",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C118",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A106MA8NRNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.35",
+                    "y": "50.975",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "50.35",
+                    "y": "1.024999999999999",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C119",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C119",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "59.75",
+                    "y": "49.025",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "59.75",
+                    "y": "2.975000000000001",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C120",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C120",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A106MA8NRNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "62.15",
+                    "y": "54.875",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "62.15",
+                    "y": "-2.875",
+                    "rotation": "179.99"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C121",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C121",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05A225KP5NSNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "53.925",
+                    "y": "55.175",
+                    "rotation": "-179.99"
+                },
+                "unit_position": {
+                    "x": "53.925",
+                    "y": "-3.174999999999997",
+                    "rotation": "-0.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C122",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C122",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05A225KP5NSNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "62.225",
+                    "y": "43.425",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "62.225",
+                    "y": "8.575",
+                    "rotation": "179.99"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C123",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C123",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05A105KA5NQNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "55.05",
+                    "y": "49.025",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "55.05",
+                    "y": "2.975000000000001",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C124",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C124",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05A225KP5NSNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "62.225",
+                    "y": "44.375",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "62.225",
+                    "y": "7.625",
+                    "rotation": "179.99"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C125",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C125",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "54.575",
+                    "y": "47.075",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "54.575",
+                    "y": "4.925",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C126",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C126",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R61A475KEAAD"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "65.2",
+                    "y": "30",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "65.2",
+                    "y": "22",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C127",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C127",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R61A475KEAAD"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "62.9",
+                    "y": "38.2",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "62.9",
+                    "y": "13.8",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C128",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C128",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "61.3",
+                    "y": "29.8",
+                    "rotation": "-45"
+                },
+                "unit_position": {
+                    "x": "61.3",
+                    "y": "22.2",
+                    "rotation": "-135"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C129",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C129",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "62.9",
+                    "y": "39.175",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "62.9",
+                    "y": "12.825",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C130",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C130",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R61A475KEAAD"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "51.2",
+                    "y": "28.3",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "51.2",
+                    "y": "23.7",
+                    "rotation": "179.99"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C131",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C131",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "54.3",
+                    "y": "28.8",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "54.3",
+                    "y": "23.2",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C132",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C132",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL21A226MAQNNNE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "47.5",
+                    "y": "34.85",
+                    "rotation": "-179.99"
+                },
+                "unit_position": {
+                    "x": "47.5",
+                    "y": "34.85",
+                    "rotation": "-179.99"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C133",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C133",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "59.5",
+                    "y": "24.4",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "59.5",
+                    "y": "27.6",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C134",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C134",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "59.2",
+                    "y": "28",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "59.2",
+                    "y": "24",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C135",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C135",
+                    "part": {
+                        "manufacturer": "Murata Electronics",
+                        "mpn": "GRM155R61A475KEAAD"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "49.95",
+                    "y": "33.6",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "49.95",
+                    "y": "18.4",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C136",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C136",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "55.475",
+                    "y": "27.975",
+                    "rotation": "45"
+                },
+                "unit_position": {
+                    "x": "55.475",
+                    "y": "24.025",
+                    "rotation": "135"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C137",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C137",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "48.975",
+                    "y": "33.6",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "48.975",
+                    "y": "18.4",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C138",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C138",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "55.5",
+                    "y": "31.2",
+                    "rotation": "-45"
+                },
+                "unit_position": {
+                    "x": "55.5",
+                    "y": "20.8",
+                    "rotation": "-135"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C139",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C139",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "58.8",
+                    "y": "31.3",
+                    "rotation": "-135"
+                },
+                "unit_position": {
+                    "x": "58.8",
+                    "y": "20.7",
+                    "rotation": "-45"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C140",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C140",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "52",
+                    "y": "30",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "52",
+                    "y": "22",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C141",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C141",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "58.7",
+                    "y": "29.4",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "58.7",
+                    "y": "22.6",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C142",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C142",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.925",
+                    "y": "33.6",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "50.925",
+                    "y": "18.4",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C143",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C143",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "63.5",
+                    "y": "28.8",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "63.5",
+                    "y": "23.2",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C144",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C144",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.85",
+                    "y": "25.6",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "50.85",
+                    "y": "26.4",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C145",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C145",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "63.375",
+                    "y": "25.2",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "63.375",
+                    "y": "26.8",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C146",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C146",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "55.4",
+                    "y": "29.7",
+                    "rotation": "-45"
+                },
+                "unit_position": {
+                    "x": "55.4",
+                    "y": "22.3",
+                    "rotation": "-135"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C147",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C147",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "63.9",
+                    "y": "33.6",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "63.9",
+                    "y": "18.4",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C148",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C148",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "74.15",
+                    "y": "29.05",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "74.15",
+                    "y": "29.05",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C149",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C149",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "53.5",
+                    "y": "35.6",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "53.5",
+                    "y": "16.4",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C150",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C150",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "54.3",
+                    "y": "22.9",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "54.3",
+                    "y": "29.1",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C151",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C151",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "57",
+                    "y": "31.3",
+                    "rotation": "-45"
+                },
+                "unit_position": {
+                    "x": "57",
+                    "y": "20.7",
+                    "rotation": "-135"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C152",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C152",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "61.5",
+                    "y": "22.9",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "61.5",
+                    "y": "29.1",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C153",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C153",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "57.5",
+                    "y": "35.6",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "57.5",
+                    "y": "16.4",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C154",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C154",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "56.8",
+                    "y": "28",
+                    "rotation": "45"
+                },
+                "unit_position": {
+                    "x": "56.8",
+                    "y": "24",
+                    "rotation": "135"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C155",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C155",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "60.7",
+                    "y": "35.8",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "60.7",
+                    "y": "16.2",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C156",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C156",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "58.3",
+                    "y": "28",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "58.3",
+                    "y": "24",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C157",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C157",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05A105KA5NQNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "92",
+                    "y": "38.9",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "92",
+                    "y": "38.9",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C158",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C158",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "47.25",
+                    "y": "53.15",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "47.25",
+                    "y": "53.15",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C159",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C159",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "96.875",
+                    "y": "37.7",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "96.875",
+                    "y": "37.7",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C160",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C160",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL21A226MAQNNNE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "94.175",
+                    "y": "38.725",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "94.175",
+                    "y": "38.725",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C301",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C301",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "71.6",
+                    "y": "48",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "71.6",
+                    "y": "48",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C302",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C302",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "79.6",
+                    "y": "48",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "79.6",
+                    "y": "48",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C303",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C303",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "35.4",
+                    "y": "46",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "35.4",
+                    "y": "46",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C304",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C304",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "43.4",
+                    "y": "46",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "43.4",
+                    "y": "46",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C401",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C401",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL10A106MA8NRNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "96.7",
+                    "y": "16.2",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "96.7",
+                    "y": "16.2",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C402",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C402",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "98",
+                    "y": "16.4",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "98",
+                    "y": "16.4",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C601",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C601",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05A105KA5NQNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "71.7",
+                    "y": "21.45",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "71.7",
+                    "y": "21.45",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C602",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C602",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05A105KA5NQNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.2",
+                    "y": "18.75",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "86.2",
+                    "y": "18.75",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C603",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C603",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "70.7",
+                    "y": "21.45",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "70.7",
+                    "y": "21.45",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=C604",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "C604",
+                    "part": {
+                        "manufacturer": "Samsung Electro-Mechanics",
+                        "mpn": "CL05B104KO5NNNC"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.2",
+                    "y": "19.75",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "86.2",
+                    "y": "19.75",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D1",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D1",
+                    "part": {
+                        "manufacturer": "Foshan NationStar Optoelectronics",
+                        "mpn": "NCD0603B1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "19.8",
+                    "y": "16.7",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "19.8",
+                    "y": "16.7",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D2",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D2",
+                    "part": {
+                        "manufacturer": "Foshan NationStar Optoelectronics",
+                        "mpn": "NCD0603B1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "19.85",
+                    "y": "12.9",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "19.85",
+                    "y": "12.9",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D101",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D101",
+                    "part": {
+                        "manufacturer": "Foshan NationStar Optoelectronics",
+                        "mpn": "NCD0603G1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "82.45",
+                    "y": "32.45",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "82.45",
+                    "y": "32.45",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used",
+                "phase": "Top"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D102",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D102",
+                    "part": {
+                        "manufacturer": "MDD(Microdiode Semiconductor)",
+                        "mpn": "BAV21W"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "42.8",
+                    "y": "31.525",
+                    "rotation": "-89.99"
+                },
+                "unit_position": {
+                    "x": "42.8",
+                    "y": "20.475",
+                    "rotation": "-90.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D103",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D103",
+                    "part": {
+                        "manufacturer": "Foshan NationStar Optoelectronics",
+                        "mpn": "NCD0603R5"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "32.5",
+                    "y": "32.45",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "32.5",
+                    "y": "32.45",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D104",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D104",
+                    "part": {
+                        "manufacturer": "Foshan NationStar Optoelectronics",
+                        "mpn": "NCD0603O1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "82.45",
+                    "y": "26",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "82.45",
+                    "y": "26",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D105",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D105",
+                    "part": {
+                        "manufacturer": "Foshan NationStar Optoelectronics",
+                        "mpn": "NCD0603Y1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "32.5",
+                    "y": "26",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "32.5",
+                    "y": "26",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D601",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D601",
+                    "part": {
+                        "manufacturer": "Foshan NationStar Optoelectronics",
+                        "mpn": "NCD0603G1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "55.9",
+                    "y": "10.75",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "55.9",
+                    "y": "10.75",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=D602",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "D602",
+                    "part": {
+                        "manufacturer": "Foshan NationStar Optoelectronics",
+                        "mpn": "NCD0603G1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "59",
+                    "y": "10.75",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "59",
+                    "y": "10.75",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J1",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J1",
+                    "part": {
+                        "manufacturer": "G-Switch",
+                        "mpn": "GT-A2501WVD-102SBT01"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "12.875",
+                    "y": "42.575",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "12.875",
+                    "y": "42.575",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J402",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J402",
+                    "part": {
+                        "manufacturer": "Samtec",
+                        "mpn": "FTSH-105-01-L-DV-K-P-TR"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "27.5",
+                    "y": "26",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "27.5",
+                    "y": "26",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J403",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J403",
+                    "part": {
+                        "manufacturer": "HCTL",
+                        "mpn": "PM127-2-11-S-4.3"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "57.5",
+                    "y": "19.3",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "57.5",
+                    "y": "19.3",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J404",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J404",
+                    "part": {
+                        "manufacturer": "Amphenol",
+                        "mpn": "10164228-1001A1RLF"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "17.5",
+                    "y": "48.5",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "17.5",
+                    "y": "3.5",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J405",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J405",
+                    "part": {
+                        "manufacturer": "HCTL",
+                        "mpn": "PM127-2-11-S-4.3"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "78.8",
+                    "y": "26.6",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "78.8",
+                    "y": "26.6",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J406",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J406",
+                    "part": {
+                        "manufacturer": "Amphenol",
+                        "mpn": "10164228-1001A1RLF"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "97.5",
+                    "y": "48.5",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "97.5",
+                    "y": "3.5",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J407",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J407",
+                    "part": {
+                        "manufacturer": "LCKELEC",
+                        "mpn": "LCK-TF-027H37508-WLG"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "101.797",
+                    "y": "17.1",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "101.797",
+                    "y": "17.1",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J408",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J408",
+                    "part": {
+                        "manufacturer": "HCTL",
+                        "mpn": "PM127-2-11-S-4.3"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "36.2",
+                    "y": "26.6",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "36.2",
+                    "y": "26.6",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J409",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J409",
+                    "part": {
+                        "manufacturer": "Amphenol",
+                        "mpn": "10164228-1001A1RLF"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "32.5",
+                    "y": "14.5",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "32.5",
+                    "y": "37.5",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J410",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J410",
+                    "part": {
+                        "manufacturer": "HCTL",
+                        "mpn": "PZ127-2-02-S"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "103.25",
+                    "y": "41.55",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "103.25",
+                    "y": "41.55",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J411",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J411",
+                    "part": {
+                        "manufacturer": "Amphenol",
+                        "mpn": "10164228-1001A1RLF"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "82.5",
+                    "y": "14.5",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "82.5",
+                    "y": "37.5",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J601",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J601",
+                    "part": {
+                        "manufacturer": "SHOU HAN",
+                        "mpn": "TYPE-C 16PLT-H10.0"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "50.75",
+                    "y": "13.5",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "50.75",
+                    "y": "13.5",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=J602",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "J602",
+                    "part": {
+                        "manufacturer": "SHOU HAN",
+                        "mpn": "TYPE-C 16PLT-H10.0"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "64.25",
+                    "y": "13.5",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "64.25",
+                    "y": "13.5",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=L1",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "L1",
+                    "part": {
+                        "manufacturer": "muRata",
+                        "mpn": "DFE252012F-1R0M=P2"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.6",
+                    "y": "29.5",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "17.6",
+                    "y": "29.5",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=L2",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "L2",
+                    "part": {
+                        "manufacturer": "muRata",
+                        "mpn": "DFE252012F-1R0M=P2"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.6",
+                    "y": "21.2",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "17.6",
+                    "y": "21.2",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=L3",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "L3",
+                    "part": {
+                        "manufacturer": "muRata",
+                        "mpn": "DFE252012F-1R0M=P2"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "17.6",
+                    "y": "12.9",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "17.6",
+                    "y": "12.9",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=L101",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "L101",
+                    "part": {
+                        "manufacturer": "Taiyo Yuden",
+                        "mpn": "MCHK1608T2R2MKN"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "51.1",
+                    "y": "51.225",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "51.1",
+                    "y": "51.225",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R1",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R1",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "HP06W2J0000T5E"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "46.5",
+                    "y": "13.5",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "46.5",
+                    "y": "38.5",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R2",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R2",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF2200TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "21.1",
+                    "y": "16.7",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "21.1",
+                    "y": "16.7",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R3",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R3",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF2200TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "21.15",
+                    "y": "12.95",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "21.15",
+                    "y": "12.95",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R4",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R4",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "48.475",
+                    "y": "26.425",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "48.475",
+                    "y": "26.425",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R5",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R5",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "48.475",
+                    "y": "28.225",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "48.475",
+                    "y": "28.225",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R6",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R6",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF4533TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "32.45",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "32.45",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R7",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R7",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1003TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "33.45",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "33.45",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R8",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R8",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1003TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "12.1",
+                    "y": "32.45",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "12.1",
+                    "y": "32.45",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R9",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R9",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF4533TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "24.15",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "24.15",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R10",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R10",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF4533TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "25.15",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "25.15",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R11",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R11",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1003TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "12.1",
+                    "y": "24.15",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "12.1",
+                    "y": "24.15",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R12",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R12",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF4533TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "15.85",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "15.85",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R13",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R13",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF4533TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "16.85",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "16.85",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R14",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R14",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1003TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "12.1",
+                    "y": "15.85",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "12.1",
+                    "y": "15.85",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R101",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R101",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "51.1",
+                    "y": "48.55",
+                    "rotation": "90.01"
+                },
+                "unit_position": {
+                    "x": "51.1",
+                    "y": "48.55",
+                    "rotation": "90.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R102",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R102",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF0000TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "50.35",
+                    "y": "53.175",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "50.35",
+                    "y": "-1.174999999999997",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R103",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R103",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF0000TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "65.525",
+                    "y": "53.575",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "65.525",
+                    "y": "53.575",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R104",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R104",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF470JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "53.275",
+                    "y": "48.375",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "53.275",
+                    "y": "3.625",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R105",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R105",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF3300TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "74.9",
+                    "y": "32.55",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "74.9",
+                    "y": "32.55",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R106",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R106",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF3300TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "74.9",
+                    "y": "33.45",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "74.9",
+                    "y": "33.45",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R107",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R107",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "75.2",
+                    "y": "29.05",
+                    "rotation": "90.01"
+                },
+                "unit_position": {
+                    "x": "75.2",
+                    "y": "29.05",
+                    "rotation": "90.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R108",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R108",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0603WAF1000T5E"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "66.8",
+                    "y": "31.3",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "66.8",
+                    "y": "20.7",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R109",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R109",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "63.9",
+                    "y": "35.5",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "63.9",
+                    "y": "16.5",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R110",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R110",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0603WAF1000T5E"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "45.4",
+                    "y": "28.3",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "45.4",
+                    "y": "23.7",
+                    "rotation": "179.99"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R111",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R111",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0603WAF1000T5E"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "45.4",
+                    "y": "33.1",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "45.4",
+                    "y": "18.9",
+                    "rotation": "179.99"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R112",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R112",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "60.7",
+                    "y": "36.75",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "60.7",
+                    "y": "15.25",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R113",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R113",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.5",
+                    "y": "26.25",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "86.5",
+                    "y": "26.25",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R114",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R114",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0603WAF100KT5E"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "45.4",
+                    "y": "30",
+                    "rotation": "-179.99"
+                },
+                "unit_position": {
+                    "x": "45.4",
+                    "y": "22",
+                    "rotation": "-0.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R115",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R115",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0603WAF100KT5E"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "66.8",
+                    "y": "28",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "66.8",
+                    "y": "24",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R116",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R116",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.5",
+                    "y": "28.75",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "86.5",
+                    "y": "28.75",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R117",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R117",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.5",
+                    "y": "27.75",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "86.5",
+                    "y": "27.75",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R118",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R118",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "71.9",
+                    "y": "37.2",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "71.9",
+                    "y": "14.8",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R119",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R119",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "71.3",
+                    "y": "35.25",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "71.3",
+                    "y": "16.75",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R120",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R120",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "72.5",
+                    "y": "35.25",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "72.5",
+                    "y": "16.75",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R121",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R121",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.5",
+                    "y": "34.25",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "86.5",
+                    "y": "34.25",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R122",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R122",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "72.05",
+                    "y": "29.05",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "72.05",
+                    "y": "29.05",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R123",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R123",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "73.1",
+                    "y": "37.2",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "73.1",
+                    "y": "14.8",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R124",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R124",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "70.7",
+                    "y": "37.2",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "70.7",
+                    "y": "14.8",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R125",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R125",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "75.25",
+                    "y": "23.325",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "75.25",
+                    "y": "23.325",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R126",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R126",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0603WAF100KT5E"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "57.35",
+                    "y": "37.2",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "57.35",
+                    "y": "14.8",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R127",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R127",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0603WAF100KT5E"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "64.7",
+                    "y": "22.8",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "64.7",
+                    "y": "29.2",
+                    "rotation": "179.99"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R128",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R128",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "73.1",
+                    "y": "29.05",
+                    "rotation": "90.01"
+                },
+                "unit_position": {
+                    "x": "73.1",
+                    "y": "29.05",
+                    "rotation": "90.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R129",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R129",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "92",
+                    "y": "38",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "92",
+                    "y": "38",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R130",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R130",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "73.1",
+                    "y": "34.4",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "73.1",
+                    "y": "34.4",
+                    "rotation": "0.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R131",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R131",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "74.9",
+                    "y": "34.4",
+                    "rotation": "0.01"
+                },
+                "unit_position": {
+                    "x": "74.9",
+                    "y": "34.4",
+                    "rotation": "0.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R132",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R132",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.5",
+                    "y": "31.15",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "86.5",
+                    "y": "31.15",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R133",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R133",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.5",
+                    "y": "30.15",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "86.5",
+                    "y": "30.15",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R134",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R134",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF3300TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "94",
+                    "y": "24.15",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "94",
+                    "y": "27.85",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R135",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R135",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "48.4",
+                    "y": "47.15",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "48.4",
+                    "y": "47.15",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R136",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R136",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF330JTCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "48.4",
+                    "y": "46",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "48.4",
+                    "y": "46",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R137",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R137",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF3300TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "31.3",
+                    "y": "32.45",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "31.3",
+                    "y": "32.45",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R138",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R138",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF3300TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "82.45",
+                    "y": "23.325",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "82.45",
+                    "y": "23.325",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R139",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R139",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF3300TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "32.5",
+                    "y": "23.45",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "32.5",
+                    "y": "23.45",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R401",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R401",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0603WAF1000T5E"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "26.125",
+                    "y": "21.875",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "26.125",
+                    "y": "21.875",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R402",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R402",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "14.025",
+                    "y": "58.3",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.025",
+                    "y": "-6.3",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R403",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R403",
+                    "part": {
+                        "manufacturer": "YAGEO",
+                        "mpn": "YC164-FR-072KL"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "95.9",
+                    "y": "20.2",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "95.9",
+                    "y": "20.2",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R404",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R404",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.5",
+                    "y": "25.25",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "86.5",
+                    "y": "25.25",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R405",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R405",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF0000TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "103.885",
+                    "y": "41.55",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "103.885",
+                    "y": "10.45",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R406",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R406",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF0000TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "102.615",
+                    "y": "41.55",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "102.615",
+                    "y": "10.45",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R407",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R407",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "11.75",
+                    "y": "61.125",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "11.75",
+                    "y": "61.125",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R408",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R408",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "44.35",
+                    "y": "15.9",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "44.35",
+                    "y": "36.1",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R409",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R409",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "bottom",
+                    "x": "70.925",
+                    "y": "16.3",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "70.925",
+                    "y": "35.7",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R601",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R601",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF5101TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "50.75",
+                    "y": "16.025",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "50.75",
+                    "y": "16.025",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R602",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R602",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF5101TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "66",
+                    "y": "17",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "66",
+                    "y": "17",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R603",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R603",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF5101TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "49.025",
+                    "y": "17",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "49.025",
+                    "y": "17",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R604",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R604",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF5101TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "64.25",
+                    "y": "16.025",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "64.25",
+                    "y": "16.025",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R605",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R605",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "72.7",
+                    "y": "21.45",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "72.7",
+                    "y": "21.45",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R606",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R606",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.2",
+                    "y": "17.75",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "86.2",
+                    "y": "17.75",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R607",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R607",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF4701TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "68.7",
+                    "y": "21.45",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "68.7",
+                    "y": "21.45",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R608",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R608",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "69.7",
+                    "y": "21.45",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "69.7",
+                    "y": "21.45",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R609",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R609",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF4701TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.2",
+                    "y": "21.65",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "86.2",
+                    "y": "21.65",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R610",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R610",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF1002TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "86.2",
+                    "y": "20.7",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "86.2",
+                    "y": "20.7",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R611",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R611",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF3300TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "51.45",
+                    "y": "10.75",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "51.45",
+                    "y": "10.75",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=R612",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "R612",
+                    "part": {
+                        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+                        "mpn": "0402WGF3300TCE"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "63.55",
+                    "y": "10.75",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "63.55",
+                    "y": "10.75",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=S401",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "S401",
+                    "part": {
+                        "manufacturer": "G-Switch",
+                        "mpn": "GT-TC031A-H020-L1N"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "11.75",
+                    "y": "58",
+                    "rotation": "90.01"
+                },
+                "unit_position": {
+                    "x": "11.75",
+                    "y": "58",
+                    "rotation": "90.01"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=S402",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "S402",
+                    "part": {
+                        "manufacturer": "G-Switch",
+                        "mpn": "GT-TC031A-H020-L1N"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "11.75",
+                    "y": "50.5",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "11.75",
+                    "y": "50.5",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=S403",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "S403",
+                    "part": {
+                        "manufacturer": "G-Switch",
+                        "mpn": "GT-TC031A-H020-L1N"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "44.05",
+                    "y": "13.5",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "44.05",
+                    "y": "13.5",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=S404",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "S404",
+                    "part": {
+                        "manufacturer": "G-Switch",
+                        "mpn": "GT-TC031A-H020-L1N"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "70.975",
+                    "y": "13.5",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "70.975",
+                    "y": "13.5",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=S405",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "S405",
+                    "part": {
+                        "manufacturer": "G-Switch",
+                        "mpn": "GT-TC031A-H020-L1N"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "103.25",
+                    "y": "58",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "103.25",
+                    "y": "58",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=S406",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "S406",
+                    "part": {
+                        "manufacturer": "G-Switch",
+                        "mpn": "GT-TC031A-H020-L1N"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "103.25",
+                    "y": "50.5",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "103.25",
+                    "y": "50.5",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U1",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U1",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "TPS3820-50DBVR"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "12.6",
+                    "y": "36.75",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "12.6",
+                    "y": "36.75",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U2",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U2",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "TPS62A02PDDCR"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "29.7",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "29.7",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U3",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U3",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "TPS62A02PDDCR"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "21.4",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "21.4",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U4",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U4",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "TPS62A02PDDCR"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "14.1",
+                    "y": "13.1",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "14.1",
+                    "y": "13.1",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U101",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U101",
+                    "part": {
+                        "manufacturer": "ST",
+                        "mpn": "STM32H725IGK6"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "57.5",
+                    "y": "50",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "57.5",
+                    "y": "50",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U102",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U102",
+                    "part": {
+                        "manufacturer": "Lattice",
+                        "mpn": "ICE40HX8K-CT256"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "57.5",
+                    "y": "30",
+                    "rotation": "90"
+                },
+                "unit_position": {
+                    "x": "57.5",
+                    "y": "30",
+                    "rotation": "90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U103",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U103",
+                    "part": {
+                        "manufacturer": "WINBOND",
+                        "mpn": "W25Q16JVUXIQ"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "72.85",
+                    "y": "32",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "72.85",
+                    "y": "32",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U104",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U104",
+                    "part": {
+                        "manufacturer": "Espressif Systems",
+                        "mpn": "ESP32-C3-MINI-1-H4"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "96.85",
+                    "y": "30.25",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "96.85",
+                    "y": "30.25",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U301",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U301",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "SN3257QDYYRQ1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "74.5",
+                    "y": "47",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "74.5",
+                    "y": "47",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U302",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U302",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "SN3257QDYYRQ1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "82.5",
+                    "y": "47",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "82.5",
+                    "y": "47",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U303",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U303",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "SN3257QDYYRQ1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "32.5",
+                    "y": "47",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "32.5",
+                    "y": "47",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U304",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U304",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "SN3257QDYYRQ1"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "40.5",
+                    "y": "47",
+                    "rotation": "180"
+                },
+                "unit_position": {
+                    "x": "40.5",
+                    "y": "47",
+                    "rotation": "180"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U601",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U601",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "TMUXHS221NKGR"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "70.7",
+                    "y": "19.063",
+                    "rotation": "0"
+                },
+                "unit_position": {
+                    "x": "70.7",
+                    "y": "19.063",
+                    "rotation": "0"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=U602",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "U602",
+                    "part": {
+                        "manufacturer": "Texas Instruments",
+                        "mpn": "TMUXHS221NKGR"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "83.8",
+                    "y": "19.75",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "83.8",
+                    "y": "19.75",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ],
+        [
+            "pcb=1::unit=1::ref_des=Y101",
+            {
+                "unit_path": "pcb=1::unit=1",
+                "placement": {
+                    "ref_des": "Y101",
+                    "part": {
+                        "manufacturer": "HCI",
+                        "mpn": "8132H-50.000ML33DTL"
+                    },
+                    "place": true,
+                    "pcb_side": "top",
+                    "x": "47.25",
+                    "y": "50",
+                    "rotation": "-90"
+                },
+                "unit_position": {
+                    "x": "47.25",
+                    "y": "50",
+                    "rotation": "-90"
+                },
+                "operation_status": "Pending",
+                "project_status": "Used"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "name": "MakerPnPControl-core",
+    "units": 1,
+    "design_names": [
+        "MakerPnPControl-core"
+    ],
+    "unit_map": [
+        [
+            0,
+            0
+        ]
+    ],
+    "gerber_offset": [
+        0.0,
+        0.0
+    ],
+    "design_gerbers": [
+        [
+            0,
+            [
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\BottomAssembly.gbr",
+                    "function": {
+                        "Assembly": "bottom"
+                    }
+                },
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\BottomMask.gbr",
+                    "function": {
+                        "Assembly": "bottom"
+                    }
+                },
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\BottomPaste.gbr",
+                    "function": {
+                        "Assembly": "bottom"
+                    }
+                },
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\BottomSilk.gbr",
+                    "function": {
+                        "Solder": "bottom"
+                    }
+                },
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\TopAssembly.gbr",
+                    "function": {
+                        "Legend": "top"
+                    }
+                },
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\TopMask.gbr",
+                    "function": {
+                        "Assembly": "top"
+                    }
+                },
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\TopPaste.gbr",
+                    "function": {
+                        "Assembly": "top"
+                    }
+                },
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\TopSilk.gbr",
+                    "function": {
+                        "Assembly": "top"
+                    }
+                },
+                {
+                    "file": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\Export\\Gerbers\\MakerPnPControl-core_gerber\\BoardOutline.gbr",
+                    "function": "Profile"
+                }
+            ]
+        ]
+    ],
+    "panel_sizing": {
+        "units": "Millimeters",
+        "size": [
+            95.0,
+            52.0
+        ],
+        "edge_rails": {
+            "left": 0.0,
+            "right": 0.0,
+            "top": 0.0,
+            "bottom": 0.0
+        },
+        "fiducials": [],
+        "design_sizings": [
+            {
+                "size": [
+                    95.0,
+                    52.0
+                ],
+                "gerber_offset": [
+                    0.0,
+                    0.0
+                ],
+                "placement_offset": [
+                    0.0,
+                    0.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0
+                ]
+            }
+        ],
+        "pcb_unit_positionings": [
+            {
+                "offset": [
+                    0.0,
+                    0.0
+                ],
+                "rotation": "0"
+            }
+        ]
+    },
+    "orientation": {
+        "top": {
+            "flip": "None",
+            "rotation": "0"
+        },
+        "bottom": {
+            "flip": "Pitch",
+            "rotation": "0"
+        }
+    }
+}

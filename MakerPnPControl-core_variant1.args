@@ -4,5 +4,6 @@ build
 --parts=parts.csv
 --part-mappings=part-mappings.csv
 --substitutions=substitutions.csv
---ref-des-exclude-list=J5
---output=Export/MakerPnPControl-Core-PCB/MakerPnPControl-core-PnP_variant1.csv
+--ref-des-exclude-list=J401
+--output=MakerPnPControl-core_variant1_placements.csv
+--output-bom=MakerPnPControl-core_variant1_bom.csv

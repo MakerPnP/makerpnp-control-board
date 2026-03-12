@@ -19,14 +19,17 @@ C2843335,WINBOND,W25Q16JVUXIQ,"-40℃~+85℃ 100,000 cycles 10uA 133MHz 16Mbit 2
 C730151,ST,STM32H725IGK6,"32-bit Arm Cortex-M7 550 MHz MCU, up to 1 MB Flash memory, 564 KB RAM, 35 comms peripherals and analog interfaces"
 C113947,MDD(Microdiode Semiconductor),BAV21W,1.25V@200mA 100nA@250V 200mA 250V 3A 500mW 50ns Independent SOD-123 Switching Diodes ROHS
 C6037812,Amphenol,10164228-1001A1RLF,"Header, 100 Position Board to Board Connector Surface Mount,P=0.4mm Gold"
+C21261228,XKB Connection,X0408WVS-100A-LPV01,"-35℃~+85℃ 0.4mm 100P 2 300mA 30V Gold Phosphor Bronze Surface Mount,Vertical SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS"
 C531031,HRS,DF40C-100DP-0.4V(51),"Header, 100 Position Board to Board Connector Surface Mount,P=0.4mm Gold"
 C42376235,G-Switch,GT-B0403MSV11-100B1101,"Header, 100 Position Board to Board Connector Surface Mount,P=0.4mm Gold"
 C7435219,Amphenol,10164227-1004A1RLF,"Receptacle, 2 0.4mm Surface Mount,Vertical 100P SMD,P=0.4mm Arrays, Edge Type, Mezzanine (Board to Board) RoHS, 3.9mm"
+C7602567,XKB Connection,X0408FVS-100F-LPV01,"-35℃~+85℃ 0.4mm 100P 2 300mA 30V Gold Phosphor bronze Surface Mount,Vertical SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS, 3.9mm"
 C424649,HRS,DF40HC(3.0)-100DS-0.4V(51),"Receptacle, 0.4mm Pitch, 1.5 to 4.0mm Height, Board-to-Board and Board-to-FPC Connectors, 2.9mm"
 C42376280,G-Switch,GT-B0403FSV39-100B1101,"Receptacle, 100 Position Board to Board Connector Surface Mount,P=0.4mm Gold, 3.9mm"
 C3151749,SHOU HAN,TYPE-C 16PLT-H10.0,USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount
 C50380694,LCKELEC,LCK-TF-027H37508-WLG,-25℃~+85℃ Push-Pull 3.75mm Connector and Ejector MicroSD Card (TF Card) SMD PC Card Sockets RoHS
 C7494852,Yxcon,F343-1211A0CMUB1,Female Header 22 Position 1.27mm Pitch Dual Row Surface Mount
+C3975137,HCTL,PM127-2-11-S-4.3,"-40℃~+105℃ 1.27mm 1.27mm 1A 2 22P 2x11P 4.3mm Phosphor bronze Square Hole Surface Mount,Vertical Top SMD,P=1.27mm Female Headers ROHS"
 C3975185,HCTL,PZ127-2-02-S,Pin Header 4 Position 1.27mm Pitch Dual Row Surface Mount -40℃~+105℃
 C2932107,Samtec,FTSH-105-01-L-DV-K-P-TR,"Pin Header 2 3.05mm -55℃~+125℃ 10P 1.27mm 1.27mm 2x5P SMD,P=1.27mm Headers, Male Pins RoHS"
 C3910547,Taiyo Yuden,MCHK1608T2R2MKN,1.2A 2.2uH 1.5A 292mΩ Multilayer inductor ±20% 0603 Fixed Inductors RoHS
