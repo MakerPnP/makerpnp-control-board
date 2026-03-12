@@ -1,0 +1,2 @@
+Eda,NamePattern,ValuePattern,Name,Value,Comment
+DipTrace,CAP_0402,100nF 16V 0402 X7R 10%,CAP_0402,100nF 25V 0402 X7R 10%,De-rate from 16V to 25V;BOM consolidation

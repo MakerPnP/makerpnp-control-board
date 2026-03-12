@@ -57,3 +57,20 @@ C22445521,Texas Instruments,TPS62A02PDDCR,-40℃~+125℃ 1 2.4MHz 2.5V~5.5V Buck
 C702185,Texas Instruments,TPS3820-50DBVR,-40℃~+85℃ 1 15uA 2.5V、3V、3.3V、5V 200ms 4.55V Active Low Push-pull Voltage Monitor Yes Yes SOT-23-5 Supervisor and Reset ICs ROHS
 C1521993,Lattice,ICE40HX8K-CT256,-40℃~+100℃ 131072bit 7680 960 CABGA-256 Programmable Logic Device (CPLDs/FPGAs) ROHS
 C23067542,G-Switch,GT-A2501WVD-102SBT01,"-25℃~+85℃ 1 1x2P 2 2.5mm 250V 2P 3A 7.1mm Beige Brass PA66 Through Hole Tin UL94V-0 XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C304036,Walsin Tech Corp,1812B472K202CT,2kV 4.7nF X7R ±10% 1812 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C1591,Samsung Electro-Mechanics,CL10B104KB8NNNC,100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C487393,Ymin,VKME1651J331MV,"-55℃~+105℃ 1.58A@100kHz 10000hrs@105℃ 10mm 16.5mm 330uF 63V ±20% SMD,D10xL16.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
+C1591,Samsung Electro-Mechanics,CL10B104KB8NNNC,100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C15725,Samsung Electro-Mechanics,CL10B104KC8NNNC,100V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C170099,Samsung Electro-Mechanics,CL32B475KBUYNNE,4.7uF 50V X7R ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C1588,Samsung Electro-Mechanics,CL10B102KB8NNNC,1nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C1589,Samsung Electro-Mechanics,CL10B103KB8NNNC,10nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C96446,Samsung Electro-Mechanics,CL10A106MA8NRNC,10uF 25V X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C14860,Samsung Electro-Mechanics,CL31B106KAHNNNE,10uF 25V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C77023,Murata Electronics,GRM155R71H223KA12D,22nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C29936,Samsung Electro-Mechanics,CL10B105KA8NNNC,1uF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C5440143,Samwha Capacitor,CS3225X7R476K160NRL,16V 47uF X7R ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C6328904,KYOCERA AVX,TAJA226M016RNJ,-55℃~+125℃ 16V 2.3Ω@100kHz 22uF ±20% 1206 Tantalum Capacitors ROHS
+C155422,Samsung Electro-Mechanics,CL05B104KA5NNNC,100nF 25V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C5139656,Samsung Electro-Mechanics,CL05B472KC5VPNC,100V 4.7nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C1653,Samsung Electro-Mechanics,CL10C220JB8NNNC,22pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS

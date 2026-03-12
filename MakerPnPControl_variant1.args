@@ -1,0 +1,9 @@
+build
+--eda=diptrace
+--placements=Export/MakerPnPControl-PCB/MakerPnPControl-PnP.csv
+--parts=parts.csv
+--part-mappings=part-mappings.csv
+--substitutions=global-substitutions.csv
+--substitutions=MakerPnPControl_variant1_substitutions.csv
+--output=MakerPnPControl_variant1_placements.csv
+--output-bom=MakerPnPControl_variant1_bom.csv

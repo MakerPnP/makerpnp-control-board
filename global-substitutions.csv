@@ -52,3 +52,18 @@ DipTrace,RES_1206_N,0R 1206,RES_1206_N,0R 1206 500mW 200V,Use 500mW by default;U
 DipTrace,TL1015,/.*/,GT-TC031A-H020-L1N,,Use g-switch brand instead
 DipTrace,ESP32-C6-MINI-1-H4_SPLIT,,ESP32-C6-MINI-1-H4,,Use non-split-component for lookups
 DipTrace,B2B-XH-A(LF)(SN),/.*/,GT-A2501WVD-102SBT01,,Use g-switch brand instead
+DipTrace,CAP_0603_N,100nF 63V 0603 X5R 10%,CAP_0603_N,100nF 100V 0603 X7R 10%,De-rate from 63V to 100V;De-rate from X5R to X7R
+DipTrace,CAP_0603_N,100nF 16V 0603 X7R 10%,CAP_0603_N,100nF 100V 0603 X7R 10%,De-rate from 16V to 100V
+DipTrace,CAP_0603_N,100nF 16V 0603 X7R 10%,CAP_0603_N,100nF 50V 0603 X7R 10%,De-rate from 16V to 50V
+DipTrace,CAP_0805_N,22uF 25V 0805 X5R,CAP_0805_N,22uF 25V 0805 X5R 20%,Use 20% by default
+DipTrace,UMK325B7475MMHT,4.7uF 50V 1210 X7R 20%,CAP_1210_N,4.7uF 50V 1210 X7R 10%,De-rate from 20% to 10%
+DipTrace,CAP_0603_N,1nF 25V 0603 X5R,CAP_0603_N,1nF 50V 0603 X7R 10%,De-rate from 25V to 50V;De-rate from X5R to X7R;Use 10% by default
+DipTrace,CAP_0603_N,10nF 6.3V 0603 X5R 20%,CAP_0603_N,10nF 50V 0603 X7R 20%,De-rate from 6.3V to 50V;De-rate from X5R to X7R
+DipTrace,CAP_1206_N,10uF 16V 1206 X7R,CAP_1206_N,10uF 25V 1206 X7R 10%,De-rate from 16V to 25V;Use 10% by default
+DipTrace,CAP_0603_N,1uF 25V 0603 X5R,CAP_0603_N,1uF 25V 0603 X7R 10%,De-rate from X5R to X7R; Use 10% by default
+DipTrace,CAP_0603_N,1uF 16V 0603 X7R,CAP_0603_N,1uF 25V 0603 X7R 10%,De-rate from 16V to 25V;Use 10% by default
+DipTrace,CAP_1210,47uF 16V 1210 X7R,CAP_1210,47uF 16V 1210 X7R 10%,Use 10% by default
+DipTrace,CAP_0402,100nF 10V 0402,CAP_0402,100nF 16V 0402 X7R 10%,De-rate from 10V to 16V;Use X7R by default;Use 10% by default
+DipTrace,CAP_0402,100nF 16V 0402,CAP_0402,100nF 16V 0402 X7R 10%,Use X7R by default; Use 10% by default;
+DipTrace,CAP_0402,100nF 25V 0402 X5R,CAP_0402,100nF 25V 0402 X7R 10%,De-rate from X5R to X7R;Use 10% by default
+DipTrace,CAP_0603_N,100nF 6.3V 0603 X5R 20%,CAP_0603_N,100nF 16V 0603 X7R 10%,De-rate from 6.3V to 16V;De-rate from X5R to X7R by; De-rate from 20% to 10%
