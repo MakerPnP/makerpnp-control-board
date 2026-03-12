@@ -64,6 +64,44 @@ DipTrace,CAP_0603_N,1uF 25V 0603 X5R,CAP_0603_N,1uF 25V 0603 X7R 10%,De-rate fro
 DipTrace,CAP_0603_N,1uF 16V 0603 X7R,CAP_0603_N,1uF 25V 0603 X7R 10%,De-rate from 16V to 25V;Use 10% by default
 DipTrace,CAP_1210,47uF 16V 1210 X7R,CAP_1210,47uF 16V 1210 X7R 10%,Use 10% by default
 DipTrace,CAP_0402,100nF 10V 0402,CAP_0402,100nF 16V 0402 X7R 10%,De-rate from 10V to 16V;Use X7R by default;Use 10% by default
-DipTrace,CAP_0402,100nF 16V 0402,CAP_0402,100nF 16V 0402 X7R 10%,Use X7R by default; Use 10% by default;
+DipTrace,CAP_0402,100nF 16V 0402,CAP_0402,100nF 16V 0402 X7R 10%,Use X7R by default; Use 10% by default
 DipTrace,CAP_0402,100nF 25V 0402 X5R,CAP_0402,100nF 25V 0402 X7R 10%,De-rate from X5R to X7R;Use 10% by default
 DipTrace,CAP_0603_N,100nF 6.3V 0603 X5R 20%,CAP_0603_N,100nF 16V 0603 X7R 10%,De-rate from 6.3V to 16V;De-rate from X5R to X7R by; De-rate from 20% to 10%
+DipTrace,CAP_0402,470pF 6.3V 0402,CAP_0402,470pF 6.3V 0402 C0G 5%,Use C0G by default;Use 5% by default
+DipTrace,B2B-XH-A(LF)(SN),/.*/,XH-2A,,Use BOOMELE brand
+DipTrace,B3B-XH-A(LF)(SN),/.*/,XH-3A,,Use BOOMELE brand
+DipTrace,B4B-XH-A(LF)(SN),/.*/,XH-4A,,Use BOOMELE brand
+DipTrace,B5B-XH-A(LF)(SN),/.*/,XH-5A,,Use BOOMELE brand
+DipTrace,B6B-XH-A(LF)(SN),/.*/,XH-6A,,Use BOOMELE brand
+DipTrace,B9B-XH-A(LF)(SN),/.*/,XH-9A,,Use BOOMELE brand
+DipTrace,B2P-VH(LF)(SN),/.*/,VH-2A,,Use BOOMELE brand
+DipTrace,B4P-VH(LF)(SN),/.*/,VH-4A,,Use BOOMELE brand
+DipTrace,B6P-VH(LF)(SN),/.*/,VH-6A,,Use BOOMELE brand
+DipTrace,2-2387405-2,/.*/,PCIE-G4071141D,,Use UMAX brand
+DipTrace,PPTC041LFBN-RC,/.*/,2.54-1*4PFemale,,Use BOOMELE brand
+DipTrace,RJMG1331171C1ER,/.*/,HR981190C,,Use HANRUN brand
+DipTrace,OSTVE043050,/.*/,WJ15EDGVC-3.81-04P-14-00A,,Use Ningbo brand
+DipTrace,5499922-1,/.*/,331010SG0ABLA02,,Use JILN brand
+DipTrace,HCM1205,/.*/,GMD12095YB-5V2400,,Use INGHAi brand
+DipTrace,RES_0603_N,0R,RES_0603_N,0R 0603 333mW 75V,Use 333mW by default;Use 75V by default
+DipTrace,RES_0603_N,33K2,RES_0603_N,33K2 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;100mW by default
+DipTrace,RES_0603_N,100K,RES_0603_N,100K 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;100mW by default
+DipTrace,RES_0603_N,24K9,RES_0603_N,24K9 0603 0.1% 75V 100mW,Use 0.1% by default;Use 75V by default;100mW by default
+DipTrace,RES_0603_N,1K,RES_0603_N,1K 0603 0.1% 75V 100mW,Use 0.1% by default;Use 75V by default;100mW by default
+DipTrace,RES_0402,174K 0402 1%,RES_0402,174K 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0402,22K1 0402 1%,RES_0402,22K1 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0402,22K1 0402 1%,RES_0402,22K1 0402 0.1% 50V 62.5mW,De-rate to 0.1%;Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0603_N,330R,RES_0603_N,330R 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
+DipTrace,RES_0603_N,510R,RES_0603_N,510R 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
+DipTrace,RES_1812_M,33K,RES_1812_M,33K 1812 5% 200V 750mW,Use 5% by default;Use 200V by default;Use 750mW by default
+DipTrace,RES_0603_N,10K,RES_0603_N,10K 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
+DipTrace,RES_0402,309K 0402 1%,RES_0402,309K 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0603_N,10R,RES_0603_N,10R 0603 1% 75V  200mW,Use 1% by default;Use 75V by default;Use 200mW by default
+DipTrace,RES_0402,1K5 0402 1%,RES_0402,1K5 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0402,12K1 0402 1%,RES_0402,12K1 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0402,2K7 0402 1%,RES_0402,2K7 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0402,49R9 0402 1%,RES_0402,49R9 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0402,60R4 0402 1% 50V,RES_0402,60R4 0402 1% 50V 62.5mW,Use 62.5mW by default
+DipTrace,RES_1206_N,120R,RES_1206_N,120R 1206 1% 200V 250mW,Use 1% by default;Use 200V by default;Use 250mW by default
+DipTrace,RES_0603_N,47K,RES_0603_N,47K 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
+DipTrace,XGZP6859D,,XGZP6859DC100KPGPN,,"Use -100KPA to +100KPA, SMD-6, I2C variant"

@@ -5,6 +5,7 @@
 *.csv  text
 *.json text
 *.html  text
+*.gbr text eol=crlf
 
 *.png  binary
 *.jpg  binary

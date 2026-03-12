@@ -74,3 +74,91 @@ C6328904,KYOCERA AVX,TAJA226M016RNJ,-55℃~+125℃ 16V 2.3Ω@100kHz 22uF ±20% 1
 C155422,Samsung Electro-Mechanics,CL05B104KA5NNNC,100nF 25V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 C5139656,Samsung Electro-Mechanics,CL05B472KC5VPNC,100V 4.7nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 C1653,Samsung Electro-Mechanics,CL10C220JB8NNNC,22pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C2166065,Nichicon,UHW1H331MPD1TD,"-40℃~+105℃ 10mm 20mm 330uF 50V ±20% Plugin, D10xL20mm Aluminum Electrolytic Capacitors - Leaded ROHS"
+C307449,Samsung Electro-Mechanics,CL05C471JB5NNNC,470pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C2480,MDD(Microdiode Semiconductor),SS14,-55℃~+150℃ 1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS
+C15874,MDD(Microdiode Semiconductor),SS310,-55℃~+125℃ 100V 3A 500uA@100V 850mV@3A Independent SMA(DO-214AC) Schottky Diodes ROHS
+C138782,MDD(Microdiode Semiconductor),SMAJ7.0A,-65℃~+150℃ 12V 200uA 33.3A@10/1000us 400W@10/1000us 7V 8.6V TVS Unidirectional DO-214AC(SMA) ESD and Surge Protection (TVS/ESD) ROHS
+C113952,MDD(Microdiode Semiconductor),SMAJ5.0A,-65℃~+150℃ 400W@10/1000us 43.5A 5V 7V 800uA 9.2V TVS Unidirectional DO-214AC(SMA) ESD and Surge Protection (TVS/ESD) ROHS
+C113957,MDD(Microdiode Semiconductor),SMAJ12A,-65℃~+150℃ 12V 14.7V 19.9V 1uA 20.1A@10/1000us 400W@10/1000us TVS Unidirectional DO-214AC(SMA) ESD and Surge Protection (TVS/ESD) ROHS
+C113962,MDD(Microdiode Semiconductor),SMAJ24A,-65℃~+150℃ 10.3A@10/1000us 1uA 24V 29.5V 38.9V 400W@10/1000us TVS Unidirectional DO-214AC(SMA) ESD and Surge Protection (TVS/ESD) ROHS
+C173502,MDD(Microdiode Semiconductor),SMAJ48A,-65℃~+150℃ 1uA 400W@10/1000us 48V 5.2A@10/1000us 58.9V 77.4V TVS Unidirectional DO-214AC(SMA) ESD and Surge Protection (TVS/ESD) ROHS
+C1973855,STMicroelectronics,SMAJ48A-TR,-55℃~+150℃ 100V 1uA 23A@8/20us 400W 48V 56.1V IEC 61000-4-2、IEC 61000-4-5 TVS Unidirectional SMA(DO-214AC) ESD and Surge Protection (TVS/ESD) ROHS
+C1976142,Vishay Intertech,SMCJ6.0A-E3/57T,-55℃~+150℃ 1.5kW@10/1000us 10.3V 145.6A 1mA 6.67V 6V TVS Unidirectional SMC(DO-214AB) ESD and Surge Protection (TVS/ESD) ROHS
+C343998,BORN,PESD5V0S2BT,120pF 16V 2 20A 300W@8/20us 500nA 5V 6V ESD IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 SOT-23 ESD and Surge Protection (TVS/ESD) ROHS
+C3760872,Littelfuse,RXEF110,-40℃~+85℃ 1.1A 1.5W 150mΩ 2.2A 380mΩ 40A 72V 8.2s Plugin Resettable Fuses ROHS
+C144394,JST,B3B-XH-A(LF)(SN),"-25℃~+85℃ 1 1x3P 2.5mm 250V 3 3A 3P 5.75mm 7mm 9.9mm Brass K Pin PA66 Through Hole Tin UL94V-0 White XH 插件,P=2.5mm Wire To Board Connector ROHS"
+C20079,BOOMELE(Boom Precision Elec),XH-2A,"1 1x2P 2 2.5mm 2P 5.8mm 7mm Through Hole White XH Plugin, P=2.5mm Wire To Board Connector ROHS"
+C57141,BOOMELE(Boom Precision Elec),XH-2AYellow,"-25℃~+85℃ 1 1x2P 2 2.5mm 250V 2P 3A 5.8mm 7.5mm 7mm Through Hole XH Yellow Plugin, P=2.5mm Wire To Board Connector ROHS"
+C24192,BOOMELE(Boom Precision Elec),XH-2ARed,"-25℃~+85℃ 1 1x2P 2 2.5mm 250V 2P 3A 5.8mm 7.5mm 7mm Red Through Hole XH Plugin, P=2.5mm Wire To Board Connector ROHS"
+C2316,BOOMELE(Boom Precision Elec),XH-3A,"1 10mm 1x3P 2.5mm 3 3P 5.8mm 7mm Through Hole White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C37815,BOOMELE(Boom Precision Elec),XH-4A,"1 12.5mm 1x4P 2.5mm 4 4P 5.8mm 7mm Through Hole White XH Plugin, P=2.5mm Wire To Board Connector ROHS"
+C68117,BOOMELE(Boom Precision Elec),XH-4A Yellow,"1 1x4P 2.5mm 4 4P Through Hole XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C192885,BOOMELE(Boom Precision Elec),XH-4AGreen,"1 1x4P 2.5mm 4 4P Through Hole XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C57846,BOOMELE(Boom Precision Elec),XH-4ABlack,"-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.8mm 7mm Black Through Hole XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C2318,BOOMELE(Boom Precision Elec),XH-5A,"1 15mm 1x5P 2.5mm 5 5.8mm 5P 7mm Through Hole White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C57142,BOOMELE(Boom Precision Elec),XH-5ABlue,"-25℃~+85℃ 1 15mm 1x5P 2.5mm 250V 3A 5 5.8mm 5P 7mm Blue Through Hole XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C5663,BOOMELE(Boom Precision Elec),XH-6A,"1 17.5mm 1x6P 2.5mm 5.8mm 6 6P 7mm Through Hole White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C33435,BOOMELE(Boom Precision Elec),XH-9A,"1 1x9P 2.5mm 25mm 5.8mm 7mm 9 9P Through Hole White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+C16728,BOOMELE(Boom Precision Elec),VH-2A,"-25℃~+85℃ 1 1x2P 2 250V 2P 3.96mm 5A Beige Brass PA66 Through Hole Tin UL94V-0 VH Plugin,P=3.96mm Wire To Board Connector ROHS"
+C8884,BOOMELE(Boom Precision Elec),VH-4A,"-25℃~+85℃ 1 14mm 15.84mm 1x4P 250V 3.96mm 4 4P 5A Brass PA66 Through Hole Tin UL94V-0 VH White Plugin,P=3.96mm Wire To Board Connector ROHS"
+C21473,BOOMELE(Boom Precision Elec),VH-6A,"-25℃~+85℃ 1 1x6P 250V 3.96mm 5A 6 6P Beige Brass PA66 Through Hole Tin UL94V-0 VH Plugin,P=3.96mm Wire To Board Connector ROHS"
+C48946905,UMAX,PCIE-G4071141D,42P 64P 7.4mm Clamping plate PCI-E 4.0 PCI-E x4 With post SMD PCI / PCIe Connector ROHS
+C2718488,BOOMELE(Boom Precision Elec),2.54-1*4PFemale,"-40℃~+105℃ 1 1x4P 2.54mm 3A 4P Bronze Square Hole Through Hole Top Plugin,P=2.54mm Female Headers ROHS"
+C189677,HANRUN(Zhongshan HanRun Elec),HR981190C,Non-PoE RJ45 Jack Right Angle Shielded With Contact Spring With LED Plugin Ethernet Connectors / Modular Connectors (RJ45 RJ11) ROHS
+C8410,Ningbo Kangnex Elec,WJ15EDGVC-3.81-04P-14-00A,"-40℃~+105℃ 1 1x4P 3.81mm 300V 4 4P 8A Board Side/Socket - Closed Green Hinged (Snap On) Through Hole Plugin,P=3.81mm Pluggable System Terminal Block ROHS"
+C601978,JILN,331010SG0ABLA02,"-40℃~+105℃ 2 2.54mm 2.54mm 2x5P 3A 5 Black Brass Gold IDC Header Through Hole Plugin,P=2.54mm IDC Connectors ROHS"
+C135264,SXN(Shun Xiang Nuo Elec),SMNR4030-220MT,"1.3A 1.3A 22uH 290mΩ Magnetic Shielded Inductor ±20% SMD, 4x4mm Power Inductors ROHS"
+C49073771,COILANK INTERNATIONAL,AAPS0650M4R7H,"10A 30.8mΩ 4.7uH 6.5A ±20% SMD,6.6x6.4mm Power Inductors ROHS"
+C252941,INGHAi,GMD12095YB-5V2400,"-20℃~+70℃ 12mm 2.4kHz 30mA 3V~7V 5V 7.6mm 85dB 9.5mm Active Buzzer (Built-in Driving Circuit) Electromagnetic Through-hole Plugin,D=12mm Buzzers ROHS"
+C21791,Infineon Technologies,IRF7341TRPBF,-55℃~+150℃ 1V 2 N-Channel 2W 36nC 4.7A 50mΩ@10V 55V 71pF 740pF N-Channel SO-8 MOSFETs ROHS
+C695267,TOSHIBA,"TK110P10PL,RQ(S2",1 N-channel 1.5V、2.5V 100V 2.04nF 22pF 310pF 33nC@10V 40A 75W 8.9mΩ@10V N-Channel TO-252-2(DPAK) MOSFETs ROHS
+C141723,TAI-TECH,FCM1608KF-601T03,-55℃~+125℃ 1 350mA 500mΩ 600Ω@100MHz ±25% 0603 Ferrite Beads ROHS
+C466988,Vishay Intertech,SI1902CDL-T1-GE3,-55℃~+150℃ 1.1A 1.5V 2 N-Channel 20V 20pF 235mΩ@4.5V 420mW 62pF 7pF 900pC@4.5V N-Channel SC-70-6 MOSFETs ROHS
+C82045,onsemi,BSS138LT1G,-55℃~+150℃ 1 N-channel 200mA 225mW 5.6Ω@2.75V 500mV 50V 50pF 5pF SOT-23 MOSFETs ROHS
+C844719,Vishay Intertech,CRCW06030000Z0EAHP,-55℃~+155℃ 0Ω 333mW 75V Thick Film Resistor 0603 Chip Resistor - Surface Mount ROHS
+C185338,YAGEO,RC0603FR-0733K2L,-55℃~+155℃ 100mW 33.2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C14675,YAGEO,RC0603FR-07100KL,-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C861775,YAGEO,RT0603BRE0724K9L,-55℃~+155℃ 100mW 24.9kΩ 75V Thin Film Resistor ±0.1% ±50ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C110776,YAGEO,RT0603BRD071KL,-55℃~+155℃ 100mW 1kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C138048,YAGEO,RC0402FR-07174KL,-55℃~+155℃ 174kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C852648,YAGEO,RT0402BRD0722K1L,-55℃~+155℃ 22.1kΩ 50V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C163478,YAGEO,RC0402FR-0722K1L,-55℃~+155℃ 22.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C105881,YAGEO,RC0603FR-07330RL,-55℃~+155℃ 100mW 330Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C114670,YAGEO,RC0603FR-07510RL,-55℃~+155℃ 100mW 510Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C174886,Ever Ohms Tech,CR1812J33K0E04Z,-55℃~+155℃ 200V 33kΩ 750mW Thick Film Resistor ±100ppm/℃ ±5% 1812 Chip Resistor - Surface Mount ROHS
+C98220,YAGEO,RC0603FR-0710KL,-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C171694,YAGEO,RC0402FR-07309KL,-55℃~+155℃ 309kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C859110,YAGEO,RC0603FR-7W10KL,-55℃~+155℃ 10kΩ 200mW 75V Thick Film Resistor ±1% ±200ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C114759,YAGEO,RC0402FR-071K5L,-55℃~+155℃ 1.5kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C132157,YAGEO,RC0402FR-0712K1L,-55℃~+155℃ 12.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C138017,YAGEO,RC0402FR-072K7L,-55℃~+155℃ 2.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C87044,YAGEO,RC0402FR-0749R9L,-55℃~+155℃ 49.9Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C87044,YAGEO,RC0402FR-0749R9L,-55℃~+155℃ 49.9Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C137204,YAGEO,RC1206JR-07120RL,-55℃~+155℃ 120Ω 200V 250mW Thick Film Resistor ±100ppm/℃ ±5% 1206 Chip Resistor - Surface Mount ROHS
+C105579,YAGEO,RC0603FR-0747KL,-55℃~+155℃ 100mW 47kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C22427220,Texas Instruments,LMR51610YDBVR,-40℃~+150℃@(TJ) 1 1.1MHz 1A 26.5uA 4V~65V 800mV~28V Adjustable Buck Buck Built-in Yes SOT-23-6 DC-DC Converters ROHS
+C1855832,Texas Instruments,LM61460AASQRJRRQ1,-40℃~+150℃@(TJ) 1 2MHz 3V~36V 6A 6uA Adjustable Buck Buck Built-in Yes VQFN-14-HR(3.5x4) DC-DC Converters ROHS
+C6186,Advanced Monolithic Systems,AMS1117-3.3,"-40℃~+125℃ 0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+C2832141,Texas Instruments,LM66100DCKT,-40℃~+105℃ 1 1.5A 1.5V~5.5V 141mΩ Active Low Ideal Diode SC-70-6 Power Distribution Switches ROHS
+C964636,Texas Instruments,LSF0102DCUR,"-40℃~+125℃ 1 1.8V~5.5V 2 950mV~4.5V Auto Direction Detection Bidirectional Push-Pull、Open Drain TTL TTL VSSOP-8-0.5mm Translators, Level Shifters ROHS"
+C71136,UTC(Unisonic Tech),78L05G-AB3-R,"-40℃~+85℃ 1 1.7V@(40mA) 100mA 2mA 30V 40uV 5V 80dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal Shutdown Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+C15219,Analog Devices,ADUM1200ARZ-RL7,-40℃~+125℃ 0 150ns 1Mbps 2 2.7V~5.5V 2.7V~5.5V 2500 25kV/us Bidirectional signal isolation、Multi-voltage domain interface、Power-on reset SOIC-8 Digital Isolators ROHS
+C83775,Microchip Tech,MCP1416T-E/OT,-40℃~+150℃ 1 1.5A 1.5A 20ns 20ns 4.5V~18V 650uA Low Side MOSFET SOT-23-5 Gate Drivers ROHS
+C6489181,Texas Instruments,SN74HCT245DGSR,"-40℃~+85℃ 1 14ns@5.5V,50pF 4.5V~5.5V 6mA 6mA 74HCT 8 80uA Bidirectional Tri-State VSSOP-20 Buffers, Drivers, Receivers, Transceivers ROHS"
+C39693,Terminus Tech,FE2.1-CQFP48A,0℃~+70℃ 1.62V~1.98V、3V~3.6V、4.5V~5.5V 155mA 600uA USB 2.0 LQFP-48(7x7) USB Converters ROHS
+C621425,Microchip Tech,LAN8742AI-CZ-TR,"-40℃~+85℃ 1.8V~3.3V LAN8742A Open Drain Schmitt trigger VQFN-24-EP(4x4) Buffers, Drivers, Receivers, Transceivers ROHS"
+C111212,STMicroelectronics,USBLC6-4SC6,-40℃~+125℃@(Tj) 10V 10nA 130W@8/20us 17V 3pF 5.25V 5A ESD Four channels IEC 61000-4-2 Unidirectional SOT-23-6L ESD and Surge Protection (TVS/ESD) ROHS
+C3234119,Texas Instruments,TCAN1044AVDRBRQ1,-40℃~+150℃ 1.5uA 4.5V~5.5V 5Mbps 70mA CAN FD Transceiver SON-8(3x3) CAN Transceivers ROHS
+C515584,NXP Semicon,"PCA9545APW,118",-40℃~+85℃ 11Ω 2.3V~5.5V 300ps 4:1 I2C TSSOP-20 Analog Switches - Special Purpose ROHS
+C23404,Analog Devices Inc./Maxim Integrated,MAX3490EESA+T,-40℃~+85℃ 1 1 10Mbps 2.2mA 3V~3.6V Full-Duplex Transceiver ±15kV SOIC-8 RS-485 / RS-422 ICs ROHS
+C9900005447,CFSensor,XGZP6859DC100KPGPN,"-100KPA to +100KPA, SMD-6, I2C"
+C2961106,Avia Semicon (Xiamen),HX717,-40℃~+85℃ 1.5mA 10Hz、20Hz、80Hz、320Hz 2 2.7V~5.5V 24 3ppm/℃ External External、Built-in Serial port Support Yes SOP-16 Analog to Digital Converters (ADC) ROHS
+C8142,Texas Instruments,SN74LV4052APWR,"-40℃~+85℃ 2V~5.5V 4 4:1 75Ω 7ns TSSOP-16 Analog Switches, Multiplexers ROHS"
+C3293138,RENESAS,PS2801-1-F3-A/L,"-55℃~+100℃ 1 1.1V 120mW 2.5kV 300mV@10mA,2mA 3us 50mA 50mA 5us 600% 6V 80% 80V DC Phototransistor SSOP-4-1.27mm Transistor, Photovoltaic Output Optoisolators ROHS"
+C5349954,XINGLIGHT,XL-1615RGBC-2812B,"-20℃~+85℃ 0.35mA 0.6mm 1.5mm 1.6mm 120° 130mcd、360mcd、110mcd 3.5V~5.5V 3000V 4.5kHz 800Kbit/s G:525nm、R:625nm、B:470nm R:620nm~625nm、B:465nm~470nm、G:525nm~530nm Top-mount Water Clear SMD-4P,1.6x1.5mm RGB LEDs(Built-in IC) ROHS"
+C7859,Texas Instruments,SN74LVC4245APWR,"-40℃~+85℃ 1 2.7V~3.6V 4.5V~5.5V 8 Bidirectional Tri-State TSSOP-24 Translators, Level Shifters ROHS"
+C6489181,Texas Instruments,SN74HCT245DGSR,"-40℃~+85℃ 1 14ns@5.5V,50pF 4.5V~5.5V 6mA 6mA 74HCT 8 80uA Bidirectional Tri-State VSSOP-20 Buffers, Drivers, Receivers, Transceivers ROHS"
+C524786,Texas Instruments,AM26LV32IDR,-40℃~+85℃ 0 3.3V~3.6V 32Mbps 4 8mA Receiver ±5kV SOIC-16 RS-485 / RS-422 ICs ROHS
+C843258,NDK,NX2016SA-25MHZ-STD-CZS-2,25MHz 8pF Crystal Oscillator ±15ppm SMD2016-4P Crystals ROHS
+C112573,SMD5032-2P,X503212MSB2GI,-40℃~+85℃ 12MHz 20pF Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS

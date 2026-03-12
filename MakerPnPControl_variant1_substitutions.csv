@@ -1,2 +1,9 @@
 Eda,NamePattern,ValuePattern,Name,Value,Comment
 DipTrace,CAP_0402,100nF 16V 0402 X7R 10%,CAP_0402,100nF 25V 0402 X7R 10%,De-rate from 16V to 25V;BOM consolidation
+DipTrace,B4B-XH-A(LF)(SN),AIN2,XH-4A_YELLOW,,Use BOOMELE brand;Use yellow color
+DipTrace,B4B-XH-A(LF)(SN),LC1,XH-4A_GREEN,,Use BOOMELE brand;Use green color
+DipTrace,B4B-XH-A(LF)(SN),BUTTONS,XH-4A_BLACK,,Use BOOMELE brand;Use black color
+DipTrace,B2B-XH-A(LF)(SN),AIN1,XH-2A_YELLOW,,Use BOOMELE brand;Use yellow color
+DipTrace,B2B-XH-A(LF)(SN),/RED\.*/,XH-2A_RED,,Use BOOMELE brand;Use red color
+DipTrace,B5B-XH-A(LF)(SN),/.*/,XH-5A_BLUE,,Use BOOMELE brand;Use blue color
+DipTrace,AAPS-H,4.7uH,AAPS0650,4.7uH,Use Coilank part
