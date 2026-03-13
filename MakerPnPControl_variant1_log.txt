@@ -1,0 +1,1261 @@
+D:\Users\Hydra\Documents\dev\projects\makerpnp\makerpnp\target\release\variantbuilder_cli.exe @MakerPnPControl_variant1.args
+stores::eda_placements: Loading eda placements. source: Export/MakerPnPControl-PCB/MakerPnPControl-PnP.csv
+variantbuilder_app: Loaded 454 placements
+variantbuilder_app: excluding placements: ["C35", "C36", "C37", "C38", "C39", "MH1_PE", "MH1", "MH2", "MH3", "MH4"]
+stores::substitutions: Loading eda substitutions. source: MakerPnPControl_variant1_substitutions.csv
+variantbuilder_app: Loaded 9 substitution rules from MakerPnPControl_variant1_substitutions.csv
+stores::substitutions: Loading eda substitutions. source: global-substitutions.csv
+variantbuilder_app: Loaded 108 substitution rules from global-substitutions.csv
+variantbuilder_app: disabling placements: []
+stores::parts: Loading parts. source: parts.csv
+variantbuilder_app: Loaded 165 parts
+stores::part_mappings: Loading part mappings. source: part-mappings.csv
+variantbuilder_app: Loaded 160 part mappings
+variantbuilder_app: Loaded 0 load-out items
+stores::assembly_rules: Loading assembly rules. source: MakerPnPControl_variant1_rules.csv
+variantbuilder_app: Loaded 2 assembly rules
+variantbuilder_app: Assembly variant: Default
+variantbuilder_app: Ref_des list:
+variantbuilder_app: Matched 444 placements for assembly variant
+variantbuilder_app: Mapping Result
+├── C1 (name: 'UMK325B7475MMHT', value: '4.7uF 50V 1210 X7R 20%')
+│   └── Substituted (name: 'CAP_1210_N', value: '4.7uF 50V 1210 X7R 10%'), by (name_pattern: 'UMK325B7475MMHT', value_pattern: '4.7uF 50V 1210 X7R 20%'), de-rate: 'from 20% to 10%'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL32B475KBUYNNE' (Auto-selected)
+├── C2 (name: 'UMK325B7475MMHT', value: '4.7uF 50V 1210 X7R 20%')
+│   └── Substituted (name: 'CAP_1210_N', value: '4.7uF 50V 1210 X7R 10%'), by (name_pattern: 'UMK325B7475MMHT', value_pattern: '4.7uF 50V 1210 X7R 20%'), de-rate: 'from 20% to 10%'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL32B475KBUYNNE' (Auto-selected)
+├── C3 (name: 'UMK325B7475MMHT', value: '4.7uF 50V 1210 X7R 20%')
+│   └── Substituted (name: 'CAP_1210_N', value: '4.7uF 50V 1210 X7R 10%'), by (name_pattern: 'UMK325B7475MMHT', value_pattern: '4.7uF 50V 1210 X7R 20%'), de-rate: 'from 20% to 10%'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL32B475KBUYNNE' (Auto-selected)
+├── C4 (name: 'GRM155R71H223KA12D', value: '22nF 50V 0402 X7R 20%')
+│   └── manufacturer: 'Murata Electronics', mpn: 'GRM155R71H223KA12D' (Auto-selected)
+├── C5 (name: 'GRM155R71H223KA12D', value: '22nF 50V 0402 X7R 20%')
+│   └── manufacturer: 'Murata Electronics', mpn: 'GRM155R71H223KA12D' (Auto-selected)
+├── C6 (name: 'CAP_0603_N', value: '100nF 63V 0603 X5R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 63V 0603 X5R 10%'), de-rate: 'from 63V to 100V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C7 (name: 'UMK325B7475MMHT', value: '4.7uF 50V 1210 X7R 20%')
+│   └── Substituted (name: 'CAP_1210_N', value: '4.7uF 50V 1210 X7R 10%'), by (name_pattern: 'UMK325B7475MMHT', value_pattern: '4.7uF 50V 1210 X7R 20%'), de-rate: 'from 20% to 10%'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL32B475KBUYNNE' (Auto-selected)
+├── C8 (name: 'UMK325B7475MMHT', value: '4.7uF 50V 1210 X7R 20%')
+│   └── Substituted (name: 'CAP_1210_N', value: '4.7uF 50V 1210 X7R 10%'), by (name_pattern: 'UMK325B7475MMHT', value_pattern: '4.7uF 50V 1210 X7R 20%'), de-rate: 'from 20% to 10%'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL32B475KBUYNNE' (Auto-selected)
+├── C9 (name: 'GRM155R71H223KA12D', value: '22nF 50V 0402 X7R 20%')
+│   └── manufacturer: 'Murata Electronics', mpn: 'GRM155R71H223KA12D' (Auto-selected)
+├── C10 (name: 'GRM155R71H223KA12D', value: '22nF 50V 0402 X7R 20%')
+│   └── manufacturer: 'Murata Electronics', mpn: 'GRM155R71H223KA12D' (Auto-selected)
+├── C11 (name: 'CAP_0603_N', value: '1uF 16V 0603 X7R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1uF 25V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1uF 16V 0603 X7R'), de-rate: 'from 16V to 25V', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B105KA8NNNC' (Auto-selected)
+├── C12 (name: 'CAP_0603_N', value: '1uF 16V 0603 X7R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1uF 25V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1uF 16V 0603 X7R'), de-rate: 'from 16V to 25V', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B105KA8NNNC' (Auto-selected)
+├── C13 (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R')
+│   └── Substituted (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R 20%'), by (name_pattern: 'CAP_0805_N', value_pattern: '22uF 25V 0805 X5R'), comment: 'Use 20% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KB8NNNC' (Auto-selected)
+├── C14 (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R')
+│   └── Substituted (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R 20%'), by (name_pattern: 'CAP_0805_N', value_pattern: '22uF 25V 0805 X5R'), comment: 'Use 20% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KB8NNNC' (Auto-selected)
+├── C15 (name: 'CAP_0603_N', value: '100nF 63V 0603 X5R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 63V 0603 X5R 10%'), de-rate: 'from 63V to 100V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C16 (name: 'CAP_0603_N', value: '100nF 63V 0603 X5R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 63V 0603 X5R 10%'), de-rate: 'from 63V to 100V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C17 (name: 'CAP_0603_N', value: '22pF 16V 0603 C0G 5%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10C220JB8NNNC' (Auto-selected)
+├── C18 (name: 'CAP_0603_N', value: '22pF 16V 0603 C0G 5%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10C220JB8NNNC' (Auto-selected)
+├── C19 (name: 'CAP_0603_N', value: '10uF 16V 0603 X5R 20%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10A106MA8NRNC' (Auto-selected)
+├── C20 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C21 (name: 'CAP_1210', value: '47uF 16V 1210 X7R')
+│   └── Substituted (name: 'CAP_1210', value: '47uF 16V 1210 X7R 10%'), by (name_pattern: 'CAP_1210', value_pattern: '47uF 16V 1210 X7R'), comment: 'Use 10% by default'
+│       └── manufacturer: 'Samwha Capacitor', mpn: 'CS3225X7R476K160NRL' (Auto-selected)
+├── C22 (name: 'CAP_1210', value: '47uF 16V 1210 X7R')
+│   └── Substituted (name: 'CAP_1210', value: '47uF 16V 1210 X7R 10%'), by (name_pattern: 'CAP_1210', value_pattern: '47uF 16V 1210 X7R'), comment: 'Use 10% by default'
+│       └── manufacturer: 'Samwha Capacitor', mpn: 'CS3225X7R476K160NRL' (Auto-selected)
+├── C23 (name: 'CAP_1210', value: '47uF 16V 1210 X7R')
+│   └── Substituted (name: 'CAP_1210', value: '47uF 16V 1210 X7R 10%'), by (name_pattern: 'CAP_1210', value_pattern: '47uF 16V 1210 X7R'), comment: 'Use 10% by default'
+│       └── manufacturer: 'Samwha Capacitor', mpn: 'CS3225X7R476K160NRL' (Auto-selected)
+├── C24 (name: 'CAP_1210', value: '47uF 16V 1210 X7R')
+│   └── Substituted (name: 'CAP_1210', value: '47uF 16V 1210 X7R 10%'), by (name_pattern: 'CAP_1210', value_pattern: '47uF 16V 1210 X7R'), comment: 'Use 10% by default'
+│       └── manufacturer: 'Samwha Capacitor', mpn: 'CS3225X7R476K160NRL' (Auto-selected)
+├── C25 (name: 'CAP_1210', value: '47uF 16V 1210 X7R')
+│   └── Substituted (name: 'CAP_1210', value: '47uF 16V 1210 X7R 10%'), by (name_pattern: 'CAP_1210', value_pattern: '47uF 16V 1210 X7R'), comment: 'Use 10% by default'
+│       └── manufacturer: 'Samwha Capacitor', mpn: 'CS3225X7R476K160NRL' (Auto-selected)
+├── C26 (name: 'CAP_1210', value: '47uF 16V 1210 X7R')
+│   └── Substituted (name: 'CAP_1210', value: '47uF 16V 1210 X7R 10%'), by (name_pattern: 'CAP_1210', value_pattern: '47uF 16V 1210 X7R'), comment: 'Use 10% by default'
+│       └── manufacturer: 'Samwha Capacitor', mpn: 'CS3225X7R476K160NRL' (Auto-selected)
+├── C27 (name: 'CAPP_1206_N', value: '22uF 16V 1206 TANTALUM 20%')
+│   └── manufacturer: 'KYOCERA AVX', mpn: 'TAJA226M016RNJ' (Auto-selected)
+├── C28 (name: 'CAP_1210', value: '47uF 16V 1210 X7R')
+│   └── Substituted (name: 'CAP_1210', value: '47uF 16V 1210 X7R 10%'), by (name_pattern: 'CAP_1210', value_pattern: '47uF 16V 1210 X7R'), comment: 'Use 10% by default'
+│       └── manufacturer: 'Samwha Capacitor', mpn: 'CS3225X7R476K160NRL' (Auto-selected)
+├── C29 (name: 'CAP_1210', value: '47uF 16V 1210 X7R')
+│   └── Substituted (name: 'CAP_1210', value: '47uF 16V 1210 X7R 10%'), by (name_pattern: 'CAP_1210', value_pattern: '47uF 16V 1210 X7R'), comment: 'Use 10% by default'
+│       └── manufacturer: 'Samwha Capacitor', mpn: 'CS3225X7R476K160NRL' (Auto-selected)
+├── C30 (name: 'VKME1651J331MV', value: '330uF 63V 20%')
+│   └── manufacturer: 'Ymin', mpn: 'VKME1651J331MV' (Auto-selected)
+├── C31 (name: 'VKME1651J331MV', value: '330uF 63V 20%')
+│   └── manufacturer: 'Ymin', mpn: 'VKME1651J331MV' (Auto-selected)
+├── C32 (name: 'VKME1651J331MV', value: '330uF 63V 20%')
+│   └── manufacturer: 'Ymin', mpn: 'VKME1651J331MV' (Auto-selected)
+├── C33 (name: 'VKME1651J331MV', value: '330uF 63V 20%')
+│   └── manufacturer: 'Ymin', mpn: 'VKME1651J331MV' (Auto-selected)
+├── C34 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C40 (name: 'CAP_1812_N', value: '4.7nF 2kV 1812')
+│   └── manufacturer: 'Walsin Tech Corp', mpn: '1812B472K202CT' (Auto-selected)
+├── C41 (name: 'UMK325B7475MMHT', value: '4.7uF 50V 1210 X7R 20%')
+│   └── Substituted (name: 'CAP_1210_N', value: '4.7uF 50V 1210 X7R 10%'), by (name_pattern: 'UMK325B7475MMHT', value_pattern: '4.7uF 50V 1210 X7R 20%'), de-rate: 'from 20% to 10%'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL32B475KBUYNNE' (Auto-selected)
+├── C42 (name: 'UMK325B7475MMHT', value: '4.7uF 50V 1210 X7R 20%')
+│   └── Substituted (name: 'CAP_1210_N', value: '4.7uF 50V 1210 X7R 10%'), by (name_pattern: 'UMK325B7475MMHT', value_pattern: '4.7uF 50V 1210 X7R 20%'), de-rate: 'from 20% to 10%'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL32B475KBUYNNE' (Auto-selected)
+├── C43 (name: 'CAP_0603_N', value: '100nF 63V 0603 X5R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 63V 0603 X5R 10%'), de-rate: 'from 63V to 100V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C44 (name: 'CAP_0603_N', value: '100nF 63V 0603 X5R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 63V 0603 X5R 10%'), de-rate: 'from 63V to 100V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C45 (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R')
+│   └── Substituted (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R 20%'), by (name_pattern: 'CAP_0805_N', value_pattern: '22uF 25V 0805 X5R'), comment: 'Use 20% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KB8NNNC' (Auto-selected)
+├── C46 (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R')
+│   └── Substituted (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R 20%'), by (name_pattern: 'CAP_0805_N', value_pattern: '22uF 25V 0805 X5R'), comment: 'Use 20% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KB8NNNC' (Auto-selected)
+├── C47 (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R')
+│   └── Substituted (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R 20%'), by (name_pattern: 'CAP_0805_N', value_pattern: '22uF 25V 0805 X5R'), comment: 'Use 20% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KB8NNNC' (Auto-selected)
+├── C48 (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R')
+│   └── Substituted (name: 'CAP_0805_N', value: '22uF 25V 0805 X5R 20%'), by (name_pattern: 'CAP_0805_N', value_pattern: '22uF 25V 0805 X5R'), comment: 'Use 20% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KB8NNNC' (Auto-selected)
+├── C49 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C50 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C51 (name: 'CAP_1206_N', value: '10uF 16V 1206 X7R')
+│   └── Substituted (name: 'CAP_1206_N', value: '10uF 25V 1206 X7R 10%'), by (name_pattern: 'CAP_1206_N', value_pattern: '10uF 16V 1206 X7R'), de-rate: 'from 16V to 25V', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL31B106KAHNNNE' (Auto-selected)
+├── C52 (name: 'CAP_1206_N', value: '10uF 16V 1206 X7R')
+│   └── Substituted (name: 'CAP_1206_N', value: '10uF 25V 1206 X7R 10%'), by (name_pattern: 'CAP_1206_N', value_pattern: '10uF 16V 1206 X7R'), de-rate: 'from 16V to 25V', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL31B106KAHNNNE' (Auto-selected)
+├── C53 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C54 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C55 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C56 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C57 (name: 'CAP_0402', value: '100nF 25V 0402 X5R')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 25V 0402 X5R'), de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C58 (name: 'CAP_0402', value: '100nF 25V 0402 X5R')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 25V 0402 X5R'), de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C59 (name: 'CAP_0603_N', value: '1uF 25V 0603 X5R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1uF 25V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1uF 25V 0603 X5R'), de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B105KA8NNNC' (Auto-selected)
+├── C60 (name: 'CAP_0603_N', value: '1uF 25V 0603 X5R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1uF 25V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1uF 25V 0603 X5R'), de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B105KA8NNNC' (Auto-selected)
+├── C61 (name: 'CAP_0603_N', value: '1nF 25V 0603 X5R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1nF 50V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1nF 25V 0603 X5R'), de-rate: 'from 25V to 50V', de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B102KB8NNNC' (Auto-selected)
+├── C62 (name: 'CAP_0603_N', value: '1nF 25V 0603 X5R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1nF 50V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1nF 25V 0603 X5R'), de-rate: 'from 25V to 50V', de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B102KB8NNNC' (Auto-selected)
+├── C63 (name: 'CAP_0402', value: '100nF 25V 0402 X5R')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 25V 0402 X5R'), de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C64 (name: 'CAP_0402', value: '100nF 25V 0402 X5R')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 25V 0402 X5R'), de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C65 (name: 'CAP_0603_N', value: '1uF 25V 0603 X5R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1uF 25V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1uF 25V 0603 X5R'), de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B105KA8NNNC' (Auto-selected)
+├── C66 (name: 'CAP_0603_N', value: '1uF 25V 0603 X5R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1uF 25V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1uF 25V 0603 X5R'), de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B105KA8NNNC' (Auto-selected)
+├── C67 (name: 'CAP_0603_N', value: '1nF 25V 0603 X5R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1nF 50V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1nF 25V 0603 X5R'), de-rate: 'from 25V to 50V', de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B102KB8NNNC' (Auto-selected)
+├── C68 (name: 'CAP_0603_N', value: '1nF 25V 0603 X5R')
+│   └── Substituted (name: 'CAP_0603_N', value: '1nF 50V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '1nF 25V 0603 X5R'), de-rate: 'from 25V to 50V', de-rate: 'from X5R to X7R', comment: 'Use 10% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B102KB8NNNC' (Auto-selected)
+├── C69 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C70 (name: 'CAP_0603_N', value: '10uF 16V 0603 X5R 20%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10A106MA8NRNC' (Auto-selected)
+├── C71 (name: 'CAP_0603_N', value: '10uF 16V 0603 X5R 20%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10A106MA8NRNC' (Auto-selected)
+├── C72 (name: 'CAP_0603_N', value: '10uF 16V 0603 X5R 20%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10A106MA8NRNC' (Auto-selected)
+├── C73 (name: 'CAP_0402', value: '470pF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '470pF 6.3V 0402 C0G 5%'), by (name_pattern: 'CAP_0402', value_pattern: '470pF 6.3V 0402'), comment: 'Use C0G by default', comment: 'Use 5% by default'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05C471JB5NNNC' (Auto-selected)
+├── C74 (name: 'CAP_0402', value: '1uF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '1uF 6.3V 0402 X5R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '1uF 6.3V 0402'), comment: 'Use X5R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '1uF 25V 0402 X5R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '1uF 6.3V 0402 X5R 10%'), comment: ''
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05A105KA5NQNC' (Auto-selected)
+├── C75 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C76 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C77 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C78 (name: 'CAP_0603_N', value: '10uF 16V 0603 X5R 20%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10A106MA8NRNC' (Auto-selected)
+├── C79 (name: 'CAP_0402', value: '100nF 10V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 10V 0402'), de-rate: 'from 10V to 16V', comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C80 (name: 'CAP_0402', value: '100nF 10V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 10V 0402'), de-rate: 'from 10V to 16V', comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C81 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C82 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C83 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C84 (name: 'CAP_0402', value: '4.7nF 100V 0402 X7R 10%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B472KC5VPNC' (Auto-selected)
+├── C85 (name: 'CAP_0402', value: '4.7nF 100V 0402 X7R 10%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B472KC5VPNC' (Auto-selected)
+├── C86 (name: 'CAP_0603_N', value: '1uF 25V 0603 X7R 10%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B105KA8NNNC' (Auto-selected)
+├── C87 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C88 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C89 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C90 (name: 'CAP_0402', value: '100nF 16V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402'), comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C91 (name: 'CAP_0603_N', value: '10uF 16V 0603 X5R 20%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10A106MA8NRNC' (Auto-selected)
+├── C92 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C93 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C94 (name: 'CAP_0402', value: '100nF 16V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402'), comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C95 (name: 'CAP_0402', value: '100nF 10V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 10V 0402'), de-rate: 'from 10V to 16V', comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C96 (name: 'CAP_0402', value: '100nF 6.3V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 6.3V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402'), comment: 'Use X7R 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 6.3V 0402 X7R 10%'), de-rate: 'from 6.3V to 16V'
+│           └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│               └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C97 (name: 'CAP_0603_N', value: '10uF 16V 0603 X5R 20%')
+│   └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10A106MA8NRNC' (Auto-selected)
+├── C98 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C99 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C100 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C101 (name: 'CAP_0603_N', value: '100nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 16V', de-rate: 'from X5R to X7R by', de-rate: 'from 20% to 10%'
+│       └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C102 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C103 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C104 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C105 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C106 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C107 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C108 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C109 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C110 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C111 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C112 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C113 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C114 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C115 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C116 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C117 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C118 (name: 'CAP_0603_N', value: '10nF 6.3V 0603 X5R 20%')
+│   └── Substituted (name: 'CAP_0603_N', value: '10nF 50V 0603 X7R 20%'), by (name_pattern: 'CAP_0603_N', value_pattern: '10nF 6.3V 0603 X5R 20%'), de-rate: 'from 6.3V to 50V', de-rate: 'from X5R to X7R'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B103KB8NNNC' (Auto-selected)
+├── C119 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C120 (name: 'CAP_0402', value: '100nF 16V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402'), comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C121 (name: 'CAP_0402', value: '100nF 16V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402'), comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C122 (name: 'CAP_0402', value: '100nF 16V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402'), comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C123 (name: 'CAP_0402', value: '100nF 16V 0402')
+│   └── Substituted (name: 'CAP_0402', value: '100nF 16V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402'), comment: 'Use X7R by default', comment: 'Use 10% by default'
+│       └── Substituted (name: 'CAP_0402', value: '100nF 25V 0402 X7R 10%'), by (name_pattern: 'CAP_0402', value_pattern: '100nF 16V 0402 X7R 10%'), de-rate: 'from 16V to 25V', comment: 'BOM consolidation'
+│           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KA5NNNC' (Auto-selected)
+├── C124 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C125 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C126 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C127 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C128 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C129 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C130 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C131 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── C132 (name: 'CAP_0603_N', value: '100nF 16V 0603 X7R 10%')
+│   └── Substituted (name: 'CAP_0603_N', value: '100nF 100V 0603 X7R 10%'), by (name_pattern: 'CAP_0603_N', value_pattern: '100nF 16V 0603 X7R 10%'), de-rate: 'from 16V to 100V'
+│       └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL10B104KC8NNNC' (Auto-selected)
+├── D1 (name: 'LED 0603 GREEN', value: 'V5P0_B')
+│   └── Substituted (name: 'LED_0603', value: 'GREEN'), by (name_pattern: 'LED 0603 GREEN', value_pattern: '.*'), comment: ''
+│       └── manufacturer: 'Foshan NationStar Optoelectronics', mpn: 'NCD0603G1' (Auto-selected)
+├── D2 (name: 'LED 0603 RED', value: 'V3P3_CPU')
+│   └── Substituted (name: 'LED_0603', value: 'RED'), by (name_pattern: 'LED 0603 RED', value_pattern: '.*'), comment: ''
+│       └── manufacturer: 'Foshan NationStar Optoelectronics', mpn: 'NCD0603R5' (Auto-selected)
+├── D3 (name: 'LED 0603 GREEN', value: 'V5P0_ISOLATED_1')
+│   └── Substituted (name: 'LED_0603', value: 'GREEN'), by (name_pattern: 'LED 0603 GREEN', value_pattern: '.*'), comment: ''
+│       └── manufacturer: 'Foshan NationStar Optoelectronics', mpn: 'NCD0603G1' (Auto-selected)
+├── D4 (name: 'LED 0603 GREEN', value: 'V5P0_A')
+│   └── Substituted (name: 'LED_0603', value: 'GREEN'), by (name_pattern: 'LED 0603 GREEN', value_pattern: '.*'), comment: ''
+│       └── manufacturer: 'Foshan NationStar Optoelectronics', mpn: 'NCD0603G1' (Auto-selected)
+├── D5 (name: 'LED 0603 GREEN', value: 'V5P0_ISOLATED_2')
+│   └── Substituted (name: 'LED_0603', value: 'GREEN'), by (name_pattern: 'LED 0603 GREEN', value_pattern: '.*'), comment: ''
+│       └── manufacturer: 'Foshan NationStar Optoelectronics', mpn: 'NCD0603G1' (Auto-selected)
+├── D6 (name: 'LED 0603 WHITE', value: 'V7P0')
+│   └── Substituted (name: 'LED_0603', value: 'GREEN'), by (name_pattern: 'LED 0603 WHITE', value_pattern: '.*'), warning: 'Use GREEN leds instead due to availability'
+│       └── manufacturer: 'Foshan NationStar Optoelectronics', mpn: 'NCD0603G1' (Auto-selected)
+├── D7 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D8 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D9 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D10 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D11 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D12 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D13 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D14 (name: 'SS310', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS310' (Auto-selected)
+├── D15 (name: 'SS310', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS310' (Auto-selected)
+├── D16 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D17 (name: 'SS310', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS310' (Auto-selected)
+├── D18 (name: 'SS310', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS310' (Auto-selected)
+├── D19 (name: 'LED 0603 RED', value: 'V5P0_B')
+│   └── Substituted (name: 'LED_0603', value: 'RED'), by (name_pattern: 'LED 0603 RED', value_pattern: '.*'), comment: ''
+│       └── manufacturer: 'Foshan NationStar Optoelectronics', mpn: 'NCD0603R5' (Auto-selected)
+├── D20 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── D21 (name: 'SS14', value: '')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SS14' (Auto-selected)
+├── E1 (name: 'MDD_SMA_DO214AC_SMAJ7.0A', value: '7Vrwm 'AM'')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ7.0A' (Auto-selected)
+├── E2 (name: 'MDD_SMA_DO214AC_SMAJ5.0A', value: '5Vrwm 'AE'')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ5.0A' (Auto-selected)
+├── E3 (name: 'MDD_SMA_DO214AC_SMAJ5.0A', value: '5Vrwm 'AE'')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ5.0A' (Auto-selected)
+├── E4 (name: 'MDD_SMA_DO214AC_SMAJ24A', value: '24Vrwm 'BZ'')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ24A' (Auto-selected)
+├── E5 (name: 'MDD_SMA_DO214AC_SMAJ48A', value: '48Vrwm 'CX'')
+│   ├── manufacturer: 'STMicroelectronics', mpn: 'SMAJ48A-TR' (Matched assembly-rule)
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ48A'
+├── E6 (name: 'MDD_SMA_DO214AC_SMAJ48A', value: '48Vrwm 'CX'')
+│   ├── manufacturer: 'STMicroelectronics', mpn: 'SMAJ48A-TR' (Matched assembly-rule)
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ48A'
+├── E7 (name: 'SMCJ6.0A-E3/57T', value: 'SMCJ6.0')
+│   └── manufacturer: 'Vishay Intertech', mpn: 'SMCJ6.0A-E3/57T' (Auto-selected)
+├── E8 (name: 'MDD_SMA_DO214AC_SMAJ12A', value: '12Vrwm 'BE'')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ12A' (Auto-selected)
+├── E9 (name: 'MDD_SMA_DO214AC_SMAJ12A', value: '12Vrwm 'BE'')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ12A' (Auto-selected)
+├── E10 (name: 'MDD_SMA_DO214AC_SMAJ5.0A', value: '5Vrwm 'AE'')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ5.0A' (Auto-selected)
+├── E11 (name: 'MDD_SMA_DO214AC_SMAJ5.0A', value: '5Vrwm 'AE'')
+│   └── manufacturer: 'MDD(Microdiode Semiconductor)', mpn: 'SMAJ5.0A' (Auto-selected)
+├── E12 (name: 'PESD5V0S2BT,215', value: '')
+│   └── manufacturer: 'BORN', mpn: 'PESD5V0S2BT' (Auto-selected)
+├── E13 (name: 'PESD5V0S2BT,215', value: '')
+│   └── manufacturer: 'BORN', mpn: 'PESD5V0S2BT' (Auto-selected)
+├── E14 (name: 'PESD5V0S2BT,215', value: '')
+│   └── manufacturer: 'BORN', mpn: 'PESD5V0S2BT' (Auto-selected)
+├── E15 (name: 'PESD5V0S2BT,215', value: '')
+│   └── manufacturer: 'BORN', mpn: 'PESD5V0S2BT' (Auto-selected)
+├── F1 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F2 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F3 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F4 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F5 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F6 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F7 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F8 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F9 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F10 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F11 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── F12 (name: 'RXEF110', value: 'XF110')
+│   └── manufacturer: 'Littelfuse', mpn: 'RXEF110' (Auto-selected)
+├── J1 (name: 'B3B-XH-A(LF)(SN)', value: 'RGB_LED')
+│   └── Substituted (name: 'XH-3A', value: ''), by (name_pattern: 'B3B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-3A' (Auto-selected)
+├── J2 (name: 'B4B-XH-A(LF)(SN)', value: 'LC1')
+│   └── Substituted (name: 'XH-4A_GREEN', value: ''), by (name_pattern: 'B4B-XH-A(LF)(SN)', value_pattern: 'LC1'), comment: 'Use BOOMELE brand', comment: 'Use green color'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-4AGreen' (Auto-selected)
+├── J3 (name: 'B6P-VH(LF)(SN)', value: '')
+│   └── Substituted (name: 'VH-6A', value: ''), by (name_pattern: 'B6P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-6A' (Auto-selected)
+├── J4 (name: 'B6P-VH(LF)(SN)', value: '')
+│   └── Substituted (name: 'VH-6A', value: ''), by (name_pattern: 'B6P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-6A' (Auto-selected)
+├── J5 (name: 'B4P-VH(LF)(SN)', value: '')
+│   └── Substituted (name: 'VH-4A', value: ''), by (name_pattern: 'B4P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-4A' (Auto-selected)
+├── J6 (name: '2-2387405-2', value: 'Port_1')
+│   └── Substituted (name: 'PCIE-G4071141D', value: ''), by (name_pattern: '2-2387405-2', value_pattern: '.*'), comment: 'Use UMAX brand'
+│       └── manufacturer: 'UMAX', mpn: 'PCIE-G4071141D' (Auto-selected)
+├── J7 (name: 'B2P-VH(LF)(SN)', value: 'RPi/5V')
+│   └── Substituted (name: 'VH-2A', value: ''), by (name_pattern: 'B2P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-2A' (Auto-selected)
+├── J8 (name: 'B4P-VH(LF)(SN)', value: '')
+│   └── Substituted (name: 'VH-4A', value: ''), by (name_pattern: 'B4P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-4A' (Auto-selected)
+├── J9 (name: 'B6P-VH(LF)(SN)', value: '')
+│   └── Substituted (name: 'VH-6A', value: ''), by (name_pattern: 'B6P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-6A' (Auto-selected)
+├── J10 (name: '2-2387405-2', value: 'Port_1')
+│   └── Substituted (name: 'PCIE-G4071141D', value: ''), by (name_pattern: '2-2387405-2', value_pattern: '.*'), comment: 'Use UMAX brand'
+│       └── manufacturer: 'UMAX', mpn: 'PCIE-G4071141D' (Auto-selected)
+├── J11 (name: 'B4P-VH(LF)(SN)', value: '')
+│   └── Substituted (name: 'VH-4A', value: ''), by (name_pattern: 'B4P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-4A' (Auto-selected)
+├── J12 (name: 'PPTC041LFBN-RC', value: 'ETH_LED')
+│   └── Substituted (name: '2.54-1*4PFemale', value: ''), by (name_pattern: 'PPTC041LFBN-RC', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: '2.54-1*4PFemale' (Auto-selected)
+├── J13 (name: 'RJMG1331171C1ER', value: '')
+│   └── Substituted (name: 'HR981190C', value: ''), by (name_pattern: 'RJMG1331171C1ER', value_pattern: '.*'), comment: 'Use HANRUN brand'
+│       └── manufacturer: 'HANRUN(Zhongshan HanRun Elec)', mpn: 'HR981190C' (Auto-selected)
+├── J14 (name: 'FTSH-105-01-X-DV-P-K-X', value: 'I2C')
+│   └── Substituted (name: 'FTSH-105-01-L-DV-K-P-TR', value: ''), by (name_pattern: 'FTSH-105-01-X-DV-P-K-X', value_pattern: '.*'), comment: 'Use different variant'
+│       └── manufacturer: 'Samtec', mpn: 'FTSH-105-01-L-DV-K-P-TR' (Auto-selected)
+├── J15 (name: '2-2387405-2', value: 'Port_1')
+│   └── Substituted (name: 'PCIE-G4071141D', value: ''), by (name_pattern: '2-2387405-2', value_pattern: '.*'), comment: 'Use UMAX brand'
+│       └── manufacturer: 'UMAX', mpn: 'PCIE-G4071141D' (Auto-selected)
+├── J16 (name: 'B6B-XH-A(LF)(SN)', value: 'RS422')
+│   └── Substituted (name: 'XH-6A', value: ''), by (name_pattern: 'B6B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-6A' (Auto-selected)
+├── J17 (name: 'B4B-XH-A(LF)(SN)', value: 'BUTTONS')
+│   └── Substituted (name: 'XH-4A_BLACK', value: ''), by (name_pattern: 'B4B-XH-A(LF)(SN)', value_pattern: 'BUTTONS'), comment: 'Use BOOMELE brand', comment: 'Use black color'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-4ABlack' (Auto-selected)
+├── J18 (name: 'OSTVE043050', value: '')
+│   └── Substituted (name: 'WJ15EDGVC-3.81-04P-14-00A', value: ''), by (name_pattern: 'OSTVE043050', value_pattern: '.*'), comment: 'Use Ningbo brand'
+│       └── manufacturer: 'Ningbo Kangnex Elec', mpn: 'WJ15EDGVC-3.81-04P-14-00A' (Auto-selected)
+├── J19 (name: 'OSTVE043050', value: '')
+│   └── Substituted (name: 'WJ15EDGVC-3.81-04P-14-00A', value: ''), by (name_pattern: 'OSTVE043050', value_pattern: '.*'), comment: 'Use Ningbo brand'
+│       └── manufacturer: 'Ningbo Kangnex Elec', mpn: 'WJ15EDGVC-3.81-04P-14-00A' (Auto-selected)
+├── J20 (name: 'B6B-XH-A(LF)(SN)', value: 'DDIF')
+│   └── Substituted (name: 'XH-6A', value: ''), by (name_pattern: 'B6B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-6A' (Auto-selected)
+├── J21 (name: 'B4B-XH-A(LF)(SN)', value: 'AIN2')
+│   └── Substituted (name: 'XH-4A_YELLOW', value: ''), by (name_pattern: 'B4B-XH-A(LF)(SN)', value_pattern: 'AIN2'), comment: 'Use BOOMELE brand', comment: 'Use yellow color'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-4A Yellow' (Auto-selected)
+├── J22 (name: 'B2B-XH-A(LF)(SN)', value: 'AIN1')
+│   └── Substituted (name: 'XH-2A_YELLOW', value: ''), by (name_pattern: 'B2B-XH-A(LF)(SN)', value_pattern: 'AIN1'), comment: 'Use BOOMELE brand', comment: 'Use yellow color'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-2AYellow' (Auto-selected)
+├── J23 (name: '2-2387405-2', value: 'Port_1')
+│   └── Substituted (name: 'PCIE-G4071141D', value: ''), by (name_pattern: '2-2387405-2', value_pattern: '.*'), comment: 'Use UMAX brand'
+│       └── manufacturer: 'UMAX', mpn: 'PCIE-G4071141D' (Auto-selected)
+├── J24 (name: 'B2B-XH-A(LF)(SN)', value: 'RED/ES')
+│   └── Substituted (name: 'XH-2A_RED', value: ''), by (name_pattern: 'B2B-XH-A(LF)(SN)', value_pattern: 'RED\.*'), comment: 'Use BOOMELE brand', comment: 'Use red color'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-2ARed' (Auto-selected)
+├── J25 (name: 'B9B-XH-A(LF)(SN)', value: 'EDX')
+│   └── Substituted (name: 'XH-9A', value: ''), by (name_pattern: 'B9B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-9A' (Auto-selected)
+├── J26 (name: 'B9B-XH-A(LF)(SN)', value: 'EDA')
+│   └── Substituted (name: 'XH-9A', value: ''), by (name_pattern: 'B9B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-9A' (Auto-selected)
+├── J27 (name: 'B9B-XH-A(LF)(SN)', value: 'EDY')
+│   └── Substituted (name: 'XH-9A', value: ''), by (name_pattern: 'B9B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-9A' (Auto-selected)
+├── J28 (name: 'B9B-XH-A(LF)(SN)', value: 'EDB')
+│   └── Substituted (name: 'XH-9A', value: ''), by (name_pattern: 'B9B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-9A' (Auto-selected)
+├── J29 (name: '5499922-1', value: 'BCD')
+│   └── Substituted (name: '331010SG0ABLA02', value: ''), by (name_pattern: '5499922-1', value_pattern: '.*'), comment: 'Use JILN brand'
+│       └── manufacturer: 'JILN', mpn: '331010SG0ABLA02' (Auto-selected)
+├── J30 (name: '5499922-1', value: 'XYZ')
+│   └── Substituted (name: '331010SG0ABLA02', value: ''), by (name_pattern: '5499922-1', value_pattern: '.*'), comment: 'Use JILN brand'
+│       └── manufacturer: 'JILN', mpn: '331010SG0ABLA02' (Auto-selected)
+├── J31 (name: 'B6B-XH-A(LF)(SN)', value: 'EXT_2')
+│   └── Substituted (name: 'XH-6A', value: ''), by (name_pattern: 'B6B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-6A' (Auto-selected)
+├── J32 (name: 'B3B-XH-A(LF)(SN)', value: 'CAN2')
+│   └── Substituted (name: 'XH-3A', value: ''), by (name_pattern: 'B3B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-3A' (Auto-selected)
+├── J33 (name: 'PPTC041LFBN-RC', value: 'SWD')
+│   └── Substituted (name: '2.54-1*4PFemale', value: ''), by (name_pattern: 'PPTC041LFBN-RC', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: '2.54-1*4PFemale' (Auto-selected)
+├── J34 (name: 'B3B-XH-A(LF)(SN)', value: 'CAN1')
+│   └── Substituted (name: 'XH-3A', value: ''), by (name_pattern: 'B3B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-3A' (Auto-selected)
+├── J35 (name: 'B9B-XH-A(LF)(SN)', value: 'EDZ')
+│   └── Substituted (name: 'XH-9A', value: ''), by (name_pattern: 'B9B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-9A' (Auto-selected)
+├── J36 (name: 'B9B-XH-A(LF)(SN)', value: 'EDC')
+│   └── Substituted (name: 'XH-9A', value: ''), by (name_pattern: 'B9B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-9A' (Auto-selected)
+├── J37 (name: 'B5B-XH-A(LF)(SN)', value: 'BCD_E')
+│   └── Substituted (name: 'XH-5A_BLUE', value: ''), by (name_pattern: 'B5B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand', comment: 'Use blue color'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-5ABlue' (Auto-selected)
+├── J38 (name: 'B5B-XH-A(LF)(SN)', value: 'XYZ_F')
+│   └── Substituted (name: 'XH-5A_BLUE', value: ''), by (name_pattern: 'B5B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand', comment: 'Use blue color'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-5ABlue' (Auto-selected)
+├── J39 (name: 'B6B-XH-A(LF)(SN)', value: 'EXT_2')
+│   └── Substituted (name: 'XH-6A', value: ''), by (name_pattern: 'B6B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
+│       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-6A' (Auto-selected)
+├── J40 (name: '10164227-1004A1RLF', value: '')
+│   └── Substituted (name: 'HC-PBB40C-100DS-0.4V-3.0-02', value: ''), by (name_pattern: '10164227-1004A1RLF', value_pattern: '.*'), comment: 'Use HCT brand instead'
+│       └── manufacturer: 'HCTL', mpn: 'HC-PBB40C-100DS-0.4V-3.0-02' (Auto-selected)
+├── J41 (name: '10164227-1004A1RLF', value: '')
+│   └── Substituted (name: 'HC-PBB40C-100DS-0.4V-3.0-02', value: ''), by (name_pattern: '10164227-1004A1RLF', value_pattern: '.*'), comment: 'Use HCT brand instead'
+│       └── manufacturer: 'HCTL', mpn: 'HC-PBB40C-100DS-0.4V-3.0-02' (Auto-selected)
+├── J42 (name: '10164227-1004A1RLF', value: '')
+│   └── Substituted (name: 'HC-PBB40C-100DS-0.4V-3.0-02', value: ''), by (name_pattern: '10164227-1004A1RLF', value_pattern: '.*'), comment: 'Use HCT brand instead'
+│       └── manufacturer: 'HCTL', mpn: 'HC-PBB40C-100DS-0.4V-3.0-02' (Auto-selected)
+├── J43 (name: '10164227-1004A1RLF', value: '')
+│   └── Substituted (name: 'HC-PBB40C-100DS-0.4V-3.0-02', value: ''), by (name_pattern: '10164227-1004A1RLF', value_pattern: '.*'), comment: 'Use HCT brand instead'
+│       └── manufacturer: 'HCTL', mpn: 'HC-PBB40C-100DS-0.4V-3.0-02' (Auto-selected)
+├── L1 (name: 'SMNR4030-22UH', value: '22uH ~1A')
+│   └── manufacturer: 'SXN(Shun Xiang Nuo Elec)', mpn: 'SMNR4030-220MT' (Auto-selected)
+├── L2 (name: 'AAPS-H', value: '4.7uH')
+│   └── Substituted (name: 'AAPS0650', value: '4.7uH'), by (name_pattern: 'AAPS-H', value_pattern: '4.7uH'), comment: 'Use Coilank part'
+│       └── manufacturer: 'COILANK INTERNATIONAL', mpn: 'AAPS0650M4R7H' (Auto-selected)
+├── L3 (name: 'AAPS-H', value: '4.7uH')
+│   └── Substituted (name: 'AAPS0650', value: '4.7uH'), by (name_pattern: 'AAPS-H', value_pattern: '4.7uH'), comment: 'Use Coilank part'
+│       └── manufacturer: 'COILANK INTERNATIONAL', mpn: 'AAPS0650M4R7H' (Auto-selected)
+├── L4 (name: 'SMNR4030-22UH', value: '22uH ~1A')
+│   └── manufacturer: 'SXN(Shun Xiang Nuo Elec)', mpn: 'SMNR4030-220MT' (Auto-selected)
+├── L5 (name: 'SMNR4030-22UH', value: '22uH ~1A')
+│   └── manufacturer: 'SXN(Shun Xiang Nuo Elec)', mpn: 'SMNR4030-220MT' (Auto-selected)
+├── L6 (name: 'IND_0603_N', value: '600R@100MHz +/-25%, 350mA, 500mohm DC')
+│   └── Substituted (name: 'IND_0603_N', value: '600R@100MHz +/-25%, 500mA, 500mohm DC'), by (name_pattern: 'IND_0603_N', value_pattern: '600R@100MHz +/-25%, 350mA, 500mohm DC'), de-rate: 'from 350mA to 500mA'
+│       └── manufacturer: 'TAI-TECH', mpn: 'FCM1608KF-601T05' (Auto-selected)
+├── LS1 (name: 'HCM1205', value: '')
+│   └── Substituted (name: 'GMD12095YB-5V2400', value: ''), by (name_pattern: 'HCM1205', value_pattern: '.*'), comment: 'Use INGHAi brand'
+│       └── manufacturer: 'INGHAi', mpn: 'GMD12095YB-5V2400' (Auto-selected)
+├── Q1 (name: 'IRF7341PbF', value: '')
+│   └── manufacturer: 'Infineon Technologies', mpn: 'IRF7341TRPBF' (Auto-selected)
+├── Q2 (name: 'IRF7341PbF', value: '')
+│   └── manufacturer: 'Infineon Technologies', mpn: 'IRF7341TRPBF' (Auto-selected)
+├── Q3 (name: 'IRF7341PbF', value: '')
+│   └── manufacturer: 'Infineon Technologies', mpn: 'IRF7341TRPBF' (Auto-selected)
+├── Q4 (name: 'IRF7341PbF', value: '')
+│   └── manufacturer: 'Infineon Technologies', mpn: 'IRF7341TRPBF' (Auto-selected)
+├── Q5 (name: 'TK110P10PL', value: '')
+│   └── manufacturer: 'TOSHIBA', mpn: 'TK110P10PL,RQ(S2' (Auto-selected)
+├── Q6 (name: 'TK110P10PL', value: '')
+│   └── manufacturer: 'TOSHIBA', mpn: 'TK110P10PL,RQ(S2' (Auto-selected)
+├── Q7 (name: 'TK110P10PL', value: '')
+│   └── manufacturer: 'TOSHIBA', mpn: 'TK110P10PL,RQ(S2' (Auto-selected)
+├── Q8 (name: 'TK110P10PL', value: '')
+│   └── manufacturer: 'TOSHIBA', mpn: 'TK110P10PL,RQ(S2' (Auto-selected)
+├── Q9 (name: 'SI1902CDL-T1-GE3', value: '2A -20V')
+│   └── manufacturer: 'Vishay Intertech', mpn: 'SI1902CDL-T1-GE3' (Auto-selected)
+├── Q10 (name: 'BSS138LT1G', value: '')
+│   └── manufacturer: 'onsemi', mpn: 'BSS138LT1G' (Auto-selected)
+├── Q11 (name: 'SI1902CDL-T1-GE3', value: '2A -20V')
+│   └── manufacturer: 'Vishay Intertech', mpn: 'SI1902CDL-T1-GE3' (Auto-selected)
+├── R1 (name: 'RES_0603_N', value: '0R')
+│   └── Substituted (name: 'RES_0603_N', value: '0R 0603 333mW 75V'), by (name_pattern: 'RES_0603_N', value_pattern: '0R'), comment: 'Use 333mW by default', comment: 'Use 75V by default'
+│       └── manufacturer: 'Vishay Intertech', mpn: 'CRCW06030000Z0EAHP' (Auto-selected)
+├── R2 (name: 'RES_0603_N', value: '0R')
+│   └── Substituted (name: 'RES_0603_N', value: '0R 0603 333mW 75V'), by (name_pattern: 'RES_0603_N', value_pattern: '0R'), comment: 'Use 333mW by default', comment: 'Use 75V by default'
+│       └── manufacturer: 'Vishay Intertech', mpn: 'CRCW06030000Z0EAHP' (Auto-selected)
+├── R3 (name: 'RES_0603_N', value: '0R')
+│   └── Substituted (name: 'RES_0603_N', value: '0R 0603 333mW 75V'), by (name_pattern: 'RES_0603_N', value_pattern: '0R'), comment: 'Use 333mW by default', comment: 'Use 75V by default'
+│       └── manufacturer: 'Vishay Intertech', mpn: 'CRCW06030000Z0EAHP' (Auto-selected)
+├── R4 (name: 'RES_0603_N', value: '0R')
+│   └── Substituted (name: 'RES_0603_N', value: '0R 0603 333mW 75V'), by (name_pattern: 'RES_0603_N', value_pattern: '0R'), comment: 'Use 333mW by default', comment: 'Use 75V by default'
+│       └── manufacturer: 'Vishay Intertech', mpn: 'CRCW06030000Z0EAHP' (Auto-selected)
+├── R5 (name: 'RES_0603_N', value: '33K2')
+│   └── Substituted (name: 'RES_0603_N', value: '33K2 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '33K2'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0733K2L' (Auto-selected)
+├── R6 (name: 'RES_0603_N', value: '33K2')
+│   └── Substituted (name: 'RES_0603_N', value: '33K2 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '33K2'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0733K2L' (Auto-selected)
+├── R7 (name: 'RES_0402', value: '174K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '174K 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '174K 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-07174KL' (Auto-selected)
+├── R8 (name: 'RES_0402', value: '22K1 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '22K1 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '22K1 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0722K1L' (Auto-selected)
+├── R9 (name: 'RES_0603_N', value: '0R')
+│   └── Substituted (name: 'RES_0603_N', value: '0R 0603 333mW 75V'), by (name_pattern: 'RES_0603_N', value_pattern: '0R'), comment: 'Use 333mW by default', comment: 'Use 75V by default'
+│       └── manufacturer: 'Vishay Intertech', mpn: 'CRCW06030000Z0EAHP' (Auto-selected)
+├── R10 (name: 'RES_0603_N', value: '0R')
+│   └── Substituted (name: 'RES_0603_N', value: '0R 0603 333mW 75V'), by (name_pattern: 'RES_0603_N', value_pattern: '0R'), comment: 'Use 333mW by default', comment: 'Use 75V by default'
+│       └── manufacturer: 'Vishay Intertech', mpn: 'CRCW06030000Z0EAHP' (Auto-selected)
+├── R11 (name: 'RES_0603_N', value: '100K')
+│   └── Substituted (name: 'RES_0603_N', value: '100K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '100K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07100KL' (Auto-selected)
+├── R12 (name: 'RES_0603_N', value: '24K9')
+│   └── Substituted (name: 'RES_0603_N', value: '24K9 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '24K9'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRE0724K9L' (Auto-selected)
+├── R13 (name: 'RES_0603_N', value: '100K')
+│   └── Substituted (name: 'RES_0603_N', value: '100K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '100K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07100KL' (Auto-selected)
+├── R14 (name: 'RES_0603_N', value: '24K9')
+│   └── Substituted (name: 'RES_0603_N', value: '24K9 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '24K9'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRE0724K9L' (Auto-selected)
+├── R15 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R16 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R17 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R18 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R19 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R20 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R21 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R22 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R23 (name: 'RES_0603_N', value: '510R')
+│   └── Substituted (name: 'RES_0603_N', value: '510R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '510R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07510RL' (Auto-selected)
+├── R24 (name: 'RES_0603_N', value: '100K')
+│   └── Substituted (name: 'RES_0603_N', value: '100K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '100K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07100KL' (Auto-selected)
+├── R25 (name: 'RES_0603_N', value: '100K')
+│   └── Substituted (name: 'RES_0603_N', value: '100K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '100K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07100KL' (Auto-selected)
+├── R26 (name: 'RES_0402', value: '100K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '100K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '100K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1003TCE' (Auto-selected)
+├── R27 (name: 'RES_0402', value: '100K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '100K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '100K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1003TCE' (Auto-selected)
+├── R28 (name: 'RES_1812_M', value: '33K')
+│   └── Substituted (name: 'RES_1812_M', value: '33K 1812 5% 200V 750mW'), by (name_pattern: 'RES_1812_M', value_pattern: '33K'), comment: 'Use 5% by default', comment: 'Use 200V by default', comment: 'Use 750mW by default'
+│       └── manufacturer: 'Ever Ohms Tech', mpn: 'CR1812J33K0E04Z' (Auto-selected)
+├── R29 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R30 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R31 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R32 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R33 (name: 'RES_0402', value: '309K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '309K 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '309K 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-07309KL' (Auto-selected)
+├── R34 (name: 'RES_0402', value: '22K1 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '22K1 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '22K1 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0722K1L' (Auto-selected)
+├── R35 (name: 'RES_0402', value: '309K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '309K 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '309K 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-07309KL' (Auto-selected)
+├── R36 (name: 'RES_0402', value: '22K1 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '22K1 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '22K1 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0722K1L' (Auto-selected)
+├── R37 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R38 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R39 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R40 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R41 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R42 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R43 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R44 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R45 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R46 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R47 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R48 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R49 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R50 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R51 (name: 'RES_0603_N', value: '10R')
+│   └── Substituted (name: 'RES_0603_N', value: '10R 0603 1% 75V  200mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 200mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-7W10KL' (Auto-selected)
+├── R52 (name: 'RES_0603_N', value: '10R')
+│   └── Substituted (name: 'RES_0603_N', value: '10R 0603 1% 75V  200mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 200mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-7W10KL' (Auto-selected)
+├── R53 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R54 (name: 'RES_0603_N', value: '330R')
+│   └── Substituted (name: 'RES_0603_N', value: '330R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '330R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07330RL' (Auto-selected)
+├── R55 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R56 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R57 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R58 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R59 (name: 'RES_0603_N', value: '10R')
+│   └── Substituted (name: 'RES_0603_N', value: '10R 0603 1% 75V  200mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 200mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-7W10KL' (Auto-selected)
+├── R60 (name: 'RES_0603_N', value: '10R')
+│   └── Substituted (name: 'RES_0603_N', value: '10R 0603 1% 75V  200mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 200mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-7W10KL' (Auto-selected)
+├── R61 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R62 (name: 'RES_0402', value: '1K5 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '1K5 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '1K5 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-071K5L' (Auto-selected)
+├── R63 (name: 'RES_0402', value: '33R 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '33R 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '33R 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF330JTCE' (Auto-selected)
+├── R64 (name: 'RES_0402', value: '33R 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '33R 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '33R 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF330JTCE' (Auto-selected)
+├── R65 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R66 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R67 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R68 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R69 (name: 'RES_0402', value: '33R 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '33R 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '33R 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF330JTCE' (Auto-selected)
+├── R70 (name: 'RES_0402', value: '33R 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '33R 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '33R 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF330JTCE' (Auto-selected)
+├── R71 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R72 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R73 (name: 'RES_0402', value: '12K1 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '12K1 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '12K1 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0712K1L' (Auto-selected)
+├── R74 (name: 'RES_0402', value: '2K7 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '2K7 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '2K7 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-072K7L' (Auto-selected)
+├── R75 (name: 'RES_0402', value: '49R9 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '49R9 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '49R9 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R76 (name: 'RES_0402', value: '49R9 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '49R9 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '49R9 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R77 (name: 'RES_0402', value: '49R9 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '49R9 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '49R9 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R78 (name: 'RES_0402', value: '49R9 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '49R9 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '49R9 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R79 (name: 'RES_0402', value: '330R 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '330R 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '330R 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF3300TCE' (Auto-selected)
+├── R80 (name: 'RES_0402', value: '330R 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '330R 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '330R 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF3300TCE' (Auto-selected)
+├── R81 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R82 (name: 'RES_0402', value: '60R4 0402 1% 50V')
+│   └── Substituted (name: 'RES_0402', value: '60R4 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '60R4 0402 1% 50V'), comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R83 (name: 'RES_0402', value: '60R4 0402 1% 50V')
+│   └── Substituted (name: 'RES_0402', value: '60R4 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '60R4 0402 1% 50V'), comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R84 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R85 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R86 (name: 'RES_0402', value: '60R4 0402 1% 50V')
+│   └── Substituted (name: 'RES_0402', value: '60R4 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '60R4 0402 1% 50V'), comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R87 (name: 'RES_0402', value: '60R4 0402 1% 50V')
+│   └── Substituted (name: 'RES_0402', value: '60R4 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '60R4 0402 1% 50V'), comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R88 (name: 'RES_0402', value: '330R 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '330R 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '330R 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF3300TCE' (Auto-selected)
+├── R89 (name: 'RES_0402', value: '330R 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '330R 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '330R 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF3300TCE' (Auto-selected)
+├── R90 (name: 'RES_0402', value: '4K7 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '4K7 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '4K7 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF4701TCE' (Auto-selected)
+├── R91 (name: 'RES_0402', value: '4K7 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '4K7 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '4K7 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF4701TCE' (Auto-selected)
+├── R92 (name: 'RES_0402', value: '4K7 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '4K7 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '4K7 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF4701TCE' (Auto-selected)
+├── R93 (name: 'RES_0402', value: '4K7 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '4K7 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '4K7 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF4701TCE' (Auto-selected)
+├── R94 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R95 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R96 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R97 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R98 (name: 'RES_1206_N', value: '120R')
+│   └── Substituted (name: 'RES_1206_N', value: '120R 1206 1% 200V 250mW'), by (name_pattern: 'RES_1206_N', value_pattern: '120R'), comment: 'Use 1% by default', comment: 'Use 200V by default', comment: 'Use 250mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC1206JR-07120RL' (Auto-selected)
+├── R99 (name: 'RES_0603_N', value: '10R')
+│   └── Substituted (name: 'RES_0603_N', value: '10R 0603 1% 75V  200mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 200mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-7W10KL' (Auto-selected)
+├── R100 (name: 'RES_0603_N', value: '10R')
+│   └── Substituted (name: 'RES_0603_N', value: '10R 0603 1% 75V  200mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 200mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-7W10KL' (Auto-selected)
+├── R101 (name: 'RES_0603_N', value: '10R')
+│   └── Substituted (name: 'RES_0603_N', value: '10R 0603 1% 75V  200mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 200mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-7W10KL' (Auto-selected)
+├── R102 (name: 'RES_0603_N', value: '10R')
+│   └── Substituted (name: 'RES_0603_N', value: '10R 0603 1% 75V  200mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 200mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-7W10KL' (Auto-selected)
+├── R103 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R104 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R105 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R106 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R107 (name: 'RES_0402', value: '49R9 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '49R9 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '49R9 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R108 (name: 'RES_0402', value: '49R9 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '49R9 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '49R9 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0749R9L' (Auto-selected)
+├── R109 (name: 'RES_0402', value: '22K1 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '22K1 0402 1% 50V 62.5mW'), by (name_pattern: 'RES_0402', value_pattern: '22K1 0402 1%'), comment: 'Use 50V by default', comment: 'Use 62.5mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0402FR-0722K1L' (Auto-selected)
+├── R110 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R111 (name: 'RES_0603_N', value: '0R')
+│   └── Substituted (name: 'RES_0603_N', value: '0R 0603 333mW 75V'), by (name_pattern: 'RES_0603_N', value_pattern: '0R'), comment: 'Use 333mW by default', comment: 'Use 75V by default'
+│       └── manufacturer: 'Vishay Intertech', mpn: 'CRCW06030000Z0EAHP' (Auto-selected)
+├── R112 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R113 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R114 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R115 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R116 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R117 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R118 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R119 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R120 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R121 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R122 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R123 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R124 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R125 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R126 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R127 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R128 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R129 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R130 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R131 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R132 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R133 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R134 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R135 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R136 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R137 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R138 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R139 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R140 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R141 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R142 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R143 (name: 'RES_0603_N', value: '47K')
+│   └── Substituted (name: 'RES_0603_N', value: '47K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '47K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0747KL' (Auto-selected)
+├── R144 (name: 'RES_0603_N', value: '1K')
+│   └── Substituted (name: 'RES_0603_N', value: '1K 0603 0.1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '1K'), comment: 'Use 0.1% by default', comment: 'Use 75V by default', comment: '100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RT0603BRD071KL' (Auto-selected)
+├── R145 (name: 'RES_0603_N', value: '510R')
+│   └── Substituted (name: 'RES_0603_N', value: '510R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '510R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07510RL' (Auto-selected)
+├── R146 (name: 'RES_0603_N', value: '510R')
+│   └── Substituted (name: 'RES_0603_N', value: '510R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '510R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07510RL' (Auto-selected)
+├── R147 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R148 (name: 'RES_0603_N', value: '510R')
+│   └── Substituted (name: 'RES_0603_N', value: '510R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '510R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07510RL' (Auto-selected)
+├── R149 (name: 'RES_0603_N', value: '10K')
+│   └── Substituted (name: 'RES_0603_N', value: '10K 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '10K'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-0710KL' (Auto-selected)
+├── R150 (name: 'RES_0603_N', value: '510R')
+│   └── Substituted (name: 'RES_0603_N', value: '510R 0603 1% 75V 100mW'), by (name_pattern: 'RES_0603_N', value_pattern: '510R'), comment: 'Use 1% by default', comment: 'Use 75V by default', comment: 'Use 100mW by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC0603FR-07510RL' (Auto-selected)
+├── R151 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R152 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R153 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R154 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── R155 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R156 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R157 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R158 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R159 (name: 'YC164-FR-072KL', value: '2K')
+│   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── R160 (name: 'RES_0402', value: '10K 0402 1%')
+│   └── Substituted (name: 'RES_0402', value: '10K 0402 1% 50V'), by (name_pattern: 'RES_0402', value_pattern: '10K 0402 1%'), comment: 'Use 50V by default'
+│       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: '0402WGF1002TCE' (Auto-selected)
+├── U1 (name: 'LMR51610YDBVR', value: '1100kHz PFM')
+│   └── manufacturer: 'Texas Instruments', mpn: 'LMR51610YDBVR' (Auto-selected)
+├── U2 (name: 'LM61460AASQRJRRQ1', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'LM61460AASQRJRRQ1' (Auto-selected)
+├── U3 (name: 'LM61460AASQRJRRQ1', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'LM61460AASQRJRRQ1' (Auto-selected)
+├── U4 (name: 'AMS1117-3.3', value: '')
+│   └── manufacturer: 'Advanced Monolithic Systems', mpn: 'AMS1117-3.3' (Auto-selected)
+├── U5 (name: 'LM66100', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'LM66100DCKT' (Auto-selected)
+├── U6 (name: 'LM66100', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'LM66100DCKT' (Auto-selected)
+├── U7 (name: 'LSF0102DCUR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'LSF0102DCUR' (Auto-selected)
+├── U8 (name: 'LMR51610YDBVR', value: '1100kHz PFM')
+│   └── manufacturer: 'Texas Instruments', mpn: 'LMR51610YDBVR' (Auto-selected)
+├── U9 (name: 'LMR51610YDBVR', value: '1100kHz PFM')
+│   └── manufacturer: 'Texas Instruments', mpn: 'LMR51610YDBVR' (Auto-selected)
+├── U10 (name: '78L05G-AB3-R', value: '')
+│   └── manufacturer: 'UTC(Unisonic Tech)', mpn: '78L05G-AB3-R' (Auto-selected)
+├── U11 (name: '78L05G-AB3-R', value: '')
+│   └── manufacturer: 'UTC(Unisonic Tech)', mpn: '78L05G-AB3-R' (Auto-selected)
+├── U12 (name: 'ADUM1200ARZ-RL7', value: '')
+│   └── manufacturer: 'Analog Devices', mpn: 'ADUM1200ARZ-RL7' (Auto-selected)
+├── U13 (name: 'ADUM1200ARZ-RL7', value: '')
+│   └── manufacturer: 'Analog Devices', mpn: 'ADUM1200ARZ-RL7' (Auto-selected)
+├── U14 (name: 'MCP1416T-E/OT', value: '')
+│   └── manufacturer: 'Microchip Tech', mpn: 'MCP1416T-E/OT' (Auto-selected)
+├── U15 (name: 'MCP1416T-E/OT', value: '')
+│   └── manufacturer: 'Microchip Tech', mpn: 'MCP1416T-E/OT' (Auto-selected)
+├── U16 (name: 'MCP1416T-E/OT', value: '')
+│   └── manufacturer: 'Microchip Tech', mpn: 'MCP1416T-E/OT' (Auto-selected)
+├── U17 (name: 'MCP1416T-E/OT', value: '')
+│   └── manufacturer: 'Microchip Tech', mpn: 'MCP1416T-E/OT' (Auto-selected)
+├── U18 (name: 'SN74HCT245DGSR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'SN74HCT245DGSR' (Auto-selected)
+├── U19 (name: 'FE2.1-CQFP48A', value: '')
+│   └── manufacturer: 'Terminus Tech', mpn: 'FE2.1-CQFP48A' (Auto-selected)
+├── U20 (name: 'LAN8742AI-CZ-TR', value: '')
+│   └── manufacturer: 'Microchip Tech', mpn: 'LAN8742AI-CZ-TR' (Auto-selected)
+├── U21 (name: 'USBLC6-4SC6', value: '')
+│   └── manufacturer: 'STMicroelectronics', mpn: 'USBLC6-4SC6' (Auto-selected)
+├── U22 (name: 'TCAN1044AVDRBRQ1', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'TCAN1044AVDRBRQ1' (Auto-selected)
+├── U23 (name: 'TCAN1044AVDRBRQ1', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'TCAN1044AVDRBRQ1' (Auto-selected)
+├── U24 (name: 'PCA9545APW,118', value: '')
+│   └── manufacturer: 'NXP Semicon', mpn: 'PCA9545APW,118' (Auto-selected)
+├── U25 (name: 'PCA9545APW,118', value: '')
+│   └── manufacturer: 'NXP Semicon', mpn: 'PCA9545APW,118' (Auto-selected)
+├── U26 (name: 'MAX3490EESA+T', value: '')
+│   └── manufacturer: 'Analog Devices Inc./Maxim Integrated', mpn: 'MAX3490EESA+T' (Auto-selected)
+├── U27 (name: 'XGZP6859D', value: '')
+│   └── Substituted (name: 'XGZP6859DC100KPGPN', value: ''), by (name_pattern: 'XGZP6859D', value_pattern: ''), comment: 'Use -100KPA to +100KPA, SMD-6, I2C variant'
+│       └── manufacturer: 'CFSensor', mpn: 'XGZP6859DC100KPGPN' (Auto-selected)
+├── U28 (name: 'XGZP6859D', value: '')
+│   └── Substituted (name: 'XGZP6859DC100KPGPN', value: ''), by (name_pattern: 'XGZP6859D', value_pattern: ''), comment: 'Use -100KPA to +100KPA, SMD-6, I2C variant'
+│       └── manufacturer: 'CFSensor', mpn: 'XGZP6859DC100KPGPN' (Auto-selected)
+├── U29 (name: 'HX717', value: '')
+│   └── manufacturer: 'Avia Semicon (Xiamen)', mpn: 'HX717' (Auto-selected)
+├── U30 (name: 'SN74LV4052APWR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'SN74LV4052APWR' (Auto-selected)
+├── U31 (name: 'PS2801-1-A', value: '')
+│   └── manufacturer: 'RENESAS', mpn: 'PS2801-1-F3-A/L' (Auto-selected)
+├── U32 (name: 'XL-1615RGBC-2812B', value: 'RGB WS2812')
+│   └── manufacturer: 'XINGLIGHT', mpn: 'XL-1615RGBC-2812B' (Auto-selected)
+├── U33 (name: 'PS2801-1-A', value: '')
+│   └── manufacturer: 'RENESAS', mpn: 'PS2801-1-F3-A/L' (Auto-selected)
+├── U34 (name: 'PS2801-1-A', value: '')
+│   └── manufacturer: 'RENESAS', mpn: 'PS2801-1-F3-A/L' (Auto-selected)
+├── U35 (name: 'XL-1615RGBC-2812B', value: 'RGB WS2812')
+│   └── manufacturer: 'XINGLIGHT', mpn: 'XL-1615RGBC-2812B' (Auto-selected)
+├── U36 (name: 'PS2801-1-A', value: '')
+│   └── manufacturer: 'RENESAS', mpn: 'PS2801-1-F3-A/L' (Auto-selected)
+├── U37 (name: 'XL-1615RGBC-2812B', value: 'RGB WS2812')
+│   └── manufacturer: 'XINGLIGHT', mpn: 'XL-1615RGBC-2812B' (Auto-selected)
+├── U38 (name: 'XL-1615RGBC-2812B', value: 'RGB WS2812')
+│   └── manufacturer: 'XINGLIGHT', mpn: 'XL-1615RGBC-2812B' (Auto-selected)
+├── U39 (name: 'SN74LVC4245APWR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'SN74LVC4245APWR' (Auto-selected)
+├── U40 (name: 'SN74HCT245DGSR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'SN74HCT245DGSR' (Auto-selected)
+├── U41 (name: 'SN74HCT245DGSR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'SN74HCT245DGSR' (Auto-selected)
+├── U42 (name: 'AM26LV32IDR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'AM26LV32IDR' (Auto-selected)
+├── U43 (name: 'AM26LV32IDR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'AM26LV32IDR' (Auto-selected)
+├── U44 (name: 'AM26LV32IDR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'AM26LV32IDR' (Auto-selected)
+├── U45 (name: 'AM26LV32IDR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'AM26LV32IDR' (Auto-selected)
+├── U46 (name: 'AM26LV32IDR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'AM26LV32IDR' (Auto-selected)
+├── X1 (name: 'NX2016SA-25MHZ-STD-CZS-2', value: '25Mhz')
+│   └── manufacturer: 'NDK', mpn: 'NX2016SA-25MHZ-STD-CZS-2' (Auto-selected)
+└── Y1 (name: 'X503212MSB2GI', value: '12Mhz')
+    └── manufacturer: 'SMD5032-2P', mpn: 'X503212MSB2GI' (Auto-selected)
+
+variantbuilder_app: All placements mapped!
+variantbuilder_app: Output written to 'MakerPnPControl_variant1_placements.csv'
+variantbuilder_app: BOM written to 'MakerPnPControl_variant1_bom.csv'
+
+Process finished with exit code 0
