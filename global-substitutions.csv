@@ -21,8 +21,9 @@ DipTrace,LED 0603 RED,/.*/,LED_0603,RED,
 DipTrace,LED 0603 YELLOW,/.*/,LED_0603,YELLOW,
 DipTrace,LED 0603 WHITE,/.*/,LED_0603,WHITE,
 DipTrace,10164228-1001A1RLF,/.*/,X0408WVS-100A-LPV01,,Use XKB Connection brand instead
-DipTrace,!10164227-1004A1RLF,/.*/,X0408FVS-100F-LPV01,,Use XKB Connection brand instead
 DipTrace,10164228-1001A1RLF,/.*/,GT-B0403MSV11-100B1101,,Use g-switch brand instead
+DipTrace,10164227-1004A1RLF,/.*/,HC-PBB40C-100DS-0.4V-3.0-02,,Use HCT brand instead
+DipTrace,!10164227-1004A1RLF,/.*/,X0408FVS-100F-LPV01,,Use XKB Connection brand instead
 DipTrace,!10164227-1004A1RLF,/.*/,GT-B0403FSV39-100B1101,,Use g-switch brand instead
 DipTrace,PK-47309-375,/.*/,LCK-TF-027H37508-WLG,,Use LCKELEC brand instead
 DipTrace,LPPB112NFSS-RC,/.*/,PM127-2-11-S-4.3,,Use HCTL brand instead
@@ -105,3 +106,4 @@ DipTrace,RES_0402,60R4 0402 1% 50V,RES_0402,60R4 0402 1% 50V 62.5mW,Use 62.5mW b
 DipTrace,RES_1206_N,120R,RES_1206_N,120R 1206 1% 200V 250mW,Use 1% by default;Use 200V by default;Use 250mW by default
 DipTrace,RES_0603_N,47K,RES_0603_N,47K 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
 DipTrace,XGZP6859D,,XGZP6859DC100KPGPN,,"Use -100KPA to +100KPA, SMD-6, I2C variant"
+DipTrace,IND_0603_N,"600R@100MHz +/-25%, 350mA, 500mohm DC",IND_0603_N,"600R@100MHz +/-25%, 500mA, 500mohm DC",De-rate from 350mA to 500mA

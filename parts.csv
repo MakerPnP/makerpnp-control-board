@@ -23,6 +23,7 @@ C21261228,XKB Connection,X0408WVS-100A-LPV01,"-35℃~+85℃ 0.4mm 100P 2 300mA 3
 C531031,HRS,DF40C-100DP-0.4V(51),"Header, 100 Position Board to Board Connector Surface Mount,P=0.4mm Gold"
 C42376235,G-Switch,GT-B0403MSV11-100B1101,"Header, 100 Position Board to Board Connector Surface Mount,P=0.4mm Gold"
 C7435219,Amphenol,10164227-1004A1RLF,"Receptacle, 2 0.4mm Surface Mount,Vertical 100P SMD,P=0.4mm Arrays, Edge Type, Mezzanine (Board to Board) RoHS, 3.9mm"
+C19089295,HCTL,HC-PBB40C-100DS-0.4V-3.0-02,"-40℃~+85℃ 0.4mm 100P 2 300mA 3mm Gold Slot Type Butting Surface Mount,Vertical SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS"
 C7602567,XKB Connection,X0408FVS-100F-LPV01,"-35℃~+85℃ 0.4mm 100P 2 300mA 30V Gold Phosphor bronze Surface Mount,Vertical SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS, 3.9mm"
 C424649,HRS,DF40HC(3.0)-100DS-0.4V(51),"Receptacle, 0.4mm Pitch, 1.5 to 4.0mm Height, Board-to-Board and Board-to-FPC Connectors, 2.9mm"
 C42376280,G-Switch,GT-B0403FSV39-100B1101,"Receptacle, 100 Position Board to Board Connector Surface Mount,P=0.4mm Gold, 3.9mm"
@@ -114,6 +115,7 @@ C252941,INGHAi,GMD12095YB-5V2400,"-20℃~+70℃ 12mm 2.4kHz 30mA 3V~7V 5V 7.6mm 
 C21791,Infineon Technologies,IRF7341TRPBF,-55℃~+150℃ 1V 2 N-Channel 2W 36nC 4.7A 50mΩ@10V 55V 71pF 740pF N-Channel SO-8 MOSFETs ROHS
 C695267,TOSHIBA,"TK110P10PL,RQ(S2",1 N-channel 1.5V、2.5V 100V 2.04nF 22pF 310pF 33nC@10V 40A 75W 8.9mΩ@10V N-Channel TO-252-2(DPAK) MOSFETs ROHS
 C141723,TAI-TECH,FCM1608KF-601T03,-55℃~+125℃ 1 350mA 500mΩ 600Ω@100MHz ±25% 0603 Ferrite Beads ROHS
+C133937,TAI-TECH,FCM1608KF-601T05,1 500mA 500mΩ 600Ω@100MHz ±25% 0603 Ferrite Beads ROHS
 C466988,Vishay Intertech,SI1902CDL-T1-GE3,-55℃~+150℃ 1.1A 1.5V 2 N-Channel 20V 20pF 235mΩ@4.5V 420mW 62pF 7pF 900pC@4.5V N-Channel SC-70-6 MOSFETs ROHS
 C82045,onsemi,BSS138LT1G,-55℃~+150℃ 1 N-channel 200mA 225mW 5.6Ω@2.75V 500mV 50V 50pF 5pF SOT-23 MOSFETs ROHS
 C844719,Vishay Intertech,CRCW06030000Z0EAHP,-55℃~+155℃ 0Ω 333mW 75V Thick Film Resistor 0603 Chip Resistor - Surface Mount ROHS

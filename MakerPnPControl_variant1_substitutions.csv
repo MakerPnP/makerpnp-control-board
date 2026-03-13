@@ -7,3 +7,4 @@ DipTrace,B2B-XH-A(LF)(SN),AIN1,XH-2A_YELLOW,,Use BOOMELE brand;Use yellow color
 DipTrace,B2B-XH-A(LF)(SN),/RED\.*/,XH-2A_RED,,Use BOOMELE brand;Use red color
 DipTrace,B5B-XH-A(LF)(SN),/.*/,XH-5A_BLUE,,Use BOOMELE brand;Use blue color
 DipTrace,AAPS-H,4.7uH,AAPS0650,4.7uH,Use Coilank part
+DipTrace,LED 0603 WHITE,/.*/,LED_0603,GREEN,!Use GREEN leds instead due to availability
