@@ -54,7 +54,7 @@
     "pcbs": [
         {
             "pcb_file": {
-                "Absolute": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\MakerPnPControl-core.pcb.json"
+                "Absolute": "D:\\Users\\Hydra\\Documents\\DipTrace\\Projects\\MakerPnPControl\\PCBs\\core\\MakerPnPControl-core.pcb.json"
             },
             "unit_assignments": [
                 [

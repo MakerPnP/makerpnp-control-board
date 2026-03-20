@@ -1,0 +1,11 @@
+build
+--eda=diptrace
+--placements=Export/PCB/MakerPnPControl-base-PnP.csv
+--parts=../../parts.csv
+--part-mappings=../../part-mappings.csv
+--substitutions=MakerPnPControl-base_variant1_substitutions.csv
+--substitutions=../../global-substitutions.csv
+--ref-des-exclude-list=C35,C36,C37,C38,C39,MH1_PE,MH1,MH2,MH3,MH4
+--assembly-rules=MakerPnPControl-base_variant1_rules.csv
+--output=MakerPnPControl-base_variant1_placements.csv
+--output-bom=MakerPnPControl-base_variant1_bom.csv

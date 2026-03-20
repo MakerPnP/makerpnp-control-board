@@ -13,12 +13,26 @@
 
 # MakerPnP - Control Board
 
-This is a work-in-progress of an expandable control board for pick-and-place machines.
+The system is designed to be a fully-featured, and expandable system for pick-and-place machines. Additionally, it is a
+drop-in replacement for CHMT32/48 VA/VB machines and existing cables can be used without rewiring and uses the same
+mounting holes.
+
+The system can be used for new PnP machines, or retro fitted to existing ones.
+
+<img src="Assets/screenshots/makerpnpcontrol-base-and-core-3d.png" width="1080px"  alt="MakerPnPControl Base and Core PCBs"/>
+
+The system is comprised of two main PCBs, called 'base' and 'core'. A 'core' has the processors and the 'base' has the
+connectors for the machine, power-supply circuits, output drivers, protection circuits and other IO circuits and
+connectors.  The base board also has expansion slots for things like stepper motor drivers.
+
+The system will use the MakerPnP software and firmware, which is cross-platform and written in Rust. For further details
+on the software refer to the following two source repositories:
+
+* Planning software: https://github.com/MakerPnP/makerpnp
+* Machine UI software and firmware: https://github.com/MakerPnP/machine
 
 ## User Features
 
-* Can be used for new PnP machines, or retro fitted to existing ones.
-* Drop-in replacement for CHMT32/48 VA/VB machines (use existing cables, no re-wiring needed!)
 * 6 A/B/Z (ABN) differential encoder inputs.
 * 8 stepper motor transceiver-driven DIR/STEP signal pairs in 2 banks of 4.
 * Emergency stop input on a dedicated hardware interrupt.
@@ -130,7 +144,7 @@ part mappings in order to end up with this:
 │           └── manufacturer: 'Samsung Electro-Mechanics', mpn: 'CL05B104KO5NNNC' (Auto-selected)
 ```
 
-Here's how the tools are can be run:
+Here's how the tools are can be run (from their corresponding directories):
 ```
 $ variantbuilder_cli @MakerPnPControl-core-PnP_variant1.args
 $ variantbuilder_cli @MakerPnPControl-PnP_variant1.args
