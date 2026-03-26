@@ -1,0 +1,11 @@
+build
+--eda=diptrace
+--placements=Export/PCB/MakerPnPControl-stepper1-PnP.csv
+--parts=../../parts.csv
+--part-mappings=../../part-mappings.csv
+--substitutions=MakerPnPControl-stepper1_variant1_substitutions.csv
+--substitutions=../../global-substitutions.csv
+--ref-des-exclude-list=
+--assembly-rules=MakerPnPControl-stepper1_variant1_rules.csv
+--output=MakerPnPControl-stepper1_variant1_placements.csv
+--output-bom=MakerPnPControl-stepper1_variant1_bom.csv
