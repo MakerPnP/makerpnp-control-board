@@ -13,7 +13,7 @@ stores::part_mappings: Loading part mappings. source: ../../part-mappings.csv
 variantbuilder_app: Loaded 184 part mappings
 variantbuilder_app: Loaded 0 load-out items
 stores::assembly_rules: Loading assembly rules. source: MakerPnPControl-stepper1_variant1_rules.csv
-variantbuilder_app: Loaded 2 assembly rules
+variantbuilder_app: Loaded 1 assembly rules
 variantbuilder_app: Assembly variant: Default
 variantbuilder_app: Ref_des list:
 variantbuilder_app: Matched 168 placements for assembly variant
@@ -197,10 +197,10 @@ variantbuilder_app: Mapping Result
 ├── J1 (name: 'B4P-VH(LF)(SN)', value: 'M2')
 │   └── Substituted (name: 'VH-4A', value: ''), by (name_pattern: 'B4P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
 │       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-4A' (Auto-selected)
-├── J2 (name: 'B5B-PH-SM4-TB(LF)(SN)', value: 'ED1')
+├── J2 (name: 'B5B-PH-SM4-TB(LF)(SN)', value: 'ED1_B')
 │   └── Substituted (name: 'AFC20-S05BCA-00', value: ''), by (name_pattern: 'B5B-PH-SM4-TB(LF)(SN)', value_pattern: '.*'), comment: 'Use JUSHO brand'
 │       └── manufacturer: 'JUSHUO', mpn: 'AFC20-S05BCA-00' (Auto-selected)
-├── J3 (name: 'B5B-PH-SM4-TB(LF)(SN)', value: 'ED2')
+├── J3 (name: 'B5B-PH-SM4-TB(LF)(SN)', value: 'ED2_B')
 │   └── Substituted (name: 'AFC20-S05BCA-00', value: ''), by (name_pattern: 'B5B-PH-SM4-TB(LF)(SN)', value_pattern: '.*'), comment: 'Use JUSHO brand'
 │       └── manufacturer: 'JUSHUO', mpn: 'AFC20-S05BCA-00' (Auto-selected)
 ├── J5 (name: 'B4P-VH(LF)(SN)', value: 'M1')
@@ -212,10 +212,10 @@ variantbuilder_app: Mapping Result
 ├── J7 (name: 'B2P-VH(LF)(SN)', value: '48V')
 │   └── Substituted (name: 'VH-2A', value: ''), by (name_pattern: 'B2P-VH(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
 │       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'VH-2A' (Auto-selected)
-├── J35 (name: 'B9B-XH-A(LF)(SN)', value: 'ED1D')
+├── J35 (name: 'B9B-XH-A(LF)(SN)', value: 'ED1_A')
 │   └── Substituted (name: 'XH-9A', value: ''), by (name_pattern: 'B9B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
 │       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-9A' (Auto-selected)
-├── J36 (name: 'B9B-XH-A(LF)(SN)', value: 'ED2D')
+├── J36 (name: 'B9B-XH-A(LF)(SN)', value: 'ED2_A')
 │   └── Substituted (name: 'XH-9A', value: ''), by (name_pattern: 'B9B-XH-A(LF)(SN)', value_pattern: '.*'), comment: 'Use BOOMELE brand'
 │       └── manufacturer: 'BOOMELE(Boom Precision Elec)', mpn: 'XH-9A' (Auto-selected)
 ├── L1 (name: 'FHD4020S-150MT', value: '15uH ~~2.5Asat')
