@@ -124,6 +124,7 @@ C14675,YAGEO,RC0603FR-07100KL,-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resisto
 C861775,YAGEO,RT0603BRE0724K9L,-55℃~+155℃ 100mW 24.9kΩ 75V Thin Film Resistor ±0.1% ±50ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
 C110776,YAGEO,RT0603BRD071KL,-55℃~+155℃ 100mW 1kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
 C138048,YAGEO,RC0402FR-07174KL,-55℃~+155℃ 174kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C295873,YAGEO,RC0402FR-07118KL,-55℃~+155℃ 118kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
 C852648,YAGEO,RT0402BRD0722K1L,-55℃~+155℃ 22.1kΩ 50V 62.5mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
 C163478,YAGEO,RC0402FR-0722K1L,-55℃~+155℃ 22.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
 C105881,YAGEO,RC0603FR-07330RL,-55℃~+155℃ 100mW 330Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
@@ -164,3 +165,26 @@ C6489181,Texas Instruments,SN74HCT245DGSR,"-40℃~+85℃ 1 14ns@5.5V,50pF 4.5V~5
 C524786,Texas Instruments,AM26LV32IDR,-40℃~+85℃ 0 3.3V~3.6V 32Mbps 4 8mA Receiver ±5kV SOIC-16 RS-485 / RS-422 ICs ROHS
 C843258,NDK,NX2016SA-25MHZ-STD-CZS-2,25MHz 8pF Crystal Oscillator ±15ppm SMD2016-4P Crystals ROHS
 C112573,SMD5032-2P,X503212MSB2GI,-40℃~+85℃ 12MHz 20pF Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS
+C697607,Taiyo Yuden,HMK325C7475KN-TE,4.7uF ±10% 100V Ceramic Capacitor X7S 1210
+C2169715,Taiyo Yuden,HMK107C7224KAHTE,220nF ±10% 100V Ceramic Capacitor X7S 0603 AEC-Q200
+C596323,YAGEO,CC0805KKX7R0BB474,470nF ±10% 100V Ceramic Capacitor X7R 0805
+C153291,Samsung Electro-Mechanics,CL10B102KC8NNNC,100V 1nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C487184,Ymin,VMML1652A221MV,"100V 12.5mm 16.5mm 220uF ±20% SMD,D12.5xL16.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
+C88784,Rubycon,100PX220MEFC12.5X20,"-25℃~+105℃ 100V 12.5mm 2000hrs@105℃ 20mm 220uF 560mA@120Hz 5mm ±20% 插件,D12.5xL20mm Aluminum Electrolytic Capacitors - Leaded ROHS"
+C57895,Samsung Electro-Mechanics,CL10A225KA8NNNC,2.2uF 25V X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C1623,Samsung Electro-Mechanics,CL10B474KA8NNNC,25V 470nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C21122,Samsung Electro-Mechanics,CL10B223KB8NNNC,22nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+C2764229,JUSHUO,AFC20-S05BCA-00,"-20℃~+85℃ 1 13.9mm 1x5P 250V 2A 2mm 5 5.55mm 5P 7.55mm Beige Brass LCP PH Surface Mount,Vertical Tin UL94V-0 SMD,P=2mm Wire To Board Connector ROHS"
+C602033,cjiang (Changjiang Microelectronics Tech),FHD4020S-150MT,"1.2A 15uH 2.8A 305mΩ ±20% SMD,4x4mm Power Inductors ROHS"
+C534398,Infineon Technologies,BSC098N10NS5,-55℃~+150℃ 1 N-channel 100V 2.1nF 21pF 22nC@10V 3.8V 38A 69W 9.8mΩ@10V TDSON-8(5x6) MOSFETs ROHS
+C107701,YAGEO,RC0603FR-0722RL,-55℃~+155℃ 100mW 22Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C114623,YAGEO,RC0603FR-0747RL,-55℃~+155℃ 100mW 47Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C2941097,UNI-ROYAL(Uniroyal Elec),LR123WF750MT4E,3W 75mΩ Current Sense Resistor SMD ±1% ±50ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS
+C112307,YAGEO,RC0603FR-072R2L,-55℃~+155℃ 100mW 2.2Ω 75V Thick Film Resistor ±1% ±200ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C114669,YAGEO,RC0603FR-07470RL,-55℃~+155℃ 100mW 470Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C112310,YAGEO,RC0603FR-07680RL,-55℃~+155℃ 100mW 680Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C114662,YAGEO,RC0603FR-072K2L,-55℃~+155℃ 100mW 2.2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
+C516354,TRINAMIC Motion Control GmbH,TMC5160A-TA-T,-40℃~+125℃ 256 3.3V~5V 8V~60V Bipolar Driver No STEP/DIR、SPI、UART TQFP-48-EP(7x7) Stepper Motor Driver ROHS
+C5216456,Texas Instruments,ISO7762DWR,-55℃~+125℃ 100Mbps 100kV/us 11ns 2 2.25V~5.5V 2.25V~5.5V 4 5000 High Level SOIC-16 Digital Isolators ROHS
+C5216395,Texas Instruments,ISO6762DWR,-40℃~+125℃ 0 1.71V~1.89V 11ns 150kV/us 2.25V~5.5V 5000 50Mbps 6 High Level SOIC-16 Digital Isolators ROHS
+C478459,Texas Instruments,AM26C32IPWR,-40℃~+85℃ 0 10mA 4 4.5V~5.5V Receiver ±3kV TSSOP-16 RS-485 / RS-422 ICs ROHS

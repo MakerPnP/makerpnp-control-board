@@ -89,11 +89,16 @@ DipTrace,RES_0603_N,33K2,RES_0603_N,33K2 0603 1% 75V 100mW,Use 1% by default;Use
 DipTrace,RES_0603_N,100K,RES_0603_N,100K 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;100mW by default
 DipTrace,RES_0603_N,24K9,RES_0603_N,24K9 0603 0.1% 75V 100mW,Use 0.1% by default;Use 75V by default;100mW by default
 DipTrace,RES_0603_N,1K,RES_0603_N,1K 0603 0.1% 75V 100mW,Use 0.1% by default;Use 75V by default;100mW by default
+DipTrace,RES_0402,118K 0402 1%,RES_0402,118K 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
 DipTrace,RES_0402,174K 0402 1%,RES_0402,174K 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
 DipTrace,RES_0402,22K1 0402 1%,RES_0402,22K1 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
 DipTrace,RES_0402,22K1 0402 1%,RES_0402,22K1 0402 0.1% 50V 62.5mW,De-rate to 0.1%;Use 50V by default;Use 62.5mW by default
+DipTrace,RES_0603_N,2R2,RES_0603_N,2R2 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
 DipTrace,RES_0603_N,330R,RES_0603_N,330R 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
+DipTrace,RES_0603_N,470R,RES_0603_N,470R 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
 DipTrace,RES_0603_N,510R,RES_0603_N,510R 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
+DipTrace,RES_0603_N,680R,RES_0603_N,680R 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
+DipTrace,RES_0603_N,2K2,RES_0603_N,2K2 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
 DipTrace,RES_1812_M,33K,RES_1812_M,33K 1812 5% 200V 750mW,Use 5% by default;Use 200V by default;Use 750mW by default
 DipTrace,RES_0603_N,10K,RES_0603_N,10K 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
 DipTrace,RES_0402,309K 0402 1%,RES_0402,309K 0402 1% 50V 62.5mW,Use 50V by default;Use 62.5mW by default
@@ -105,5 +110,10 @@ DipTrace,RES_0402,49R9 0402 1%,RES_0402,49R9 0402 1% 50V 62.5mW,Use 50V by defau
 DipTrace,RES_0402,60R4 0402 1% 50V,RES_0402,60R4 0402 1% 50V 62.5mW,Use 62.5mW by default
 DipTrace,RES_1206_N,120R,RES_1206_N,120R 1206 1% 200V 250mW,Use 1% by default;Use 200V by default;Use 250mW by default
 DipTrace,RES_0603_N,47K,RES_0603_N,47K 0603 1% 75V 100mW,Use 1% by default;Use 75V by default;Use 100mW by default
-DipTrace,XGZP6859D,,XGZP6859DC100KPGPN,,"Use -100KPA to +100KPA, SMD-6, I2C variant"
+DipTrace,XGZP6859D,/.*/,XGZP6859DC100KPGPN,,"Use -100KPA to +100KPA, SMD-6, I2C variant"
 DipTrace,IND_0603_N,"600R@100MHz +/-25%, 350mA, 500mohm DC",IND_0603_N,"600R@100MHz +/-25%, 500mA, 500mohm DC",De-rate from 350mA to 500mA
+DipTrace,/CAP_0603.*/,220nF 63V 0603 X5R 10%,CAP_0603_N,220nF 100V 0603 X5R 10%,De-rate from 63V to 100V
+DipTrace,B5B-PH-SM4-TB(LF)(SN),/.*/,AFC20-S05BCA-00,,Use JUSHO brand
+DipTrace,/RES_0603.*/,22R 1% 75V,RES_0603_N,22R 0603 1% 75V 100mW,Add size code;Use 100mW by default
+DipTrace,/RES_0603.*/,47R 1% 75V,RES_0603_N,47R 0603 1% 75V 100mW,Add size code;Use 100mW by default
+DipTrace,/RES_2512.*/,0R075 1206 1.5W 1%,RES_2512_N,0R075 1206 3W 1%,De-rate from 1.5W to 3W
