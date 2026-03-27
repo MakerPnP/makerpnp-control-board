@@ -458,7 +458,6 @@ variantbuilder_app: Mapping Result
     └── manufacturer: 'Texas Instruments', mpn: 'AM26C32IPWR' (Auto-selected)
 
 variantbuilder_app: All placements mapped!
-variantbuilder_app: Output written to 'MakerPnPControl-stepper1_variant1_placements.csv'
-variantbuilder_app: BOM written to 'MakerPnPControl-stepper1_variant1_bom.csv'
+Error: OperationError(The process cannot access the file because it is being used by another process. (os error 32))
 
-Process finished with exit code 0
+Process finished with exit code 1
