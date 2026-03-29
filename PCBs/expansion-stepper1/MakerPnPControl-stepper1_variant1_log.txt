@@ -1,22 +1,22 @@
 D:\Users\Hydra\Documents\dev\projects\makerpnp\makerpnp\target\release\variantbuilder_cli.exe @MakerPnPControl-stepper1_variant1.args
 stores::eda_placements: Loading eda placements. source: Export/PCB/MakerPnPControl-stepper1-PnP.csv
-variantbuilder_app: Loaded 180 placements
-variantbuilder_app: excluding placements: ["C11", "C15", "C26", "C28", "C45", "C47", "C56", "C58", "C17", "J23", "MH1", "MH2"]
+variantbuilder_app: Loaded 190 placements
+variantbuilder_app: excluding placements: ["C11", "C15", "C26", "C28", "C45", "C47", "C56", "C58", "C17", "J23", "MH1", "MH2", "D4", "D5", "D6", "D7"]
 stores::substitutions: Loading eda substitutions. source: MakerPnPControl-stepper1_variant1_substitutions.csv
 variantbuilder_app: Loaded 2 substitution rules from MakerPnPControl-stepper1_variant1_substitutions.csv
 stores::substitutions: Loading eda substitutions. source: ../../global-substitutions.csv
-variantbuilder_app: Loaded 118 substitution rules from ../../global-substitutions.csv
+variantbuilder_app: Loaded 121 substitution rules from ../../global-substitutions.csv
 variantbuilder_app: disabling placements: []
 stores::parts: Loading parts. source: ../../parts.csv
-variantbuilder_app: Loaded 189 parts
+variantbuilder_app: Loaded 192 parts
 stores::part_mappings: Loading part mappings. source: ../../part-mappings.csv
-variantbuilder_app: Loaded 184 part mappings
+variantbuilder_app: Loaded 187 part mappings
 variantbuilder_app: Loaded 0 load-out items
 stores::assembly_rules: Loading assembly rules. source: MakerPnPControl-stepper1_variant1_rules.csv
 variantbuilder_app: Loaded 1 assembly rules
 variantbuilder_app: Assembly variant: Default
 variantbuilder_app: Ref_des list:
-variantbuilder_app: Matched 168 placements for assembly variant
+variantbuilder_app: Matched 174 placements for assembly variant
 variantbuilder_app: Mapping Result
 ├── C1 (name: 'CAP_1210_N', value: '4.7uF 100V 1210 X7R 20%')
 │   └── manufacturer: 'Taiyo Yuden', mpn: 'HMK325C7475KN-TE' (Auto-selected)
@@ -434,10 +434,25 @@ variantbuilder_app: Mapping Result
 ├── R60 (name: 'RES_2512_N', value: '0R075 1206 1.5W 1%')
 │   └── Substituted (name: 'RES_2512_N', value: '0R075 1206 3W 1%'), by (name_pattern: 'RES_2512.*', value_pattern: '0R075 1206 1.5W 1%'), de-rate: 'from 1.5W to 3W'
 │       └── manufacturer: 'UNI-ROYAL(Uniroyal Elec)', mpn: 'LR123WF750MT4E' (Auto-selected)
+├── R65 (name: 'RES_2512_N', value: '3K 1206 1W')
+│   └── Substituted (name: 'RES_2512_N', value: '3K 1206 1W 5%'), by (name_pattern: 'RES_2512.*', value_pattern: '3K 1206 1W'), comment: 'Use 5% by default'
+│       └── manufacturer: 'YAGEO', mpn: 'RC2512JK-073K3L' (Auto-selected)
 ├── R155 (name: 'YC164-FR-072KL', value: '2K')
 │   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
 ├── R156 (name: 'YC164-FR-072KL', value: '2K')
 │   └── manufacturer: 'YAGEO', mpn: 'YC164-FR-072KL' (Auto-selected)
+├── RV1 (name: 'RES_1206_N', value: '1210 54Vclamp')
+│   └── Substituted (name: 'RES_1206_N', value: 'AV20K1210401NIR1'), by (name_pattern: 'RES_1206_N', value_pattern: '1210 54Vclamp'), comment: ''
+│       └── manufacturer: 'BOURNS', mpn: 'AV20K1210401NIR1' (Auto-selected)
+├── RV2 (name: 'RES_1206_N', value: '1210 54Vclamp')
+│   └── Substituted (name: 'RES_1206_N', value: 'AV20K1210401NIR1'), by (name_pattern: 'RES_1206_N', value_pattern: '1210 54Vclamp'), comment: ''
+│       └── manufacturer: 'BOURNS', mpn: 'AV20K1210401NIR1' (Auto-selected)
+├── RV3 (name: 'RES_1206_N', value: '1210 54Vclamp')
+│   └── Substituted (name: 'RES_1206_N', value: 'AV20K1210401NIR1'), by (name_pattern: 'RES_1206_N', value_pattern: '1210 54Vclamp'), comment: ''
+│       └── manufacturer: 'BOURNS', mpn: 'AV20K1210401NIR1' (Auto-selected)
+├── RV4 (name: 'RES_1206_N', value: '1210 54Vclamp')
+│   └── Substituted (name: 'RES_1206_N', value: 'AV20K1210401NIR1'), by (name_pattern: 'RES_1206_N', value_pattern: '1210 54Vclamp'), comment: ''
+│       └── manufacturer: 'BOURNS', mpn: 'AV20K1210401NIR1' (Auto-selected)
 ├── U1 (name: 'LMR51610YDBVR', value: '1100kHz PFM')
 │   └── manufacturer: 'Texas Instruments', mpn: 'LMR51610YDBVR' (Auto-selected)
 ├── U2 (name: 'TMC5160A-TA-T', value: '')
@@ -454,10 +469,14 @@ variantbuilder_app: Mapping Result
 │   └── manufacturer: 'Texas Instruments', mpn: 'ISO6762DWR' (Auto-selected)
 ├── U42 (name: 'AM26C32IPWR', value: '')
 │   └── manufacturer: 'Texas Instruments', mpn: 'AM26C32IPWR' (Auto-selected)
-└── U43 (name: 'AM26C32IPWR', value: '')
-    └── manufacturer: 'Texas Instruments', mpn: 'AM26C32IPWR' (Auto-selected)
+├── U43 (name: 'AM26C32IPWR', value: '')
+│   └── manufacturer: 'Texas Instruments', mpn: 'AM26C32IPWR' (Auto-selected)
+└── X2 (name: '01550900M', value: '')
+    └── Substituted (name: 'XFCN', value: 'XF-154'), by (name_pattern: '01550900M', value_pattern: '.*'), comment: 'Use XFCN brand.'
+        └── manufacturer: 'XFCN', mpn: 'XF-154' (Auto-selected)
 
 variantbuilder_app: All placements mapped!
-Error: OperationError(The process cannot access the file because it is being used by another process. (os error 32))
+variantbuilder_app: Output written to 'MakerPnPControl-stepper1_variant1_placements.csv'
+variantbuilder_app: BOM written to 'MakerPnPControl-stepper1_variant1_bom.csv'
 
-Process finished with exit code 1
+Process finished with exit code 0

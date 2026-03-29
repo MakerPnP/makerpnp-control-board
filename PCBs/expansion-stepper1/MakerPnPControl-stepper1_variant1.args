@@ -5,7 +5,7 @@ build
 --part-mappings=../../part-mappings.csv
 --substitutions=MakerPnPControl-stepper1_variant1_substitutions.csv
 --substitutions=../../global-substitutions.csv
---ref-des-exclude-list=C11,C15,C26,C28,C45,C47,C56,C58,C17,J23,MH1,MH2
+--ref-des-exclude-list=C11,C15,C26,C28,C45,C47,C56,C58,C17,J23,MH1,MH2,D4,D5,D6,D7
 --assembly-rules=MakerPnPControl-stepper1_variant1_rules.csv
 --output=MakerPnPControl-stepper1_variant1_placements.csv
 --output-bom=MakerPnPControl-stepper1_variant1_bom.csv

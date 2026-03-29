@@ -117,3 +117,6 @@ DipTrace,B5B-PH-SM4-TB(LF)(SN),/.*/,AFC20-S05BCA-00,,Use JUSHO brand
 DipTrace,/RES_0603.*/,22R 1% 75V,RES_0603_N,22R 0603 1% 75V 100mW,Add size code;Use 100mW by default
 DipTrace,/RES_0603.*/,47R 1% 75V,RES_0603_N,47R 0603 1% 75V 100mW,Add size code;Use 100mW by default
 DipTrace,/RES_2512.*/,0R075 1206 1.5W 1%,RES_2512_N,0R075 1206 3W 1%,De-rate from 1.5W to 3W
+DipTrace,01550900M,/.*/,XFCN,XF-154,Use XFCN brand.
+DipTrace,RES_1206_N,1210 54Vclamp,RES_1206_N,AV20K1210401NIR1,
+DipTrace,/RES_2512.*/,3K 1206 1W,RES_2512_N,3K 1206 1W 5%,Use 5% by default
