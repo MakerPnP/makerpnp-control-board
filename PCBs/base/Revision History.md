@@ -42,6 +42,12 @@ Fix PM1-4 fail-safe state.
 
 ## Changes from Rev Ax
 
+* Replace ADuM1200 with ADMuM120N0 to fix PM1-4 fail-safe state and power sequencing.
+* Pull-downs on PM1-4 inputs (see ADMuM120N0 datasheet Rev F. Truth Table, Note 3.
+
+ > Input pins (VIx) on the same side as an unpowered supply must be in a low state to avoid powering the device through the ESD protection circuitry
+
+
 ## TODO
 [ ] use a single LM66200 instead of 2x LM66100, but ONLY if the chip handles ORing when both inputs are the same voltage for a long period.
 [ ] add a pull-up to ~OE~ on U18 (SN74HCT245DGSR) to disable the device by default. without a core board attached the inputs are floating and undefined. See section 11.1 in the SN74HCT245DGSR datasheet.
