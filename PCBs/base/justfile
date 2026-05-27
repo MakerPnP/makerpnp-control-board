@@ -1,0 +1,4 @@
+import? "../justfile"
+
+build:
+    {{variant_builder}} @MakerPnPControl-base_variant1.args

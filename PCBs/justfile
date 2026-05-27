@@ -1,0 +1,28 @@
+
+set dotenv-load := true
+# Tell just to look one or two levels up for the .env file
+set dotenv-filename := "../.env"
+
+maker_pnp_path := env_var("MAKER_PNP_HOME")
+
+variant_builder := if os_family() == "windows" {
+    maker_pnp_path / "variantbuilder_cli.exe"
+} else {
+    maker_pnp_path  / "variantbuilder_cli"
+}
+
+all: core base expansion-stepper1
+
+core:
+    @just run-sub core build
+
+base:
+    @just run-sub base build
+
+expansion-stepper1:
+    @just run-sub expansion-stepper1 build
+
+# A private helper recipe that takes arguments
+[private]
+run-sub dir recipe:
+    @just -d {{dir}} --justfile {{dir}}/justfile {{recipe}}
