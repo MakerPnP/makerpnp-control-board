@@ -24,6 +24,10 @@ to be enabled.
 workaround-1: replace the ADuM1200 with an ADMuM120N0 or π120M30 which has a LOW fail-safe output, add 10k pull-downs on the PMx_ENABLE
 signals.
 
+## Missing VDDIO voltage on ETH
+
+U20:9 was supposed to be connected to VDDIO, but was not.
+
 ## Hacks
 
 ### Hack 1
@@ -38,6 +42,15 @@ Fix PM1-4 fail-safe state.
 
 <img src="Errata/RevA1/hack-2-pm1-4-failsafe-fix.png" alt="Hack 2"/>
 
+### Hack 3
+
+Fix VDDIO on ETH.
+
+Install a 0R resistor or jumper wire between C75:1 and R68:2 *OR* C75:1 and 71:2.
+
+<img src="Errata/RevA1/hack-3-missing-eth-vddio.png" alt="Hack 3"/>
+
+
 # Rev B1
 
 ## Changes from Rev Ax
@@ -51,7 +64,7 @@ Fix PM1-4 fail-safe state.
 ## TODO
 [ ] use a single LM66200 instead of 2x LM66100, but ONLY if the chip handles ORing when both inputs are the same voltage for a long period.
 [ ] add a pull-up to ~OE~ on U18 (SN74HCT245DGSR) to disable the device by default. without a core board attached the inputs are floating and undefined. See section 11.1 in the SN74HCT245DGSR datasheet.
-
+[ ] fix missing VDDIO on U20:9
 
 
 ## Investigations
