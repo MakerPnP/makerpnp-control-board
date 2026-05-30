@@ -123,11 +123,36 @@ Firmware is work-in-progress, join the MakerPnP discord server to find out the l
 
 ## Status
 
+2026/05/30
+ - Verification of the hardware is well underway.
+ - Errata and Revision history files have been created.
+2026/05/06
+ - The base, core and stepper1 boards were delivered.
 2026/03/13
  - An order for a very small batch of the base board has been placed.
  - the ICE40HX caBGA256 are in short supply, suppliers have 40 week lead times, an order has been placed for a small 
    quantity before suppliers run out.
  - An order for a small batch of the core boards will be placed ASAP.
+
+## Manufacturing files
+
+Refer to PCB Revision History / Errata files before using any files here.
+
+The repo contains files that can be used for manufacturing, however do NOT use any files for manufacturing
+PCBs.  Files in the repo are only good for manufacturing when they have been tagged with a git commit that says
+'Release To Manufacturing' (RTM).  This is because commits to this repo may make changes to the schematic without
+updating the PCB, changes the the PCB without re-exporting gerber or placement files and so on.  Also, there is a lag
+between when files are used for manufacturing and when testing and validation is performed.
+
+Example tags that were used for the first round of manufacturing:
+```
+RTM-MakerPnPBase-RevA-20260313-0241
+RTM-MakerPnPCore-RevA-20260313-0242
+RTM-MakerPnPCore-RevA-20260405-0022
+RTM-MakerPnPStepper1-RevA-20260327-1304
+RTM-MakerPnPStepper1-RevA-20260330-0052
+```
+
 
 ## Building BOM variants
 

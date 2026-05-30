@@ -75,18 +75,21 @@ four corner pads and under the center pads so that the module sits lower to the 
 * Use TPS3820-33DBVx instead of TPS3820-50DBVx for the power supervisor. 
 * Changed the pull-down on SPI_SS_B to a pull-up so the FPGA default behavior is to boot from flash when reset.
   Note: The MCU can still drive SPI_SS_B low, then set CRESET_B high so make the FPGA wait in SPI slave mode.
+* Changed the Paste for the ESP-C6 module
+  * Only center pad has paste, but 15% fill
+  * Corner pads have the same volume of paste as the signal pads. 40% fill.
+  * All module solder pads have defined paste settings, previously they were all default.
+* Changed the silkscreen outline of the ESP-C^ module so it's easier to confirm alignment.
+* Changed the pull-up on CRESET_B to a pull-down to keep the FPGA disabled until the MCU turns it on.
 
 ## TODO
 
 ### CRITICAL
 
-[ ] paste issues for ESP-C6 modules.
 [ ] don't fit R1 V5EN by default
-[ ] change the pull-up on CRESET_B to a pull-down to keep the FPGA disabled until the MCU turns it on.
 
 ### Would-be-nice
 
 [ ] fix the MCU and FPGA activity LEDs so they are not randomly ON or dim by default.  perhaps by adding pull-downs
     to the FPGA output pins.
-[ ] add silkscreen to the PCB for the Wifi Module - currently it's hard to tell if it's aligned.
 [ ] add a warning triangle and 'see manual' next to the V5EN resistor jumper.
