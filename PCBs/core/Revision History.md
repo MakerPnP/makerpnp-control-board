@@ -45,6 +45,21 @@ or
 
 b) replace with a TPS3820-33DBVx which has a lower threshold.
 
+### Missing SEL default signals for MUX_SEL1-4
+
+The FPGA drives signals high when under RESET or when pins are not configured.
+The SN3257 switches have internal 6Mohm internal pull down to GND.
+The voltage is the not well-defined, so stronger external pull-down resistors should be used.
+
+#### Workaround
+
+Fit 4x 10Kohm pull-down resistors
+
+* U301:1 (SEL) MUX_SEL1 to C301:2 GND.
+* U302:1 (SEL) MUX_SEL2 to C302:2 GND.
+* U303:1 (SEL) MUX_SEL3 to C303:2 GND.
+* U304:1 (SEL) MUX_SEL4 to C304:2 GND.
+
 ## Problems
 
 ### ESP-C6 module not working.
@@ -87,9 +102,11 @@ four corner pads and under the center pads so that the module sits lower to the 
 ### CRITICAL
 
 [ ] don't fit R1 V5EN by default
+[ ] fix MUX_SEL[1-4] defaults.
 
 ### Would-be-nice
 
+[ ] reduce LED brightness of the green LEDs.
 [ ] fix the MCU and FPGA activity LEDs so they are not randomly ON or dim by default.  perhaps by adding pull-downs
     to the FPGA output pins.
 [ ] add a warning triangle and 'see manual' next to the V5EN resistor jumper.
