@@ -46,6 +46,7 @@ This need to be done for BOTH of the TMC5160.  So 16 jumper wires per board are 
     as the TMC drivers chips.
 [ ] Ensure variant does not have the NO_PLACE components fitted (R25, R50, etc)
 [ ] Fix E2 component, should be a 12V TVS diode, not 7V. Use MDD SMAJ12A (C113957) not SMAJ7.0A (C138782)
+[ ] Add missing silk screen for motor pinouts nearest the edge connector.
 
 ### Would-be-nice
 
