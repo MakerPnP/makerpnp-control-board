@@ -169,7 +169,8 @@ This status is updated periodically, visit the discord server for the latest inf
 | PWM outputs PM1-4                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                 |
 | RS422                               | 🟦 - Not tested                                                                         |
 | BCD/XYZ outputs                     | 🟦 - Not tested                                                                         |
-| Analog In (AIN_VAC/AIN_EXT)         | 🟦 - Not tested                                                                         |
+| Analog In (AIN_VAC/AIN_EXT)         | ✅ - Working                                                                             |
+| Analog In Mux (expansion ports 1-4) | ✅ - Working                                                                             |
 | DDIF socket                         | 🚧 - Not tested, but IC that signals are routed through is working, since encoders work |
 | Optical I/O                         | ✅ - Working. Using 5V supply and 1k0 to GND via buttons for inputs.                     |
 | External Link/Activity LED socket   | 🟦 - Not tested                                                                         |
