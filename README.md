@@ -171,7 +171,7 @@ This status is updated periodically, visit the discord server for the latest inf
 | BCD/XYZ outputs                     | 🟦 - Not tested                                                                         |
 | Analog In (AIN_VAC/AIN_EXT)         | 🟦 - Not tested                                                                         |
 | DDIF socket                         | 🚧 - Not tested, but IC that signals are routed through is working, since encoders work |
-| Optical I/O                         | 🚧 - FPGA and MCU code written, test circuits not hooked up yet.                        |
+| Optical I/O                         | ✅ - Working. Using 5V supply and 1k0 to GND via buttons for inputs.                     |
 | External Link/Activity LED socket   | 🟦 - Not tested                                                                         |
 | External buttons socket             | 🟦 - Not tested                                                                         |
 | I2C muxes                           | 🟦 - Not tested                                                                         |
@@ -179,7 +179,7 @@ This status is updated periodically, visit the discord server for the latest inf
 | Pressure sensors                    | 🟦 - Not tested, not fitted                                                             |
 | HX717 load cell sensor              | 🟦 - Not tested                                                                         |
 | EXP1 port                           | 🚧 - Not all IO lines tested yet                                                        |
-| EXP2 port                          | 🟦 - Not tested                                                                         |
+| EXP2 port                           | 🟦 - Not tested                                                                         |
 
 ### Status log
 
