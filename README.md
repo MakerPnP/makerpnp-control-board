@@ -156,8 +156,8 @@ This status is updated periodically, visit the discord server for the latest inf
 | LEDs (2x Activity)                  | ✅ - Working                                                                             |
 | Buzzer                              | ✅ - Working                                                                             |
 | Expansion Ports                     | 🚧 - Port 1 SPI + Wake + CLK + Step1/Dir1 (via mux) working                             |
-| Expansion card detection circuit    | 🟦 - Not tested                                                                         |
-| Core board detection circuit        | 🟦 - Not tested                                                                         |
+| Expansion card detection circuit    | ✅ - Working                                                                             |
+| Base board detection circuit        | ✅ - Working                                                                             |
 | Timer Muxes                         | ✅ - Working, signals from FPGA or MCU can be selected                                   |
 | Master Reset button                 | ✅ - Working, powers off Core board regs when pressed                                    |
 | TMC5160 Stepper Motor               | 🚧 - TMC5160 spins motors, encoders inputs not tested yet.                              |
