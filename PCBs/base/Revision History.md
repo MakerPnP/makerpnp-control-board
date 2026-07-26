@@ -21,6 +21,8 @@ the PM1-4 outputs will be enabled.
 The fail-safe output for the ADuM1200 is HIGH when VDDI is missing, this causes the corresponding PM1-4 output
 to be enabled.
 
+<img src="Errata/RevA1/pm1-4-power-sequence-issue.png" alt="PM1-4 Power Sequence Issue"/>
+
 workaround-1: replace the ADuM1200 with an ADMuM120N0 or π120M30 which has a LOW fail-safe output, add 10k pull-downs on the PMx_ENABLE
 signals.
 
@@ -50,6 +52,33 @@ Install a 0R resistor or jumper wire between C75:1 and R68:2 *OR* C75:1 and 71:2
 
 <img src="Errata/RevA1/hack-3-missing-eth-vddio.png" alt="Hack 3"/>
 
+### Hack 4
+
+Incompatible RJ45 combo jacks fitted to 10 prototype PCBs.  They are extremely difficult to remove due to the amount of
+pins and the heat dissipation of the PCB.  PCB pre-heater needed before attempting removal.  It's easy to swap the IO
+signals of the RJ45 connectors, but the LEDs are more complicated to fix because the tracers are not easily accessible.
+
+Even cutting the old connector of the board is extremely difficult due to the amount of
+pins, shielding and plastic inside the mag-jacks.
+
+Removal of the ACT/LNK header makes the top traces easier to cut and swap.
+
+<img src="Errata/RevA1/hack-4-incorrect-connector-1-wiring.png" alt="Hack 4"/>
+<img src="Errata/RevA1/hack-4-incorrect-connector-1-top.jpg" alt="Hack 4"/>
+<img src="Errata/RevA1/hack-4-incorrect-connector-1-bottom.jpg" alt="Hack 4"/>
+
+### Hack 5
+
+Missing IO control of XYZ BCD EN signal.
+
+<img src="Errata/RevA1/hack-5-missing-io-signal-on-xyz-bcd-en.png" alt="Hack 5"/>
+
+workaround-1:
+
+Set the OE pin to LOW to enable the level shifters.  Remove the 10k pull-up resistor on the OE pin and connect the OE
+resistor pad to GND via a 10k pull-down.
+
+<img src="Errata/RevA1/hack-5-missing-io-signal-on-xyz-bcd-en-fix.png" alt="Hack 5"/>
 
 # Rev B1
 
@@ -65,7 +94,7 @@ Install a 0R resistor or jumper wire between C75:1 and R68:2 *OR* C75:1 and 71:2
 [ ] use a single LM66200 instead of 2x LM66100, but ONLY if the chip handles ORing when both inputs are the same voltage for a long period.
 [ ] add a pull-up to ~OE~ on U18 (SN74HCT245DGSR) to disable the device by default. without a core board attached the inputs are floating and undefined. See section 11.1 in the SN74HCT245DGSR datasheet.
 [ ] fix missing VDDIO on U20:9
-
+[ ] fix missing MCU/FPGA control of XYZ BCD EN signal.
 
 ## Investigations
 
@@ -73,7 +102,6 @@ Install a 0R resistor or jumper wire between C75:1 and R68:2 *OR* C75:1 and 71:2
 
 Thursday, May 7, 2026 9:28 PM
 ```
-
 commanderguy3001:
 enabled if VIN > CE + 250mV
 ST to GND if VIN < CE - 80mV
@@ -97,3 +125,4 @@ now we add some noise to our inputs
 at some point, U5:CE is gonna be more than 80mV below U5:VIN, disabling U5
 this makes U5:ST go low
 which turns on U6
+```
