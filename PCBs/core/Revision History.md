@@ -103,6 +103,18 @@ four corner pads and under the center pads so that the module sits lower to the 
 
 [ ] don't fit R1 V5EN by default
 [ ] fix MUX_SEL[1-4] defaults.
+[ ] ensure that pins that are always used together in verilog code are on the same IO banks and next to each other to avoid
+    on-chip routing delays.  candidates include
+    * the port clock, wake, int signals.
+    * quad spi IO0-3.
+    * tim mux select 0-3.
+    * i2c mux select.
+    * adc address select.
+    * stepper bcde (4 step, 4 dir)
+    * stepper xyzf (4 step, 4 dir)
+    * digital inputs DIN1-8
+    * pwm outputs OT1-8
+    * LA0-15
 
 ### Would-be-nice
 
