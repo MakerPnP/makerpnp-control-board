@@ -163,7 +163,7 @@ This status is updated periodically, visit the discord server for the latest inf
 | Base board WS2812 external LEDs     | ✅ - Working                                                                             |
 | PWM outputs OT1-8                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                 |
 | PWM outputs PM1-4                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                 |
-| BCD/XYZ outputs                     | 🟦 - Not tested                                                                         |
+| BCDE/XYZF outputs                   | ✅ - Working, 8-motor stepper control with sequence based ramp/cruise and pause support  |
 | Analog In (AIN_VAC/AIN_EXT)         | ✅ - Working                                                                             |
 | Analog In Mux (expansion ports 1-4) | ✅ - Working                                                                             |
 | DDIF socket                         | 🚧 - Not tested, but IC that signals are routed through is working, since encoders work |
