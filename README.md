@@ -163,6 +163,7 @@ This status is updated periodically, visit the discord server for the latest inf
 | Base board WS2812 external LEDs     | ✅ - Working                                                                             |
 | PWM outputs OT1-8                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                 |
 | PWM outputs PM1-4                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                 |
+| HX717 load cell sensor              | ✅ - Working. FPGA peripheral working.                                                   |
 | BCDE/XYZF outputs                   | ✅ - Working, 8-motor stepper control with sequence based ramp/cruise and pause support  |
 | Analog In (AIN_VAC/AIN_EXT)         | ✅ - Working                                                                             |
 | Analog In Mux (expansion ports 1-4) | ✅ - Working                                                                             |
@@ -170,12 +171,11 @@ This status is updated periodically, visit the discord server for the latest inf
 | Optical I/O                         | ✅ - Working. Using 5V supply and 1k0 to GND via buttons for inputs.                     |
 | EXP1 port                           | 🚧 - Not all IO lines tested yet                                                        |
 | EXP2 port                           | 🟦 - Not tested                                                                         |
+| I2C muxes                           | 🚧 - In progress                                                                        |
+| Pressure sensors                    | 🚧 - In progress                                                                        |
+| External I2C socket                 | 🟦 - Not tested                                                                         |
 | External Link/Activity LED socket   | 🟦 - Not tested                                                                         |
 | External buttons socket             | 🟦 - Not tested                                                                         |
-| I2C muxes                           | 🟦 - Not tested                                                                         |
-| External I2C socket                 | 🟦 - Not tested                                                                         |
-| Pressure sensors                    | 🟦 - Not tested, not fitted                                                             |
-| HX717 load cell sensor              | 🟦 - Not tested                                                                         |
 | Wifi                                | 🟦 - Not tested                                                                         |
 | SDCard                              | 🟦 - Not tested                                                                         |
 | CAN 1                               | 🟦 - Not tested                                                                         |
