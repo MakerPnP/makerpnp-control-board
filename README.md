@@ -127,60 +127,60 @@ This status is updated periodically, visit the discord server for the latest inf
 
 ### Status overview
 
-| Functionality                       | Status                                                                                  |
-|-------------------------------------|-----------------------------------------------------------------------------------------|
-| Base board main VRegs               | ✅ - Working                                                                             |
-| Core board main VRegs               | ✅ - Working                                                                             |
-| Base board to Core board connectors | 🚧 - Fit is perfect, not all IO lines tested yet                                        |
-| H7 Programming Port                 | ✅ - Working                                                                             |
-| H7 DFU button                       | ✅ - Working                                                                             |
-| C6 Enable button                    | ✅ - Working                                                                             |
-| C6 Boot button                      | ✅ - Working                                                                             |
-| C6 UART Pads                        | ✅ - Working                                                                             |
-| C6 Activity LED                     | ✅ - Working, blinky test code flashed via USB port and blinks LEDs                      |
-| STM32H735                           | 🚧 - Not all IO lines tested yet                                                        |
-| ICE40HX8K                           | 🚧 - Not all IO lines tested yet                                                        |
-| ESP32-C6                            | 🚧 - Not all IO lines tested yet                                                        |
-| USB hub                             | ✅ - Detected in Windows, H7 DFU + C6 JTAG working                                       |
-| Base board USB sockets              | ✅ - Main up-stream socket working, spare hub USB port working                           |                                  
-| Core board cable bus switches       | ✅ - Working, cable works when connected, usb by hub works when cable disconnected       |
-| Flash                               | 🚧 - Works with H7 and FPGA, C6 connection untested                                     |
-| Ethernet                            | ✅ - Working well with Embassy-net/SMOL                                                  |
-| Logic Analyzer Port                 | ✅ - All 16 IO signals working                                                           |
-| Digital IO (DIN1-8)                 | ✅ - Working                                                                             |
-| Buttons                             | 🚧 - Working, but FPGA cold-boot selection not tested                                   |
-| LEDs (2x Activity)                  | ✅ - Working                                                                             |
-| Buzzer                              | ✅ - Working                                                                             |
-| Expansion Ports                     | 🚧 - Port 1 SPI + Wake + CLK + Step1/Dir1 (via mux) working                             |
-| Expansion card detection circuit    | ✅ - Working                                                                             |
-| Base board detection circuit        | ✅ - Working                                                                             |
-| Timer Muxes                         | ✅ - Working, signals from FPGA or MCU can be selected                                   |
-| Master Reset button                 | ✅ - Working, powers off Core board regs when pressed                                    |
-| TMC5160 Stepper Motor               | 🚧 - TMC5160 spins motors, external encoders inputs not tested yet.                     |
-| Base board encoder sockets          | ✅ - Working, tested with a 17HS24-2004-ME1K NEMA 17 stepper motor with encoder          |
-| Emergency stop input                | ✅ - Working                                                                             |
-| Base board WS2812 LEDs              | ✅ - Working                                                                             |
-| Base board WS2812 external LEDs     | ✅ - Working                                                                             |
-| PWM outputs OT1-8                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                 |
-| PWM outputs PM1-4                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                 |
-| HX717 load cell sensor              | ✅ - Working. FPGA peripheral working.                                                   |
-| BCDE/XYZF outputs                   | ✅ - Working, 8-motor stepper control with sequence based ramp/cruise and pause support  |
-| Analog In (AIN_VAC/AIN_EXT)         | ✅ - Working                                                                             |
-| Analog In Mux (expansion ports 1-4) | ✅ - Working                                                                             |
-| DDIF socket                         | 🚧 - Not tested, but IC that signals are routed through is working, since encoders work |
-| Optical I/O                         | ✅ - Working. Using 5V supply and 1k0 to GND via buttons for inputs.                     |
-| EXP1 port                           | 🚧 - Not all IO lines tested yet                                                        |
-| EXP2 port                           | 🟦 - Not tested                                                                         |
-| I2C muxes                           | 🚧 - In progress                                                                        |
-| Pressure sensors                    | 🚧 - In progress                                                                        |
-| External I2C socket                 | 🟦 - Not tested                                                                         |
-| External Link/Activity LED socket   | 🟦 - Not tested                                                                         |
-| External buttons socket             | 🟦 - Not tested                                                                         |
-| Wifi                                | 🟦 - Not tested                                                                         |
-| SDCard                              | 🟦 - Not tested                                                                         |
-| CAN 1                               | 🟦 - Not tested                                                                         |
-| CAN 2                               | 🟦 - Not tested                                                                         |
-| RS422                               | 🟦 - Not tested                                                                         |
+| Functionality                       | Status                                                                                                  |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Base board main VRegs               | ✅ - Working                                                                                             |
+| Core board main VRegs               | ✅ - Working                                                                                             |
+| Base board to Core board connectors | 🚧 - Fit is perfect, not all IO lines tested yet                                                        |
+| H7 Programming Port                 | ✅ - Working                                                                                             |
+| H7 DFU button                       | ✅ - Working                                                                                             |
+| C6 Enable button                    | ✅ - Working                                                                                             |
+| C6 Boot button                      | ✅ - Working                                                                                             |
+| C6 UART Pads                        | ✅ - Working                                                                                             |
+| C6 Activity LED                     | ✅ - Working, blinky test code flashed via USB port and blinks LEDs                                      |
+| STM32H735                           | 🚧 - Not all IO lines tested yet                                                                        |
+| ICE40HX8K                           | 🚧 - Not all IO lines tested yet                                                                        |
+| ESP32-C6                            | 🚧 - Not all IO lines tested yet                                                                        |
+| USB hub                             | ✅ - Detected in Windows, H7 DFU + C6 JTAG working                                                       |
+| Base board USB sockets              | ✅ - Main up-stream socket working, spare hub USB port working                                           |                                  
+| Core board cable bus switches       | ✅ - Working, cable works when connected, usb by hub works when cable disconnected                       |
+| Flash                               | 🚧 - Works with H7 and FPGA, C6 connection untested                                                     |
+| Ethernet                            | ✅ - Working well with Embassy-net/SMOL                                                                  |
+| Logic Analyzer Port                 | ✅ - All 16 IO signals working                                                                           |
+| Digital IO (DIN1-8)                 | ✅ - Working                                                                                             |
+| Buttons                             | 🚧 - Working, but FPGA cold-boot selection not tested                                                   |
+| LEDs (2x Activity)                  | ✅ - Working                                                                                             |
+| Buzzer                              | ✅ - Working                                                                                             |
+| Expansion Ports                     | 🚧 - Port 1 SPI + Wake + CLK + Step1/Dir1 (via mux) working                                             |
+| Expansion card detection circuit    | ✅ - Working                                                                                             |
+| Base board detection circuit        | ✅ - Working                                                                                             |
+| Timer Muxes                         | ✅ - Working, signals from FPGA or MCU can be selected                                                   |
+| Master Reset button                 | ✅ - Working, powers off Core board regs when pressed                                                    |
+| TMC5160 Stepper Motor               | 🚧 - TMC5160 spins motors, external encoders inputs not tested yet.                                     |
+| Base board encoder sockets          | ✅ - Working, tested with a 17HS24-2004-ME1K NEMA 17 stepper motor with encoder                          |
+| Emergency stop input                | ✅ - Working                                                                                             |
+| Base board WS2812 LEDs              | ✅ - Working                                                                                             |
+| Base board WS2812 external LEDs     | ✅ - Working                                                                                             |
+| PWM outputs OT1-8                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                                 |
+| PWM outputs PM1-4                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                                 |
+| HX717 load cell sensor              | ✅ - Working. FPGA peripheral working.                                                                   |
+| BCDE/XYZF outputs                   | ✅ - Working, 8-motor stepper control with sequence based ramp/cruise and pause support                  |
+| Analog In (AIN_VAC/AIN_EXT)         | ✅ - Working                                                                                             |
+| Analog In Mux (expansion ports 1-4) | ✅ - Working                                                                                             |
+| DDIF socket                         | 🚧 - Not tested, but IC that signals are routed through is working, since encoders work                 |
+| Optical I/O                         | ✅ - Working. Using 5V supply and 1k0 to GND via buttons for inputs.                                     |
+| EXP1 port                           | 🚧 - Not all IO lines tested yet                                                                        |
+| EXP2 port                           | 🟦 - Not tested                                                                                         |
+| I2C muxes                           | ✅ - Working.  Both muxes responsive.  One mux tested with 2 pressure sensors that have the same address |
+| Pressure sensors                    | ✅ - Working.  Used XGZP6895D 100KPG and 100KPGN variants (0-100kPa and -100-0kPa respectively)          |
+| External I2C socket                 | 🟦 - Not tested                                                                                         |
+| External Link/Activity LED socket   | 🟦 - Not tested                                                                                         |
+| External buttons socket             | 🟦 - Not tested                                                                                         |
+| Wifi                                | 🟦 - Not tested                                                                                         |
+| SDCard                              | 🟦 - Not tested                                                                                         |
+| CAN 1                               | 🟦 - Not tested                                                                                         |
+| CAN 2                               | 🟦 - Not tested                                                                                         |
+| RS422                               | 🟦 - Not tested                                                                                         |
 
 ### Status log
 
