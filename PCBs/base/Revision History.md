@@ -2,8 +2,15 @@
 
 ## Errata
 
-### issue with U5/U6 ideal diode ORing.  Apparently U6 is the primary.
-### missing pull-up on U18 (SN74HCT245DGSR)
+### issue with U5/U6 ideal diode ORing.
+
+Apparently U6 is the primary, not U5.
+
+The V3P3 rail on the baseboard are thus always supplied by the base board, even when a core board is attached.
+
+No workaround currently.
+
+### Missing pull-up on U18 (SN74HCT245DGSR)
 
 causes outputs to be undefined. observed that the PWM outputs are briefly enabled shortly
 after bootup, but are then disabled shortly after.  Timing is undefined.
@@ -29,6 +36,8 @@ signals.
 ## Missing VDDIO voltage on ETH
 
 U20:9 was supposed to be connected to VDDIO, but was not.
+
+workaround-1: apply hack 3.
 
 ## Hacks
 
@@ -56,10 +65,10 @@ Install a 0R resistor or jumper wire between C75:1 and R68:2 *OR* C75:1 and 71:2
 
 Incompatible RJ45 combo jacks fitted to 10 prototype PCBs.  They are extremely difficult to remove due to the amount of
 pins and the heat dissipation of the PCB.  PCB pre-heater needed before attempting removal.  It's easy to swap the IO
-signals of the RJ45 connectors, but the LEDs are more complicated to fix because the tracers are not easily accessible.
+signals of the RJ45 connectors, but the LEDs are more complicated to fix because the traces are not easily accessible.
 
-Even cutting the old connector of the board is extremely difficult due to the amount of
-pins, shielding and plastic inside the mag-jacks.
+Even cutting the old connector off the board is extremely difficult due to the amount of  pins, shielding and plastic
+inside the mag-jacks themselves.
 
 Removal of the ACT/LNK header makes the top traces easier to cut and swap.
 
@@ -95,6 +104,7 @@ resistor pad to GND via a 10k pull-down.
 [ ] add a pull-up to ~OE~ on U18 (SN74HCT245DGSR) to disable the device by default. without a core board attached the inputs are floating and undefined. See section 11.1 in the SN74HCT245DGSR datasheet.
 [ ] fix missing VDDIO on U20:9
 [ ] fix missing MCU/FPGA control of XYZ BCD EN signal.
+[ ] change USB-Ext header connector to use the same connector as the CHMT's USB socket's wire.  5-pin. socket.
 
 ## Investigations
 
