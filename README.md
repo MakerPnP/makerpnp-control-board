@@ -161,8 +161,8 @@ This status is updated periodically, visit the discord server for the latest inf
 | Emergency stop input                | ✅ - Working                                                                                             |
 | Base board WS2812 LEDs              | ✅ - Working                                                                                             |
 | Base board WS2812 external LEDs     | ✅ - Working                                                                                             |
-| PWM outputs OT1-8                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                                 |
-| PWM outputs PM1-4                   | 🚧 - Circuits tested without Core board attached, not tried via MCU yet                                 |
+| PWM outputs OT1-8                   | ✅ - Working via flexible FPGA timer / pwm generation peripheral.                                        |                                                                                             
+| PWM outputs PM1-4                   | ✅ - Working via flexible FPGA timer / pwm generation peripheral.                                        |
 | HX717 load cell sensor              | ✅ - Working. FPGA peripheral working.                                                                   |
 | BCDE/XYZF outputs                   | ✅ - Working, 8-motor stepper control with sequence based ramp/cruise and pause support                  |
 | Analog In (AIN_VAC/AIN_EXT)         | ✅ - Working                                                                                             |
